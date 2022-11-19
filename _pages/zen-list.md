@@ -41,24 +41,24 @@ permalink: /zen-list/
 	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
 	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(10,10,10,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(255,255,255,1) 13%, rgba(225,225,225,1) 100%);">White</span>
-	- Modal - <span class="color-sample" style="background: url(/images/zen/mw-modal-skin); background-size: cover;">Dark Skin</span>
-	- Glossy - <span class="color-sample" style="background: url(/images/zen/mw-glossy-pink); background-size: cover;">Light Pink</span>
-	- <span class="color-sample" style="background: url(/images/zen/mw-yellow-snake); background-size: cover;">Yellow Snake</span>
-	- <span class="color-sample" style="background: url(/images/zen/mw-tiger); background-size: cover;">Tiger</span>
+	- Modal - <span class="color-sample" style="background: url(/images/zen/mw-modal-skin.jpg); background-size: cover;">Dark Skin</span>
+	- Glossy - <span class="color-sample" style="background: url(/images/zen/mw-glossy-pink.jpg); background-size: cover;">Light Pink</span>
+	- <span class="color-sample" style="background: url(/images/zen/mw-yellow-snake.jpg); background-size: cover;">Yellow Snake</span>
+	- <span class="color-sample" style="background: url(/images/zen/mw-tiger.jpg); background-size: cover;">Tiger</span>
 - 紧身衣之家
-	- Matt - Light Blue
-	- Matt - White
-	- Matt - Green
-	- Matt - Blue
-	- Matt - Yellow
-	- Matt - Red
-	- Matt - Skin
-	- Matt - Black
-	- Spots
-	- Zebra
-	- Black and Gold
-	- White and Silver
-- 豪华王 - GPZ-03 Super Thick
+	- Matt - <span class="color-sample" style="background: #67b9c7;">Light Blue</span>
+	- Matt - <span class="color-sample" style="background: #fafafa;">White</span>
+	- Matt - <span class="color-sample" style="background: #19bd60;">Green</span>
+	- Matt - <span class="color-sample" style="background: #0155c4;">Blue</span>
+	- Matt - <span class="color-sample" style="background: #f1cd2c;">Yellow</span>
+	- Matt - <span class="color-sample" style="background: #e82f0a;">Red</span>
+	- Matt - <span class="color-sample" style="background: #bb8770;">Skin</span>
+	- Matt - <span class="color-sample" style="background: #222;">Black</span>
+	- <span class="color-sample" style="background: url(/images/zen/jsyzj-spots.jpg);">Spots</span>
+	- <span class="color-sample" style="background: url(/images/zen/jsyzj-zebra.jpg);">Zebra</span>
+	- <span class="color-sample" style="background: url(/images/zen/jsyzj-blackNgold.jpg);">Black and Gold</span>
+	- <span class="color-sample" style="background: url(/images/zen/jsyzj-whiteNsilver.jpg);">White and Silver</span>
+- 豪华王 - <span class="color-sample" style="background: url(/images/zen/gpz-03.jpg);">GPZ-03 Super Thick</span>
 - Molis
 	- 🗓️ ??? - <span class="hidden-text">???<span>
 	- 🗓️ ??? - <span class="hidden-text">???<span>
