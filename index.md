@@ -2,12 +2,6 @@
 layout: default
 ---
 
-<script>
-	var date = new Date();
-	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
-	document.getElementById("current").innerHTML = current_date;
-</script>
-
 # Things I Love
 
 - DeFi - own your own funds ~~and mistakes~~
@@ -53,4 +47,9 @@ layout: default
 
 # Stuff I Made
 
-*nothing worth putting here as of <span id="current"></span>*
+*<span style="text-align: center">nothing worth putting here as of <span id="current"></span></span>*
+<script>
+	var date = new Date();
+	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
+	document.getElementById("current").innerHTML = current_date;
+</script>
