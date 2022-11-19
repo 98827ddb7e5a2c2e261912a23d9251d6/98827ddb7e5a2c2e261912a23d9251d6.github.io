@@ -2,7 +2,14 @@
     color: rgba(120, 120, 120, 0);
     background-color: rgba(240, 240, 240, 1);
 }
+
 .hidden-text::selection {
     color: rgba(120,120,120,0);
     background-color: rgba(240, 240, 240, 1);
+}
+
+.hidden-text>a {
+    background: rgba(120, 120, 120, 0)!important;
+    -webkit-background-clip: initial!important;
+    -webkit-text-fill-color: rgba(120, 120, 120, 0)!important;
 }
