@@ -20,7 +20,7 @@ layout: default
 - Cruising 🚢
 - ~~Travel~~ Staying at nice hotels
 - [Kigurumi](kig-list/) - both dollmask, animegao and fursuit [(?)](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"}
-- Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. [zentai](zen-list/), tights, knee-socks</span>
+- Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. [zentai](zen-list/), tights, [knee-socks](https://twitter.com/Beriru_Chan/status/1584617324480729089/photo/1){:target="_blank" rel="noopener"}</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
 - Hatsune Miku [(?)](https://en.wikipedia.org/wiki/Hatsune_Miku){:target="_blank" rel="noopener"}
 
