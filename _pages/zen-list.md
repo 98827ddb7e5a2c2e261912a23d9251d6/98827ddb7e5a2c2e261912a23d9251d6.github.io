@@ -34,17 +34,17 @@ permalink: /zen-list/
 	- ZD02 - <span class="color-sample" style="background: url(/images/zen/dms-zd02.jpg); background-size: cover;">New Mermaid - White</span>
 	- ZD23 - <span class="color-sample" style="background: url(/images/zen/dms-zd23.jpg); background-size: cover;">Mysterious Lady - Silver Gray Purple</span>
 - 麦薇
-	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
-	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
-	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
-	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
-	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
 	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(10,10,10,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(255,255,255,1) 13%, rgba(225,225,225,1) 100%);">White</span>
-	- Yellow Snake
-	- Tiger
-	- Modal - Dark Skin
-	- Glossy - Light Pink
+	- Modal - <span class="color-sample" style="background: url(/images/zen/mw-modal-skin); background-size: cover;">Dark Skin</span>
+	- Glossy - <span class="color-sample" style="background: url(/images/zen/mw-glossy-pink); background-size: cover;">Light Pink</span>
+	- <span class="color-sample" style="background: url(/images/zen/mw-yellow-snake); background-size: cover;">Yellow Snake</span>
+	- <span class="color-sample" style="background: url(/images/zen/mw-tiger); background-size: cover;">Tiger</span>
 - 紧身衣之家
 	- Matt - Light Blue
 	- Matt - White
