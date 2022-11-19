@@ -2,3 +2,7 @@
     color: rgba(120, 120, 120, 0);
     background-color: rgba(240, 240, 240, 1);
 }
+.hidden-text::selection {
+    color: rgba(120,120,120,0);
+    background-color: rgba(240, 240, 240, 1);
+}
