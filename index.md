@@ -32,14 +32,24 @@ layout: default
 
 # Tools I Like
 
-- The usual Apple stuff (MacBook Pro, iPhone, iPad)
-- Adobe CC
-- Fujifilm X Cameras
-- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2
-- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
-- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
-- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
-- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence this page doesn't have a dark-theme)
+- Hardware
+	- The usual Apple stuff (MacBook Pro, iPhone, iPad)
+	- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2
+	- Dyson Supersonic & Digital Slim
+- Software
+	- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
+	- [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
+	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
+	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark-theme)
+- Creative
+	- Fujifilm X Cameras
+	- Adobe CC
+	- FiLMiC Pro
+- Web3 & DeFi
+	- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
+	- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
+	- [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
+
 
 # Stuff I Made
 
