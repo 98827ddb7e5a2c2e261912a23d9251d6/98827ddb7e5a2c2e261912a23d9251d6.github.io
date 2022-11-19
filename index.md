@@ -5,7 +5,7 @@ layout: default
 # Things I Love
 
 - [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance){:target="_blank" rel="noopener"} - own your own funds ~~and mistakes~~
-- Music: `EDM || lofi || instrumental` [📝](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}
+- Music: `EDM || lofi || instrumental` [{📝}](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}
 - Drinks:
 	- Ice oatmeal latte (or any other regular coffee)
 	- Any random liquors \
