@@ -9,6 +9,8 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+    <script src="/assets/mod.js"></script>
+
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
     {% include analytics_head.html %}
@@ -55,4 +57,5 @@
 
     {% include analytics.html %}
   </body>
+  <script>makeHiddenTextReveal();</script>
 </html>
