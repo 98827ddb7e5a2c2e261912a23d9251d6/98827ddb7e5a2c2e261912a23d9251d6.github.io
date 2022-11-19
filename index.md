@@ -18,7 +18,7 @@ layout: default
 `🍝 || 🍕 || 🥗 || pickRandom(food.it)`
 	- A good dry-aged steak
 - Cruising 🚢
-- Travel `stayAtHotels > browsingAround`
+- ~~Travel~~ Staying at nice hotels
 - [Kigurumi](kig-list/) - both dollmask, animegao and fursuit [(?)](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"}
 - Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, tights, knee-socks</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
