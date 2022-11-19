@@ -21,21 +21,52 @@ permalink: /zen-list/
 	- Glossy - <span class="color-sample" style="background: linear-gradient(45deg, rgba(83,83,83,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 	- Matt Smooth - <span class="color-sample" style="background: linear-gradient(45deg, rgba(214,199,189,1) 13%, rgba(214,199,189,1) 100%);">Skin</span>
 	- Matt Smooth - <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Pink Skin</span>
-	- PU - <span class="color-sample" style="background: url(/images/zen/pu-metallicbrown.jpg); background-size: contain;">Metallic Brown</span>
-	- Velvet - <span class="color-sample" style="background: url(/images/zen/velvet-red.jpg); background-size: contain;">Red</span>
+	- PU - <span class="color-sample" style="background: url(/images/zen/pu-metallicbrown.jpg); background-size: cover;">Metallic Brown</span>
+	- Velvet - <span class="color-sample" style="background: url(/images/zen/velvet-red.jpg); background-size: cover;">Red</span>
 - Zentai Dreamer
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd20.jpg); background-size: contain;">ZD20 - Slippery</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd17.jpg); background-size: contain;">ZD17 - Golden Python</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd21.jpg); background-size: contain;">ZD21 - Ghost Blue Fire</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd15.jpg); background-size: contain;">ZD15 - Black Mamba</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd14.jpg); background-size: contain;">ZD14 - ZeZe - Pink</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd05.jpg); background-size: contain;">ZD05 - Aurora - Pink</span>
-	- <span class="color-sample" style="background: url(/images/zen/dms-zd02.jpg); background-size: contain;">ZD02 - New Mermaid - White</span>
-	- <span class="color-sample" style="background: url(/images/zen/.jpg); background-size: contain;">ZD23 - Mysterious Lady - Silver Gray Purple</span>
+	- 🗓️ ??? - <span class="hidden-text">???<span>
+	- ZD20 - <span class="color-sample" style="background: url(/images/zen/dms-zd20.jpg); background-size: cover;">Slippery</span>
+	- ZD17 - <span class="color-sample" style="background: url(/images/zen/dms-zd17.jpg); background-size: cover;">Golden Python</span>
+	- ZD21 - <span class="color-sample" style="background: url(/images/zen/dms-zd21.jpg); background-size: cover;">Ghost Blue Fire</span>
+	- ZD15 - <span class="color-sample" style="background: url(/images/zen/dms-zd15.jpg); background-size: cover;">Black Mamba</span>
+	- ZD14 - <span class="color-sample" style="background: url(/images/zen/dms-zd14.jpg); background-size: cover;">ZeZe - Pink</span>
+	- ZD05 - <span class="color-sample" style="background: url(/images/zen/dms-zd05.jpg); background-size: cover;">Aurora - Pink</span>
+	- ZD02 - <span class="color-sample" style="background: url(/images/zen/dms-zd02.jpg); background-size: cover;">New Mermaid - White</span>
+	- ZD23 - <span class="color-sample" style="background: url(/images/zen/dms-zd23.jpg); background-size: cover;">Mysterious Lady - Silver Gray Purple</span>
+- 麦薇
+	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: url(/images/zen/); background-size: cover;">Pink Skin</span>
+	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(10,10,10,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
+	- Kig - <span class="color-sample" style="background: linear-gradient(45deg, rgba(255,255,255,1) 13%, rgba(225,225,225,1) 100%);">White</span>
+	- Yellow Snake
+	- Tiger
+	- Modal - Dark Skin
+	- Glossy - Light Pink
+- 紧身衣之家
+	- Matt - Light Blue
+	- Matt - White
+	- Matt - Green
+	- Matt - Blue
+	- Matt - Yellow
+	- Matt - Red
+	- Matt - Skin
+	- Matt - Black
+	- Spots
+	- Zebra
+	- Black and Gold
+	- White and Silver
+- 豪华王 - GPZ-03 Super Thick
+- Molis
+	- 🗓️ ??? - <span class="hidden-text">???<span>
+	- 🗓️ ??? - <span class="hidden-text">???<span>
+	- 🗓️ ??? - <span class="hidden-text">???<span>
 - Zentai Hero
-	- <span class="color-sample" style="background: url(/images/zen/dva.jpg); background-size: contain;">D.Va</span>
-	- <span class="color-sample" style="background: url(/images/zen/asuka-langley-soryu.jpg); background-size: contain;">Asuka Langley Soryu</span>
-	- <span class="color-sample" style="background: url(/images/zen/rei-ayanami.jpg); background-size: contain;">Rei Ayanami</span>
-	- <span class="color-sample" style="background: url(/images/zen/samus-zero.jpg); background-size: contain;">Samus Zero</span>
+	- <span class="color-sample" style="background: url(/images/zen/dva.jpg); background-size: cover;">D.Va</span>
+	- <span class="color-sample" style="background: url(/images/zen/asuka-langley-soryu.jpg); background-size: cover;">Asuka Langley Soryu</span>
+	- <span class="color-sample" style="background: url(/images/zen/rei-ayanami.jpg); background-size: cover;">Rei Ayanami</span>
+	- <span class="color-sample" style="background: url(/images/zen/samus-zero.jpg); background-size: cover;">Samus Zero</span>
 - [RubberBunny](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.2mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(83,83,83,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 - [ManiaJuns](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.5mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Skin</span>
