@@ -30,6 +30,6 @@ permalink: /kig-list/
 - [KingMask](https://twitter.com/KingMask_studio){:target="_blank" rel="noopener"}
 	- 萌
 	- 影
-- ![RAIGEKI 雷击工坊](https://weibo.com/n/RAIGEKI-偽){:target="_blank" rel="noopener"} - Hatsune Miku R03
+- [RAIGEKI 雷击工坊](https://weibo.com/n/RAIGEKI-偽){:target="_blank" rel="noopener"} - Hatsune Miku R03
 - [HiDolls](https://twitter.com/HiDolls_mm){:target="_blank" rel="noopener"} - Lilith
 - liildesign - NANA-03
