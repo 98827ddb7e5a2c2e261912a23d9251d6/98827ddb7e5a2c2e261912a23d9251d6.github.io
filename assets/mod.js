@@ -5,10 +5,10 @@ function makeHiddenTextReveal(){
     hiddenText.setAttribute("showHidden", "0");
     hiddenText.addEventListener('click', function onClick(event) {
       if (event.target.getAttribute("showHidden") == "0") {
-        event.target.style.color = 'black';
+        event.target.classList.remove = 'hidden-text';
         event.target.setAttribute("showHidden", "1");
       } else {
-        event.target.style.color = 'rgba(120,120,120,0)';
+        event.target.classList.add = 'hidden-text';
         event.target.setAttribute("showHidden", "0");
       }
     });
