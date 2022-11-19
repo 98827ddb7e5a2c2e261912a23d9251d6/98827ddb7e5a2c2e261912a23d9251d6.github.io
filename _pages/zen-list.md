@@ -23,5 +23,19 @@ permalink: /zen-list/
 	- Matt Smooth - <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Pink Skin</span>
 	- PU - <span class="color-sample" style="background: url(/images/zen/pu-metallicbrown.jpg); background-size: contain;">Metallic Brown</span>
 	- Velvet - <span class="color-sample" style="background: url(/images/zen/velvet-red.jpg); background-size: contain;">Red</span>
+- Zentai Dreamer
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd20.jpg); background-size: contain;">ZD20 - Slippery</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd17.jpg); background-size: contain;">ZD17 - Golden Python</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd21.jpg); background-size: contain;">ZD21 - Ghost Blue Fire</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd15.jpg); background-size: contain;">ZD15 - Black Mamba</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd14.jpg); background-size: contain;">ZD14 - ZeZe - Pink</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd05.jpg); background-size: contain;">ZD05 - Aurora - Pink</span>
+	- <span class="color-sample" style="background: url(/images/zen/dms-zd02.jpg); background-size: contain;">ZD02 - New Mermaid - White</span>
+	- <span class="color-sample" style="background: url(/images/zen/.jpg); background-size: contain;">ZD23 - Mysterious Lady - Silver Gray Purple</span>
+- Zentai Hero
+	- <span class="color-sample" style="background: url(/images/zen/dva.jpg); background-size: contain;">D.Va</span>
+	- <span class="color-sample" style="background: url(/images/zen/asuka-langley-soryu.jpg); background-size: contain;">Asuka Langley Soryu</span>
+	- <span class="color-sample" style="background: url(/images/zen/rei-ayanami.jpg); background-size: contain;">Rei Ayanami</span>
+	- <span class="color-sample" style="background: url(/images/zen/samus-zero.jpg); background-size: contain;">Samus Zero</span>
 - [RubberBunny](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.2mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(83,83,83,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 - [ManiaJuns](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.5mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Skin</span>
