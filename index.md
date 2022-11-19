@@ -33,4 +33,8 @@ layout: default
 - [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
 - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
 - [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
-- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (why this page doesn't have a dark-theme)
+- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence this page doesn't have a dark-theme)
+
+# Stuff I Made
+
+*so far, nothing worth putting here*
