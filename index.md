@@ -4,8 +4,8 @@ layout: default
 
 # Things I Love
 
-- [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance){:target="_blank" rel="noopener"} - own your own fund ~~and mistakes~~
-- [Kigurumi](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"} - both dollmask and animegao
+- [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance){:target="_blank" rel="noopener"} - own your own funds ~~and mistakes~~
+- [Kigurumi](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"} - both dollmask, animegao and fursuit
 - Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, tights, knee-socks</span>
 - Music: `EDM || lofi || instrumental`\
 [the ones I shared](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}
@@ -20,6 +20,8 @@ layout: default
 - Cruising 🚢
 - Travel `stayAtHotels > browsingAround`
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
+- [Hatsune Miku](https://en.wikipedia.org/wiki/Hatsune_Miku){:target="_blank" rel="noopener"}
+- 
 
 # Tools I Like
 
