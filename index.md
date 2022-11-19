@@ -7,17 +7,19 @@ layout: default
 - [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance){:target="_blank" rel="noopener"} - own your own fund ~~and mistakes~~
 - [Kigurumi](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"} - both dollmask and animegao
 - Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, tights, knee-socks</span>
-- Music: `EDM || lofi || instrumental`
+- Music: `EDM || lofi || instrumental`\
+[the ones I shared](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}
 - Ice oatmeal latte (or any other regular coffee)
 - Any random liquors \
-`🍸 > 🥂 == 🍾 > 🍷 == 🥃 > 🍻`
+`🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`
 - Any random Japanese dishes \
 `🍜 || 🍣 || 🍤 || random(food.jp)`
 - Any random Italian dishes \
 `🍝 || 🍕 || 🥗 || random(food.it)`
 - A good dry-aged steak
 - Cruising 🚢
-- Travel `stayAtHotel > fuckingAround`
+- Travel `stayAtHotels > browsingAround`
+- `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
 
 # Tools I Like
 
@@ -27,6 +29,7 @@ layout: default
 - [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2
 - [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
 - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
+- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
 - [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (reason this page doesn't have a dark-theme)
 
 *all items are not affiliated*
