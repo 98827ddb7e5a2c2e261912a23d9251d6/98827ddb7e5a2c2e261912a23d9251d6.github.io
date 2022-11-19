@@ -34,7 +34,7 @@ layout: default
 
 - Hardware
 	- The usual Apple stuff (MacBook Pro, iPhone, iPad)
-	- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2
+	- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2, K12
 	- Dyson Supersonic & Digital Slim
 - Software
 	- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
