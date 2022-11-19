@@ -23,7 +23,7 @@ permalink: /zen-list/
 	- Matt Smooth - <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Pink Skin</span>
 	- PU - <span class="color-sample" style="background: url(/images/zen/pu-metallicbrown.jpg); background-size: cover;">Metallic Brown</span>
 	- Velvet - <span class="color-sample" style="background: url(/images/zen/velvet-red.jpg); background-size: cover;">Red</span>
-- Zentai Dreamer
+- [Zentai Dreamer](https://www.dreammask.net/zentaidreamer){:target="_blank" rel="noopener"}
 	- 🗓️ ??? - <span class="hidden-text">???<span>
 	- ZD20 - <span class="color-sample" style="background: url(/images/zen/dms-zd20.jpg); background-size: cover;">Slippery</span>
 	- ZD17 - <span class="color-sample" style="background: url(/images/zen/dms-zd17.jpg); background-size: cover;">Golden Python</span>
@@ -33,7 +33,7 @@ permalink: /zen-list/
 	- ZD05 - <span class="color-sample" style="background: url(/images/zen/dms-zd05.jpg); background-size: cover;">Aurora - Pink</span>
 	- ZD02 - <span class="color-sample" style="background: url(/images/zen/dms-zd02.jpg); background-size: cover;">New Mermaid - White</span>
 	- ZD23 - <span class="color-sample" style="background: url(/images/zen/dms-zd23.jpg); background-size: cover;">Mysterious Lady - Silver Gray Purple</span>
-- 麦薇
+- [麦薇](https://shop73341203.taobao.com){:target="_blank" rel="noopener"}
 	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
 	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
 	- Kig - <span class="color-sample" style="background: url(/images/zen/mw-kig-pink-skin.jpg); background-size: cover;">Pink Skin</span>
@@ -45,7 +45,7 @@ permalink: /zen-list/
 	- Glossy - <span class="color-sample" style="background: url(/images/zen/mw-glossy-pink.jpg); background-size: cover;">Light Pink</span>
 	- <span class="color-sample" style="background: url(/images/zen/mw-yellow-snake.jpg); background-size: cover;">Yellow Snake</span>
 	- <span class="color-sample" style="background: url(/images/zen/mw-tiger.jpg); background-size: cover;">Tiger</span>
-- 紧身衣之家
+- [紧身衣之家](http://shop60260670.taobao.com){:target="_blank" rel="noopener"}
 	- Matt - <span class="color-sample" style="background: #67b9c7;">Light Blue</span>
 	- Matt - <span class="color-sample" style="background: #fafafa;">White</span>
 	- Matt - <span class="color-sample" style="background: #19bd60;">Green</span>
@@ -58,15 +58,15 @@ permalink: /zen-list/
 	- <span class="color-sample" style="background: url(/images/zen/jsyzj-zebra.jpg);">Zebra</span>
 	- <span class="color-sample" style="background: url(/images/zen/jsyzj-blackNgold.jpg);">Black and Gold</span>
 	- <span class="color-sample" style="background: url(/images/zen/jsyzj-whiteNsilver.jpg);">White and Silver</span>
-- 豪华王 - <span class="color-sample" style="background: url(/images/zen/gpz-03.jpg);">GPZ-03 Super Thick</span>
-- Molis
-	- 🗓️ ??? - <span class="hidden-text">???<span>
-	- 🗓️ ??? - <span class="hidden-text">???<span>
-	- 🗓️ ??? - <span class="hidden-text">???<span>
-- Zentai Hero
+- [豪华王](https://www.gko-kig.com){:target="_blank" rel="noopener"} - <span class="color-sample" style="background: url(/images/zen/gpz-03.jpg);">GPZ-03 Super Thick</span>
+- [Zentai Hero](https://shop116379409.m.taobao.com){:target="_blank" rel="noopener"}
 	- <span class="color-sample" style="background: url(/images/zen/dva.jpg); background-size: cover;">D.Va</span>
 	- <span class="color-sample" style="background: url(/images/zen/asuka-langley-soryu.jpg); background-size: cover;">Asuka Langley Soryu</span>
 	- <span class="color-sample" style="background: url(/images/zen/rei-ayanami.jpg); background-size: cover;">Rei Ayanami</span>
 	- <span class="color-sample" style="background: url(/images/zen/samus-zero.jpg); background-size: cover;">Samus Zero</span>
 - [RubberBunny](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.2mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(83,83,83,1) 13%, rgba(0,0,0,1) 100%);">Black</span>
 - [ManiaJuns](https://weibo.com/u/7148760824){:target="_blank" rel="noopener"} - 0.5mm Latex <span class="color-sample" style="background: linear-gradient(45deg, rgba(227,204,202,1) 13%, rgba(227,204,202,1) 100%);">Skin</span>
+- Molis
+	- 🗓️ ??? - <span class="hidden-text">???<span>
+	- 🗓️ ??? - <span class="hidden-text">???<span>
+	- 🗓️ ??? - <span class="hidden-text">???<span>
