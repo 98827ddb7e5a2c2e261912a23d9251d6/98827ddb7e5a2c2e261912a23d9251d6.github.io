@@ -47,7 +47,7 @@ layout: default
 
 # Stuff I Made
 
-<div style="text-align: center">*nothing worth putting here as of <span id="current"></span>*</div>
+<div style="text-align: center"><i>nothing worth putting here as of <span id="current"></span></i></div>
 <script>
 	var date = new Date();
 	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
