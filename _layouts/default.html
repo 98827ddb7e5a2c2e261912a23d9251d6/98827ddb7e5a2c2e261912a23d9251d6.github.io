@@ -10,6 +10,24 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <script src="/assets/mod.js"></script>
+    <script>
+      function generateRandom(min = 0, max = 360) {
+        let difference = max - min;
+        let rand = Math.random();
+        rand = Math.floor( rand * difference);
+        rand = rand + min;
+        return rand;
+      }
+      var hueAdjDeg = 0;
+      var hueAdjTries = 0;
+      do {
+        hueAdjDeg = generateRandom();
+      } while (hueAdjDeg > 160 && hueAdjDeg < 285 && hueAdjTries <= 10);
+      var hueModStyles = '#bar,a{filter:hue-rotate('+hueAdjDeg+'deg);}';
+      var styleSheet = document.createElement("style");
+      styleSheet.innerText = hueModStyles;
+      document.head.appendChild(styleSheet);
+    </script>
 
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
@@ -58,22 +76,4 @@
     {% include analytics.html %}
   </body>
   <script>makeHiddenTextReveal();</script>
-  <script>
-    function generateRandom(min = 0, max = 360) {
-      let difference = max - min;
-      let rand = Math.random();
-      rand = Math.floor( rand * difference);
-      rand = rand + min;
-      return rand;
-    }
-    var hueAdjDeg = 0;
-    var hueAdjTries = 0;
-    do {
-      hueAdjDeg = generateRandom();
-    } while (hueAdjDeg > 160 && hueAdjDeg < 285 && hueAdjTries <= 10);
-    var hueModStyles = '#bar,a{filter:hue-rotate('+hueAdjDeg+'deg);}';
-    var styleSheet = document.createElement("style");
-    styleSheet.innerText = hueModStyles;
-    document.head.appendChild(styleSheet);
-  </script>
 </html>
