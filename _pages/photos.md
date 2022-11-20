@@ -45,7 +45,6 @@ permalink: /photos/
     opacity: 1;
     filter: contrast(2);
     mix-blend-mode: overlay;
-    backdrop-filter: blur(0.2px);
 	}
 
 	/* styling photo list */
