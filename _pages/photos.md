@@ -32,19 +32,24 @@ permalink: /photos/
 		background: #222 !important;
 	}
 
-	/* styling photo list */
-	.photo-children>img::before {
+	/* filter */
+	#filter {
 	  background-image: url(/images/grain.png);
-	  height: 100%;
-	  width: 100%;
-	  position: absolute;
+	  height: 100vh;
+	  width: 100vw;
+	  position: fixed;
 	  top: 0;
 	  left: 0;
 	  mix-blend-mode: overlay;
+		backdrop-filter: blur(0.5px);
 	}
-	.photo-children>img{ 
-		filter: blur(0.5px);
+
+	/* styling photo list */
+	.photo-children {
+		max-width: 400px;
+    margin: auto;
 	}
+	
 	.photo-children>p{
 		margin: 0;
 		text-align: center;
@@ -54,6 +59,7 @@ permalink: /photos/
 	}
 </style>
 
+<div id="filter"></div>
 <div id="photo-list"></div>
 
 <script>
