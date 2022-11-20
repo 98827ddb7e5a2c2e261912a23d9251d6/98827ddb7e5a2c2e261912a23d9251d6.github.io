@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Highlighted Photos
+title: Photos I Love
 permalink: /photos/
 ---
 
@@ -9,14 +9,17 @@ permalink: /photos/
 	var imageList = 
 	[
 	  {
-	    "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg&name=large",
-	    "des": "a descriptions, supports <b>html</b>",
-	    "date": "2013-06-10 00:00:00"
+	    "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
+	    "des": "黑曜。Hong Kong-Zhuhai-Macao Bridge in ZhuHai.",
+	    "ref": "https://twitter.com/KEKI_1112/status/1581646304517984256",
+	    "date": "2022-10-16 17:10:30"
 	  },
 	  {
-	    "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
-	    "des": "another <del>useless</del> test",
-	  }
+	    "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg&name=large",
+	    "des": "南烛。CM Viking Cruise, SZ<->XM.",
+	    "ref": "https://twitter.com/KEKI_1112/status/1583721020800012288",
+	    "date": "2022-08-21 12:33:18"
+	  },
 	];
 </script>
 
@@ -70,6 +73,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
+<p style="color: #fff;text-align: center;">I took most of them. All are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you know I don't bother to sue you.</p>
 <div id="photo-list"></div>
 
 <script>
@@ -108,10 +112,15 @@ permalink: /photos/
 		} else {
 			var dateHtml = "";
 		}
+		if (item.ref) {
+			var refHtml = " <a href='"+refHtml+"' target='_blank'>></a>";
+		} else {
+			var refHtml = "";
+		}
 		var child = `
 			<div class="photo-children">
 				<img src="`+item.url+`"/>
-				<p class="photo-des">`+item.des+`</p>
+				<p class="photo-des">`+item.des+refHtml+`</p>
 				`+dateHtml+`
 			</div>
 		`;
