@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(0.85);"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
+<div style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2);"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
