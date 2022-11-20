@@ -25,21 +25,16 @@ var imageList =
     "date": "2022-08-20",
   },
   {
-    "url": "https://pbs.twimg.com/media/EaCPTWWUwAIDQIi?format=jpg",
-    "des": "Kigurumi, liildesign NANA-03. 御温泉 in Zhuhai.",
-    "ref": "https://twitter.com/KEKI_1112/status/1270172696085553153",
-    "date": "2019-01-09",
-  },
-  {
     "url": "https://pbs.twimg.com/media/DwyyQIQU8AMa7P3?format=jpg",
     "des": "KEKI. Original tweet was aim to join the fun of #着ぐるみと中身2019.",
     "ref": "https://twitter.com/KEKI_1112/status/1084437637505544192",
     "date": "2019-01-09",
   },
   {
-    "url": "https://pbs.twimg.com/media/DqFMNjZU4AAHBD1?format=jpg",
-    "des": "Kigurumi skin with white knee-socks. Love this combo.",
-    "date": "2018-10-17",
+    "url": "https://pbs.twimg.com/media/EaCPTWWUwAIDQIi?format=jpg",
+    "des": "Kigurumi, liildesign NANA-03. 御温泉 in Zhuhai.",
+    "ref": "https://twitter.com/KEKI_1112/status/1270172696085553153",
+    "date": "2019-01-09",
   },
   {
     "url": "https://pbs.twimg.com/media/DqFMNjZU4AAHBD1?format=jpg",
