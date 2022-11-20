@@ -9,6 +9,12 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
+    <script type="text/javascript">
+      // no zoom, sorry
+      document.addEventListener('gesturestart', function (e) {
+        e.preventDefault();
+      });
+    </script>
     <script src="/assets/mod.js"></script>
     <script>
       // random hue
@@ -28,11 +34,6 @@
       var styleSheet = document.createElement("style");
       styleSheet.innerText = hueModStyles;
       document.head.appendChild(styleSheet);
-    </script>
-    <script type="text/javascript">
-      document.addEventListener('gesturestart', function (e) {
-        e.preventDefault();
-      });
     </script>
 
     <meta name="theme-color" content="#000000">
