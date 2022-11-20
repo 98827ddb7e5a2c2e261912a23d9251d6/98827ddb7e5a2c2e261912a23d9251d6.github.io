@@ -35,6 +35,7 @@ permalink: /photos/
 	/* filter */
 	#filter {
 		background-image: url(/images/grain.png);
+		background-size: 400px 400px;
 		height: 0%;
     height: calc(100% - 111px);
     margin-top: 111px;
@@ -54,7 +55,6 @@ permalink: /photos/
     margin-top: 50px;
     margin-bottom: 50px;
 	}
-	
 	.photo-children>p{
 		margin: 0;
 		text-align: center;
@@ -62,16 +62,49 @@ permalink: /photos/
     font-size: 80%;
     margin-top: -5px;
 	}
+	.photo-date{
+		font-size: 50%;
+    opacity: 0.5;
+    margin-top: 2px;
+	}
 </style>
 
 <div id="filter"></div>
 <div id="photo-list"></div>
 
 <script>
+	// utility to convert dates
+	function timeDifference(previous, current = Date.now()) {
+    var msPerMinute = 60 * 1000;
+    var msPerHour = msPerMinute * 60;
+    var msPerDay = msPerHour * 24;
+    var msPerMonth = msPerDay * 30;
+    var msPerYear = msPerDay * 365;
+    var elapsed = current - previous;
+    if (elapsed < msPerMinute) {
+         return Math.round(elapsed/1000) + ' seconds ago';   
+    }
+    else if (elapsed < msPerHour) {
+         return Math.round(elapsed/msPerMinute) + ' minutes ago';   
+    }
+    else if (elapsed < msPerDay ) {
+         return Math.round(elapsed/msPerHour ) + ' hours ago';   
+    }
+    else if (elapsed < msPerMonth) {
+         return Math.round(elapsed/msPerDay) + ' days ago';   
+    }
+    else if (elapsed < msPerYear) {
+         return Math.round(elapsed/msPerMonth) + ' months ago';   
+    }
+    else {
+         return Math.round(elapsed/msPerYear ) + ' years ago';   
+    }
+	}
+
 	// parse image list
 	imageList.forEach(function(item, index){
 		if (item.date) {
-			var dateHtml = `<p class="photo-date">`+item.date+`</p>`;
+			var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
 		} else {
 			var dateHtml = "";
 		}
