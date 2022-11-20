@@ -29,6 +29,11 @@
       styleSheet.innerText = hueModStyles;
       document.head.appendChild(styleSheet);
     </script>
+    <script type="text/javascript">
+      document.addEventListener('gesturestart', function (e) {
+        e.preventDefault();
+      });
+    </script>
 
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
