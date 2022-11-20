@@ -51,13 +51,13 @@ layout: default
 
 # Photos I Love
 
-[Click Here](/photos)
+<div style="text-align: center; filter: saturate(0); font-size: 120%;"><a href="/photos">Click Here</a></div>
 
 *The list might be long, it does not have lazy load. You have been warned.*
 
 # Stuff I Made
 
-<div style="text-align: center"><i>nothing worth putting here as of <span id="current"></span></i></div>
+<div style="text-align: center"><i>nothing worth putting here as of <span id="current"></span></i>
 <script>
 	// fill in the date
 	var date = new Date();
