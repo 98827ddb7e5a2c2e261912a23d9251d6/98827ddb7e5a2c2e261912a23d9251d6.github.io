@@ -55,3 +55,19 @@ layout: default
 	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
 	document.getElementById("current").innerHTML = current_date;
 </script>
+
+<script>
+window.addEventListener('keypress', (function() {
+    var strToType = 'keki',
+        strTyped = '';
+    return function(event) {
+        var character = String.fromCharCode(event.which);
+        strTyped += character;
+        if (strToType.indexOf(strTyped) === -1) strTyped = '';
+        else if (strTyped === strToType) {
+            strTyped = '';
+            alert('💕KEKI');
+        }
+    };
+}()) );
+</script>
