@@ -95,7 +95,7 @@ permalink: /photos/
 			if (item.date) {
 				var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
 			} else {
-				var dateHtml = "";
+				var dateHtml = `<p class="photo-date">date unknown</p>`;
 			}
 			if (item.ref) {
 				var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
