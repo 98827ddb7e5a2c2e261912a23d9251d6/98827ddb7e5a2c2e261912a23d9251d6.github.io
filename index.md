@@ -10,7 +10,8 @@ layout: default
 - Drinks:
 	- Ice oatmeal latte (or any other regular coffee)
 	- Any random liquors \
-`🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`
+`🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`\
+`🥂 === wine.white` [(?)](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
 - Food:
 	- Any random Japanese dishes \
 `🍜 || 🍣 || 🍤 || pickRandom(food.jp)`
@@ -18,7 +19,7 @@ layout: default
 `🍝 || 🍕 || 🥗 || pickRandom(food.it)`
 	- A good dry-aged steak
 - Cruising 🚢
-- ~~Travel~~ Staying at nice hotels
+- ~~Travel~~ Stay at nice resorts
 - [Kigurumi](kig-list/) - both dollmask, animegao and fursuit [(?)](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"}
 - Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. [zentai](zen-list/), tights, [knee-socks](https://twitter.com/Beriru_Chan/status/1584617324480729089/photo/1){:target="_blank" rel="noopener"}</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
@@ -32,6 +33,7 @@ layout: default
 	- Dyson Supersonic & Digital Slim
 - Software
 	- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
+	- [frp](https://github.com/fatedier/frp){:target="_blank" rel="noopener"}
 	- [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
 	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark-theme)
