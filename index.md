@@ -34,6 +34,7 @@ layout: default
 - Software
 	- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
 	- [frp](https://github.com/fatedier/frp){:target="_blank" rel="noopener"}
+	- [CleanShotX](https://cleanshot.com){:target="_blank" rel="noopener"}
 	- [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
 	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark-theme)
@@ -71,5 +72,5 @@ window.addEventListener('keypress', (function() {
         }
     };
 }()) );
-document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', (alert(keki)));
+document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', function() {alert(keki); });
 </script>
