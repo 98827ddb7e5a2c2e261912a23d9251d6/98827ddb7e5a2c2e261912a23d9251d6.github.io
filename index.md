@@ -76,3 +76,17 @@ window.addEventListener('keypress', (function() {
 }()) );
 document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', function() {alert(keki); });
 </script>
+
+<script>
+function generateRandom(min = 0, max = 360) {
+    let difference = max - min;
+    let rand = Math.random();
+    rand = Math.floor( rand * difference);
+    rand = rand + min;
+    return rand;
+}
+var hueModStyles = '#bar,a{filter:hue-rotate('+generateRandom()+'deg);}';
+var styleSheet = document.createElement("style");
+styleSheet.innerText = hueModStyles;
+document.head.appendChild(styleSheet);
+</script>
