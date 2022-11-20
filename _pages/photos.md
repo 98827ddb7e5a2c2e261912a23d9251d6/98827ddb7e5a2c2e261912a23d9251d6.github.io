@@ -70,10 +70,16 @@ permalink: /photos/
 <script>
 	// parse image list
 	imageList.forEach(function(item, index){
+		if (item.date) {
+			var dateHtml = `<p class="photo-date">`+item.date+`</p>`;
+		} else {
+			var dateHtml = "";
+		}
 		var child = `
 			<div class="photo-children">
 				<img src="`+item.url+`"/>
 				<p class="photo-des">`+item.des+`</p>
+				`+dateHtml+`
 			</div>
 		`;
 		document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
