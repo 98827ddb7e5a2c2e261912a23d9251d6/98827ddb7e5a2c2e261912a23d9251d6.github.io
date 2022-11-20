@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2);"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
+<div id="hero" style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2);"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
@@ -54,26 +54,36 @@ layout: default
 
 <div style="text-align: center"><i>nothing worth putting here as of <span id="current"></span></i></div>
 <script>
+	// fill in the date
 	var date = new Date();
 	var current_date = date.getFullYear()+"-"+(date.getMonth()+1)+"-"+ date.getDate();
 	document.getElementById("current").innerHTML = current_date;
 </script>
 
 <script>
-var keki = '💕KEKI'
-window.addEventListener('keypress', (function() {
-    var strToType = 'keki',
-        strTyped = '';
-    return function(event) {
-        var character = String.fromCharCode(event.which);
-        strTyped += character;
-        if (strToType.indexOf(strTyped) === -1) strTyped = '';
-        else if (strTyped === strToType) {
-            strTyped = '';
-            alert(keki);
-        }
-    };
-}()) );
-document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', function() {alert(keki); });
+	// easter egg
+	var keki = '💕KEKI'
+	window.addEventListener('keypress', (function() {
+	    var strToType = 'keki',
+	        strTyped = '';
+	    return function(event) {
+	        var character = String.fromCharCode(event.which);
+	        strTyped += character;
+	        if (strToType.indexOf(strTyped) === -1) strTyped = '';
+	        else if (strTyped === strToType) {
+	            strTyped = '';
+	            alert(keki);
+	        }
+	    };
+	}()) );
+	document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', function() {alert(keki); });
 </script>
 
+<script>
+	// on scroll blur hero
+	const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+	document.addEventListener("scroll", function(){
+	  var currentPos = document.documentElement.scrollTop;
+	  document.getElementById("hero").style.filter = "blur("+(currentPos/(vh/2)*50)+"px)";
+	});
+</script>
