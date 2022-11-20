@@ -3,25 +3,7 @@ layout: page
 title: Photos I Love
 permalink: /photos/
 ---
-
-<script>
-	// the list of images
-	var imageList = 
-	[
-	  {
-	    "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
-	    "des": "黑曜。Hong Kong-Zhuhai-Macao Bridge in ZhuHai.",
-	    "ref": "https://twitter.com/KEKI_1112/status/1581646304517984256",
-	    "date": "2022-10-16 17:10:30"
-	  },
-	  {
-	    "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg&name=large",
-	    "des": "南烛。CM Viking Cruise, SZ<->XM.",
-	    "ref": "https://twitter.com/KEKI_1112/status/1583721020800012288",
-	    "date": "2022-08-21 12:33:18"
-	  },
-	];
-</script>
+<script src="/assets/images.js"></script>
 
 <style>
 	/* dark theme baby */
@@ -106,24 +88,28 @@ permalink: /photos/
 	}
 
 	// parse image list
-	imageList.forEach(function(item, index){
-		if (item.date) {
-			var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
-		} else {
-			var dateHtml = "";
-		}
-		if (item.ref) {
-			var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
-		} else {
-			var refHtml = "";
-		}
-		var child = `
-			<div class="photo-children">
-				<img src="`+item.url+`"/>
-				<p class="photo-des">`+item.des+refHtml+`</p>
-				`+dateHtml+`
-			</div>
-		`;
-		document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
-	});
+	if (!imageList) {
+		document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
+	} else {
+		imageList.forEach(function(item, index){
+			if (item.date) {
+				var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
+			} else {
+				var dateHtml = "";
+			}
+			if (item.ref) {
+				var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
+			} else {
+				var refHtml = "";
+			}
+			var child = `
+				<div class="photo-children">
+					<img src="`+item.url+`"/>
+					<p class="photo-des">`+item.des+refHtml+`</p>
+					`+dateHtml+`
+				</div>
+			`;
+			document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
+		});
+	}
 </script>
