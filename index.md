@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Things I Love
+# Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
 - DeFi - own your own funds ~~and mistakes~~
 - [Music](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
@@ -57,6 +57,7 @@ layout: default
 </script>
 
 <script>
+var keki = '💕KEKI'
 window.addEventListener('keypress', (function() {
     var strToType = 'keki',
         strTyped = '';
@@ -66,8 +67,9 @@ window.addEventListener('keypress', (function() {
         if (strToType.indexOf(strTyped) === -1) strTyped = '';
         else if (strTyped === strToType) {
             strTyped = '';
-            alert('💕KEKI');
+            alert(keki);
         }
     };
 }()) );
+document.getElementById("046b759f57ebf5d19440f0639ddd41b7").addEventListener('click', (alert(keki)));
 </script>
