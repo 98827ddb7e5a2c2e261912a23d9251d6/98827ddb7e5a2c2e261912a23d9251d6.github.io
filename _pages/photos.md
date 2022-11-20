@@ -6,22 +6,22 @@ permalink: /photos/
 <script src="/assets/images.js"></script>
 
 <style>
-	/* dark theme baby */
-	body {
-		background: #000 !important;
-	}
-	h1, h2, h3 {
-		color: #FFF !important;
-	}
-	.wrapper-footer {
-		background: #222 !important;
-	}
+    /* dark theme baby */
+    body {
+        background: #000 !important;
+    }
+    h1, h2, h3 {
+        color: #FFF !important;
+    }
+    .wrapper-footer {
+        background: #222 !important;
+    }
 
-	/* filter */
-	#filter {
-		background-image: url(/images/grain.png);
-		background-size: 400px 400px;
-		height: 0%;
+    /* filter */
+    #filter {
+        background-image: url(/images/grain.png);
+        background-size: 400px 400px;
+        height: 0%;
     height: calc(100% - 111px);
     margin-top: 111px;
     width: 100%;
@@ -31,27 +31,27 @@ permalink: /photos/
     opacity: 1;
     filter: contrast(2);
     mix-blend-mode: overlay;
-	}
+    }
 
-	/* styling photo list */
-	.photo-children {
-		max-width: 400px;
+    /* styling photo list */
+    .photo-children {
+        max-width: 400px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-	}
-	.photo-children>p{
-		margin: 0;
-		text-align: center;
-		color: #aaa;
+    }
+    .photo-children>p{
+        margin: 0;
+        text-align: center;
+        color: #aaa;
     font-size: 80%;
     margin-top: -5px;
-	}
-	.photo-date{
-		font-size: 50%;
+    }
+    .photo-date{
+        font-size: 50%;
     opacity: 0.5;
     margin-top: 2px;
-	}
+    }
 </style>
 
 <div id="filter"></div>
@@ -59,57 +59,54 @@ permalink: /photos/
 <div id="photo-list"></div>
 
 <script>
-	// utility to convert dates
-	function timeDifference(previous, current = Date.now()) {
-    var msPerMinute = 60 * 1000;
-    var msPerHour = msPerMinute * 60;
-    var msPerDay = msPerHour * 24;
-    var msPerMonth = msPerDay * 30;
-    var msPerYear = msPerDay * 365;
-    var elapsed = current - previous;
-    if (elapsed < msPerMinute) {
-         return Math.round(elapsed/1000) + ' second'+((Math.round(elapsed/1000)>1)?'s':'')+' ago';   
+    // utility to convert dates
+    function timeDifference(previous, current = Date.now()) {
+        var msPerMinute = 60 * 1000;
+        var msPerHour = msPerMinute * 60;
+        var msPerDay = msPerHour * 24;
+        var msPerMonth = msPerDay * 30;
+        var msPerYear = msPerDay * 365;
+        var elapsed = current - previous;
+        if (elapsed <= 0) {
+            return "not long ago";
+        } else if (elapsed < msPerMinute) {
+            return Math.round(elapsed/1000) + ' second'+((Math.round(elapsed/1000)>1)?'s':'')+' ago';   
+        } else if (elapsed < msPerHour) {
+            return Math.round(elapsed/msPerMinute) + ' minute'+((Math.round(elapsed/msPerMinute)>1)?'s':'')+' ago';   
+        } else if (elapsed < msPerDay ) {
+            return Math.round(elapsed/msPerHour) + ' hour'+((Math.round(elapsed/msPerHour)>1)?'s':'')+' ago';   
+        } else if (elapsed < msPerMonth) {
+            return Math.round(elapsed/msPerDay) + ' day'+((Math.round(elapsed/msPerDay)>1)?'s':'')+' ago';   
+        } else if (elapsed < msPerYear) {
+            return Math.round(elapsed/msPerMonth) + ' month'+((Math.round(elapsed/msPerMonth)>1)?'s':'')+' ago';   
+        } else {
+            return Math.round(elapsed/msPerYear) + ' year'+((Math.round(elapsed/msPerYear)>1)?'s':'')+' ago';   
+        }
     }
-    else if (elapsed < msPerHour) {
-         return Math.round(elapsed/msPerMinute) + ' minute'+((Math.round(elapsed/msPerMinute)>1)?'s':'')+' ago';   
-    }
-    else if (elapsed < msPerDay ) {
-         return Math.round(elapsed/msPerHour) + ' hour'+((Math.round(elapsed/msPerHour)>1)?'s':'')+' ago';   
-    }
-    else if (elapsed < msPerMonth) {
-         return Math.round(elapsed/msPerDay) + ' day'+((Math.round(elapsed/msPerDay)>1)?'s':'')+' ago';   
-    }
-    else if (elapsed < msPerYear) {
-         return Math.round(elapsed/msPerMonth) + ' month'+((Math.round(elapsed/msPerMonth)>1)?'s':'')+' ago';   
-    }
-    else {
-         return Math.round(elapsed/msPerYear) + ' year'+((Math.round(elapsed/msPerYear)>1)?'s':'')+' ago';   
-    }
-	}
 
-	// parse image list
-	if (!imageList) {
-		document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
-	} else {
-		imageList.forEach(function(item, index){
-			if (item.date) {
-				var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
-			} else {
-				var dateHtml = `<p class="photo-date">date unknown</p>`;
-			}
-			if (item.ref) {
-				var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
-			} else {
-				var refHtml = "";
-			}
-			var child = `
-				<div class="photo-children">
-					<img src="`+item.url+`"/>
-					<p class="photo-des">`+item.des+refHtml+`</p>
-					`+dateHtml+`
-				</div>
-			`;
-			document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
-		});
-	}
+    // parse image list
+    if (!imageList) {
+        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
+    } else {
+        imageList.forEach(function(item, index){
+            if (item.date) {
+                var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
+            } else {
+                var dateHtml = `<p class="photo-date">date unknown</p>`;
+            }
+            if (item.ref) {
+                var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
+            } else {
+                var refHtml = "";
+            }
+            var child = `
+                <div class="photo-children">
+                    <img src="`+item.url+`"/>
+                    <p class="photo-des">`+item.des+refHtml+`</p>
+                    `+dateHtml+`
+                </div>
+            `;
+            document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
+        });
+    }
 </script>
