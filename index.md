@@ -53,7 +53,7 @@ layout: default
 
 <div style="text-align: center; filter: saturate(0); font-size: 120%;"><a href="/photos">Click Here</a></div>
 
-<div style="text-align: center"><i>The list might be long, it does not have lazy load. You have been warned.</i>
+<div style="text-align: center"><i>The list might be long, it does not have lazy load. You have been warned.</i></div>
 
 # Stuff I Made
 
