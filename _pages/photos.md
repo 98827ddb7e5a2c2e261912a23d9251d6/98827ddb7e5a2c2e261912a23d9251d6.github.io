@@ -21,6 +21,7 @@ permalink: /photos/
 </script>
 
 <style>
+	/* dark theme baby */
 	body {
 		background: #000 !important;
 	}
@@ -31,17 +32,25 @@ permalink: /photos/
 		background: #222 !important;
 	}
 
-	.photo-item>img::before {
-		  background-image: url(/images/grain.png);
-		  height: 100%;
-		  width: 100%;
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  mix-blend-mode: overlay;
+	/* styling photo list */
+	.photo-children>img::before {
+	  background-image: url(/images/grain.png);
+	  height: 100%;
+	  width: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  mix-blend-mode: overlay;
 	}
-	.photo-item{ 
+	.photo-children>img{ 
 		filter: blur(0.5px);
+	}
+	.photo-children>p{
+		margin: 0;
+		text-align: center;
+		color: #aaa;
+    font-size: 80%;
+    margin-top: -5px;
 	}
 </style>
 
@@ -52,7 +61,7 @@ permalink: /photos/
 	imageList.forEach(function(item, index){
 		var child = `
 			<div class="photo-children">
-				<img scr="`+item.url+`"/>
+				<img src="`+item.url+`"/>
 				<p class="photo-des">`+item.des+`</p>
 			</div>
 		`;
