@@ -73,7 +73,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p style="color: #fff;text-align: center;">I took most of them. All are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you know I don't bother to sue you.</p>
+<p style="color: #fff;text-align: center;">I took most of them. All are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I don't bother to sue you.</p>
 <div id="photo-list"></div>
 
 <script>
@@ -113,7 +113,7 @@ permalink: /photos/
 			var dateHtml = "";
 		}
 		if (item.ref) {
-			var refHtml = " <a href='"+refHtml+"' target='_blank'>></a>";
+			var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
 		} else {
 			var refHtml = "";
 		}

@@ -49,6 +49,11 @@ layout: default
 	- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
 	- [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
 
+# Photos I Love
+
+[Click Here](/photos)
+
+*The list might be long, it does not have lazy load. You have been warned.*
 
 # Stuff I Made
 
