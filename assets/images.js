@@ -1,6 +1,7 @@
 // the list of images
 var imageList = 
 [
+  // new entries following this
   {
     "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
     "des": "Kigurumi, Dollkii 黑曜。Near Hong Kong-Zhuhai-Macao Bridge in ZhuHai.",
@@ -26,7 +27,35 @@ var imageList =
   {
     "url": "https://pbs.twimg.com/media/EaCPTWWUwAIDQIi?format=jpg",
     "des": "Kigurumi, liildesign NANA-03. 御温泉 in Zhuhai.",
-    "ref": "https://twitter.com/KEKI_1112/status/1583721020800012288",
+    "ref": "https://twitter.com/KEKI_1112/status/1270172696085553153",
     "date": "2019-01-09",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/DwyyQIQU8AMa7P3?format=jpg",
+    "des": "KEKI. Original tweet was aim to join the fun of #着ぐるみと中身2019.",
+    "ref": "https://twitter.com/KEKI_1112/status/1084437637505544192",
+    "date": "2019-01-09",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/DqFMNjZU4AAHBD1?format=jpg",
+    "des": "Kigurumi skin with white knee-socks. Love this combo.",
+    "date": "2018-10-17",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/DqFMNjZU4AAHBD1?format=jpg",
+    "des": "Kigurumi skin with white knee-socks. Love this combo.",
+    "date": "2018-10-17",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/DtDuBUpUcAA35Qj?format=jpg",
+    "des": "Kigurumi, liildesign NANA-03. RCCL, Ovation of the Seas balcony cabin.",
+    "ref": "https://twitter.com/KEKI_1112/status/1067614849495064577",
+    "date": "2018-06",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/DhLzJ1WVMAYdtpR?format=jpg",
+    "des": "RCCL, Ovation of the Seas. Hong Kong -> Japan -> Tianjin 7 days cruise.",
+    "ref": "https://twitter.com/KEKI_1112/status/1014140290507030528",
+    "date": "2018-06",
   },
 ];
