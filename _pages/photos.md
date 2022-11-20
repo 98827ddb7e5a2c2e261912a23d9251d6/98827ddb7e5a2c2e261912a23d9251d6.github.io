@@ -42,7 +42,8 @@ permalink: /photos/
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 1;
+    filter: contrast(2);
     mix-blend-mode: overlay;
     backdrop-filter: blur(0.2px);
 	}
