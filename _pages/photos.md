@@ -34,20 +34,25 @@ permalink: /photos/
 
 	/* filter */
 	#filter {
-	  background-image: url(/images/grain.png);
-	  height: 100vh;
-	  width: 100vw;
-	  position: fixed;
-	  top: 0;
-	  left: 0;
-	  mix-blend-mode: overlay;
-		backdrop-filter: blur(0.5px);
+		background-image: url(/images/grain.png);
+		height: 0%;
+    height: calc(100% - 111px);
+    margin-top: 111px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    backdrop-filter: blur(0.2px);
 	}
 
 	/* styling photo list */
 	.photo-children {
 		max-width: 400px;
     margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 	}
 	
 	.photo-children>p{
