@@ -37,7 +37,7 @@ layout: default
 	- [CleanShotX](https://cleanshot.com){:target="_blank" rel="noopener"}
 	- [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
-	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark-theme)
+	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark theme)
 - Creative
 	- Fujifilm X Cameras
 	- Adobe CC
