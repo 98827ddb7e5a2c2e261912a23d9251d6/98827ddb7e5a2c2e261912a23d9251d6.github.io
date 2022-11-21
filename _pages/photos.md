@@ -92,7 +92,7 @@ permalink: /photos/
     // parse image list
     var loadLimit = 5;
     function loadImageList() {
-        imageList.forEach(function(item, index){
+        imageList.every(function(item, index){
             // remove step loader
             var lazyLoadMore = document.getElementById("lazy-load-more");
             if (lazyLoadMore) {
@@ -120,12 +120,15 @@ permalink: /photos/
             document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
             
             // stop and append new step loader if too many items
-            if (index == loadLimit - 1) {
+            if (index >= loadLimit - 1) {
                 document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + 
                 `<a href="#" id="lazy-load-more">Load More</a>`;
                 document.getElementById("lazy-load-more").addEventListener("click", function(){
                     loadImageList();
                 });
+                return false;
+            } else {
+                return true;
             }
         });
     }
