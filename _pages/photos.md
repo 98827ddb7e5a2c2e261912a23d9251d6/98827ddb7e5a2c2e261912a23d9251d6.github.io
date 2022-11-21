@@ -40,7 +40,7 @@ permalink: /photos/
     }
     /* styling photo list */
     .photo-children {
-        max-width: 400px;
+        max-width: 444px;
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;

@@ -86,7 +86,7 @@ var imageList =
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/fc8f7cf2-2678-41ee-84b6-e9ad8a85e2fd_rw_1200.jpg?h=210ea5d8df2fea9a5384813c428eb9a6",
-    "des": "First Kigurumi mask, from RAIGEKI 雷击工坊. Dealing with that super long twin tails are a mess.",
+    "des": "First Kigurumi mask, from RAIGEKI 雷击工坊. Dealing with that super long twin tails is a mess.",
     "ref": "",
     "date": "2015-07-20",
   },
