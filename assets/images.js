@@ -26,7 +26,7 @@ var imageList =
     "url": "https://pbs.twimg.com/media/Fa0jpEnaQAMOjUF?format=jpg&name=large",
     "des": "Kigurumi, Dollkii 南烛. CM Viking Cruise, private balcony. Daybed is a bit too small for two.",
     "ref": "",
-    "date": "",
+    "date": "2022-08-21",
   },
   {
     "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg&name=large",
@@ -50,6 +50,12 @@ var imageList =
     "des": "Dressing up for the shoot. Raffles Shenzhen. The room is excellent.",
     "ref": "",
     "date": "2022-06-11",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiFwDsEakAA_lIA?format=jpg&name=4096x4096",
+    "des": "Riding escalator, in Mixc Shenzhen.",
+    "ref": "",
+    "date": "2022-06-09",
   },
   {
     "url": "https://pbs.twimg.com/media/FiFL-ZdagAAD-Ne?format=jpg&name=large",
