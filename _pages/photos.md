@@ -92,13 +92,13 @@ permalink: /photos/
     // parse image list
     var loadLimit = 5;
     function loadImageList() {
-        imageList.every(function(item, index){
-            // remove step loader
-            var lazyLoadMore = document.getElementById("lazy-load-more");
-            if (lazyLoadMore) {
-                document.getElementById("lazy-load-more").remove();
-            }
+        // remove step loader
+        var lazyLoadMore = document.getElementById("lazy-load-more");
+        if (lazyLoadMore) {
+            document.getElementById("lazy-load-more").remove();
+        }
 
+        imageList.forEach(function(item, index){
             // build items and append
             if (item.date) {
                 var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
@@ -117,25 +117,25 @@ permalink: /photos/
                     `+dateHtml+`
                 </div>
             `;
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             
             // remove item
-            console.log(imageList);
-            imageList.shift();
-            // stop and append new step loader if too many items
-            if (index >= (loadLimit - 1)) {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
-                document.getElementById("lazy-load-more").addEventListener("click", function(){
-                    loadImageList();
-                });
-                return false;
-            } else if (imageList.length > 0) {
-                return true;
-            } else {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
-                return false;
+            var shift = imageList.shift();
+
+            // only show when not over limit
+            if (index < loadLimit) {
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             }
         });
+
+        // send bottom links
+        if (imageList.length > 0) {
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
+            document.getElementById("lazy-load-more").addEventListener("click", function(){
+                loadImageList();
+            });
+        } else {
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
+        }
     }
 
     if (!imageList) {
