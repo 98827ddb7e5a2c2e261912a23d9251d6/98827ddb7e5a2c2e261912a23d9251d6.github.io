@@ -11,21 +11,26 @@
 var imageList = 
 [
   // new entries following this
-  {"date":"2022-11-21","url":"https://pbs.twimg.com/media/FhDKeTkakAIMpF5?format=jpg&name=large","des":"Test submitting using iOS Shortcut app.","ref":""}, // added by iOS shortcut
   {
-    "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
+    "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg",
     "des": "Kigurumi, Dollkii 黑曜. Near Hong Kong-Zhuhai-Macao Bridge in Zhuhai.",
     "ref": "https://twitter.com/KEKI_1112/status/1581646304517984256",
     "date": "2022-10-16 17:10:30",
   },
   {
     "url": "https://pbs.twimg.com/media/FdhAMpeVsAAfcjY?format=jpg",
-    "des": "Rosewood GZ",
+    "des": "Rosewood Guangzhou",
     "date": "2022-09-26",
   },
   {
-    "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg&name=large",
-    "des": "Kigurumi, Dollkii 南烛. CM Viking Cruise, Shenzhen -> Xiamen -> Shenzhen.",
+    "url": "https://pbs.twimg.com/media/Fa0jpEnaQAMOjUF?format=jpg",
+    "des": "Kigurumi, Dollkii 南烛. CM Viking Cruise, private balcony. Daybed is a bit too small for two.",
+    "ref": "",
+    "date": "",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FfqB3WCaUAAhxaC?format=jpg",
+    "des": "Kigurumi, Dollkii 南烛. CM Viking Cruise, public deck.",
     "ref": "https://twitter.com/KEKI_1112/status/1583721020800012288",
     "date": "2022-08-21 12:33:18",
   },
@@ -33,6 +38,36 @@ var imageList =
     "url": "https://pbs.twimg.com/media/Fb_Z6FhaUAc5JZu?format=jpg",
     "des": "CM Viking Cruise, balcony of ES2 suite.",
     "date": "2022-08-20",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiFPhk0agAQBKBH?format=jpg",
+    "des": "Dressing up for the shoot. Raffles Shenzhen. The room is excellent.",
+    "ref": "",
+    "date": "2022-06-11",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiFL-ZdagAAD-Ne?format=jpg",
+    "des": "The underwater look of this ->",
+    "ref": "https://twitter.com/KEKI_1112/status/1438872828938375173",
+    "date": "2021-09-12",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/5cf56aff-9255-45fb-9ff6-811df4248e7b_rw_1920.jpg?h=c544958d46db8587bf1c94a343280e15",
+    "des": "Rosewood Sanya. Not bad for iPhone portrait mode.",
+    "ref": "",
+    "date": "2021-09-12",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/60c65eda-d34f-4511-9e48-850e42dd1709_rw_1920.jpg?h=6d14394043f560639cab83003baba7e6",
+    "des": "Balcony private pool. The Westin Blue Bay Resort & Spa, Lingshui.",
+    "ref": "",
+    "date": "2021-09-10",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiFKOREacAEkKjK?format=jpg",
+    "des": "Can't beat the view. The Westin Blue Bay Resort & Spa, Lingshui.",
+    "ref": "",
+    "date": "2021-09-09",
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/87d6a69b-779e-4104-89e0-08fb5b25e79b_rw_1920.jpg?h=b939ee40347dc630311fa24f1bb788f0&url=aHR0cHM6Ly9waG90b3MuYWRvYmUuaW8vdjIvY2F0YWxvZ3MvZWRhZDFlYzJhNDA0NDFhY2IwMTMwYjNmMjdhZTI2N2YvYXNzZXRzL2UxZWQwYzYwOTNiNTQ5ZjE5YWIwMzY1ZTk5OGE1ODdkL3JldmlzaW9ucy85ZTE2YTFhNmQ3YTM0MDYyOTZiM2I0MDJlMzQyZDQ4Ny9yZW5kaXRpb25zLzk3NzEwNWU2MWFiNTBhZjgyMGY0Nzk1ZjBlNDM1MTFi",
@@ -57,6 +92,12 @@ var imageList =
     "des": "Shot on APS film.",
     "ref": "",
     "date": "2020-06-16",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiFLJiyaMAEUwxR?format=jpg",
+    "des": "A screen-grab from one of the slow-mo short vid we shot.",
+    "ref": "",
+    "date": "2020-04-28",
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/f252b133-1150-45c9-9aa3-f97f8a7cf191_rw_1920.jpg?h=2811fffc3b3414d5af6c90ba95cba5c1&url=aHR0cHM6Ly9waG90b3MuYWRvYmUuaW8vdjIvY2F0YWxvZ3MvZWRhZDFlYzJhNDA0NDFhY2IwMTMwYjNmMjdhZTI2N2YvYXNzZXRzLzIwNDNmMjlmODYxMTRjNjE4ZDVkM2EwZjFkZDc0OGJmL3JldmlzaW9ucy81NGRhNjU2MGE5MTQ0NTE3OGJhODMyNDBjMzdmZGVhNS9yZW5kaXRpb25zLzIwMGNiNDg1MWJlZWVjYzU4NzNjMGQyMTliNjhhYzQ2",
