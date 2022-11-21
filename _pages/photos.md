@@ -8,7 +8,10 @@ permalink: /photos/
 <style>
     /* dark theme baby */
     body {
-        background: #000 !important;
+        background: rgba(0,0,0,0) !important;
+    }
+    html {
+        background: #000;
     }
     h1, h2, h3 {
         color: #FFF !important;
@@ -22,35 +25,35 @@ permalink: /photos/
         background-image: url(/images/grain.png);
         background-size: 400px 400px;
         height: 0%;
-    height: calc(100% - 111px);
-    margin-top: 111px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 1;
-    filter: contrast(2);
-    mix-blend-mode: overlay;
+        height: calc(100% - 111px);
+        margin-top: 111px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        filter: contrast(2);
+        mix-blend-mode: overlay !important;
     }
 
     /* styling photo list */
     .photo-children {
         max-width: 400px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .photo-children>p{
         margin: 0;
         text-align: center;
         color: #aaa;
-    font-size: 80%;
-    margin-top: -5px;
+        font-size: 80%;
+        margin-top: -5px;
     }
     .photo-date{
         font-size: 50%;
-    opacity: 0.5;
-    margin-top: 2px;
+        opacity: 0.5;
+        margin-top: 2px;
     }
 </style>
 
