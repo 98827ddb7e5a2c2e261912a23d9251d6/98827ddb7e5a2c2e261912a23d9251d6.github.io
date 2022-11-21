@@ -90,10 +90,16 @@ permalink: /photos/
     }
 
     // parse image list
-    if (!imageList) {
-        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
-    } else {
+    var loadLimit = 5;
+    function loadImageList() {
         imageList.forEach(function(item, index){
+            // remove step loader
+            var lazyLoadMore = document.getElementById("lazy-load-more");
+            if (lazyLoadMore) {
+                document.getElementById("lazy-load-more").remove();
+            }
+
+            // build items and append
             if (item.date) {
                 var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
             } else {
@@ -112,7 +118,23 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
+            
+            // stop and append new step loader if too many items
+            if (index == loadLimit - 1) {
+                document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + 
+                `<a href="#" id="lazy-load-more">Load More</a>`;
+                document.getElementById("lazy-load-more").addEventListener("click", function(){
+                    loadImageList();
+                });
+            }
         });
+    }
+
+    if (!imageList) {
+        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
+    } else {
+        // load first 10
+        loadImageList();
     }
 
     // fix noir incompa
