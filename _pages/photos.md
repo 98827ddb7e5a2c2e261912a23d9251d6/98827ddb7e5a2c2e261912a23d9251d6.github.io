@@ -92,6 +92,9 @@ permalink: /photos/
     // parse image list
     var loadLimit = 5;
     function loadImageList() {
+        // doc scroll position
+        var currentPos = document.documentElement.scrollTop;
+
         // remove step loader
         var lazyLoadMore = document.getElementById("lazy-load-more");
         if (lazyLoadMore) {
@@ -133,6 +136,9 @@ permalink: /photos/
         } else {
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
         }
+
+        // repos
+        document.documentElement.scrollTop = currentPos;
     }
 
     if (!imageList) {
