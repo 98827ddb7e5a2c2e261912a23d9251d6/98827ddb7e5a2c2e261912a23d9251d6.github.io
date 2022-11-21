@@ -117,12 +117,11 @@ permalink: /photos/
                     `+dateHtml+`
                 </div>
             `;
-            
-            // remove item
 
-            // only show when not over limit
+            // only remove and show when not over limit
             if (index < loadLimit) {
-                imageList.shift();
+                console.log(child);
+                console.log(imageList.shift());
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             }
         });
