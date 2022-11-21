@@ -98,7 +98,11 @@ permalink: /photos/
             document.getElementById("lazy-load-more").remove();
         }
 
-        imageList.forEach(function(item, index){
+        // load images
+        var count = 0;
+        do {
+            count++;
+            var item = imageList.shift();
             // build items and append
             if (item.date) {
                 var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
@@ -117,14 +121,8 @@ permalink: /photos/
                     `+dateHtml+`
                 </div>
             `;
-
-            // only remove and show when not over limit
-            if (index < loadLimit) {
-                console.log(child);
-                console.log(imageList.shift());
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-            }
-        });
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
+        } while (count < loadLimit);
 
         // send bottom links
         if (imageList.length > 0) {
