@@ -2,7 +2,7 @@
 var imageList = 
 [
   // new entries following this
-  {"date":"2022-11-21","url":"https://pbs.twimg.com/media/FhDKeTkakAIMpF5?format=jpg&name=large","des":"iOS Shortcut test","ref":""}, // added by iOS shortcut
+  {"date":"2022-11-21","url":"https://pbs.twimg.com/media/FhDKeTkakAIMpF5?format=jpg&name=large","des":"Test submitting using iOS Shortcut app.","ref":""}, // added by iOS shortcut
   {
     "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
     "des": "Kigurumi, Dollkii 黑曜. Near Hong Kong-Zhuhai-Macao Bridge in Zhuhai.",
@@ -53,6 +53,120 @@ var imageList =
     "des": "RCCL, Ovation of the Seas. Hong Kong -> Japan -> Tianjin 7 days cruise.",
     "ref": "https://twitter.com/KEKI_1112/status/1014140290507030528",
     "date": "2018-06",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/6125486c-4862-4093-a278-c21ed62a7996_rw_1200.jpg?h=ac7421cdc2f36cc22b8d8d0e9105d275",
+    "des": "Couple on the street of 北京路.",
+    "ref": "",
+    "date": "2017-12-20",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/0489c0b1-5cf6-44d3-ab37-7a4a0d105a9b_rw_1200.jpg?h=cbb60d8f0f4113cd3a2d84cb2816047e",
+    "des": "First time shooting Kigurumi outdoors. Although 御温泉 does not provide the best catering and hot spring, it does have fantastic scenes and decors.",
+    "ref": "https://twitter.com/KEKI_1112/status/1102510921237159939",
+    "date": "2017-11-28",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/f3f08719-20d1-4d81-befe-4fee70eaf38f_rw_1200.jpg?h=9c589d88aa1f9c3aee6d13217984d8c6",
+    "des": "",
+    "ref": "This is actually taken at a motorway service stop, using a rented 105mm vintage lens. That bokeh is creamy.",
+    "date": "2017-08-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/edc68432-fbad-4a65-9ef6-2fb97baacbcb_rw_1200.jpg?h=f95dc1b46d295768ad02248d8ae9524b",
+    "des": "Waiting for movies in 正佳广场.",
+    "ref": "",
+    "date": "2017-05",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/8d51ecde-b305-49a6-a7f3-56a15e66ba5e_rw_1200.jpg?h=db46851d8d87e787739f0056ba94ff1e",
+    "des": "Ma'an mountain seashore, Hong Kong. Nice that New Balance makes stylish kid shoes.",
+    "ref": "",
+    "date": "2017-02-02",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/f9a20cce-7a15-42e0-bb9f-c28aab00252d_rw_1200.jpg?h=4668a0a04ce6407529e2a6d70216d42c",
+    "des": "UNIQUE used to make these nice, co-branded T-shirts.",
+    "ref": "",
+    "date": "2016-10",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/7a17a190-5452-4901-8eff-aa8709a3d16e_rw_1200.jpg?h=f05980c99cb8992290ca769c7d1f8681",
+    "des": "水中ニーソニーソ（Ver.ギャラクシー）from <a href='https://twitter.com/manabukoga/' target='_blank'>古賀学（Manabu Koga）</a>",
+    "ref": "https://sprite.theshop.jp/items/2603925",
+    "date": "2016-08-22",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/0a8a9f14-0daa-43c3-a2ca-84f52fa62bcd_rw_1200.jpg?h=dc30b7187be8b4f574855a5ad3b3a25a",
+    "des": "Kigurumi 摄影后. Back then we can only afford Home Inns.",
+    "ref": "",
+    "date": "2016-08-07",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/662c501d-99c9-4284-a6fd-5d2a42c95ac9_rw_1200.jpg?h=a88ae5e9df9cc81555cce8b58a0733fc",
+    "des": "スクール水着. 西郊泳场.",
+    "ref": "",
+    "date": "2016-05-09",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/0e0f3d14-08dd-4251-8abb-93ec532c8330_rw_1200.jpg?h=ac9f90dafef682c18806b6c885c6ee72",
+    "des": "Classic black. Long knee-socks are the best.",
+    "ref": "",
+    "date": "2016-04-27",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/d89dcf82-533e-4e54-8545-bcc020ee030a_rw_1200.jpg?h=af23314cbd171d8e1ebb50462d47cb06",
+    "des": "Back then we often go to the rooftop of Guangzhou East railroad station. It is a nice platform to get some shots done with stunning city backdrops.",
+    "ref": "",
+    "date": "2016-04-20",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/93ae0469-270b-40d3-8200-6b4000f5ee45_rw_1200.jpg?h=4ba0d52976b6fdc590310c2b9714bfc3",
+    "des": "Shot on a roll of super expired film. Cute marks.",
+    "ref": "",
+    "date": "2016-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/911d02db-44e8-48e9-b207-a8940db76581_rw_1200.jpg?h=e8994eb7e1ee5d5ab1c40b482b75865f",
+    "des": "红黑. Ersha Island.",
+    "ref": "",
+    "date": "2016-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/0928b84e-fbea-4dfa-883b-b1f2e3d5b815_rw_1200.jpg?h=0f58896f0365061122a8b758ea29199d",
+    "des": "This is the day we found out these oddly cute foggy paw-looking prints when KEKI randomly pressed her feet on the windscreen.",
+    "ref": "",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/f6d1fbd2-6483-44e8-8b58-4b514edcb832_rw_1200.jpg?h=c6bd038825f525dec525d82624d8edbf",
+    "des": "Stunning and slightly naughty, erotic posing. Many people don't like these type of \"fake\" knee-socks but I found them extra cute.",
+    "ref": "",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/a7337d8b-15f9-4f7f-a9b9-04a578ed6d4c_rw_1200.jpg?h=24f9c6097920f21198d0847ff8b67f21",
+    "des": "On the rooftop platform of Guangzhou East railroad station. Workers were disassembling the temporary check-in terminal for Chinese festival.",
+    "ref": "",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/84b4a07b-8953-43a8-8ef1-889b9ccd763f_rw_1200.jpg?h=acb74f30bf6bf156f373a7b13757b51e",
+    "des": "In 白云湖 parkings. Stunning posing, nice texture/wrinkles.",
+    "ref": "",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/82321e67-97c4-441a-858d-69b92eee30f8_rw_1200.jpg?h=ab3792aa293a2077391533410dcf6262",
+    "des": "Apple Store Parc Central, opening day. Rainy and cold. Bringing a film camera to such a fast-pace event is bold.",
+    "ref": "",
+    "date": "2016-01-28",
+  },
+  {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/6c083f97-3d43-4558-8236-29239948f4e7_rw_1200.jpg?h=a321e966c588416d9e138de626eb05da",
+    "des": "KEKI does have tiny paws. BTW If you think they are barefoot, look closer.",
+    "ref": "",
+    "date": "2015-12-27",
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/0b6a94e7-4818-41a0-9464-955b9dc7c76f_rw_1200.jpg?h=1a3f66e36cf1a54a7c4d5013c9adf273",
@@ -121,6 +235,12 @@ var imageList =
     "date": "2015-02-23",
   },
   {
+    "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/b8b438b3-1637-4c83-b2f6-360d36b15884_rw_1200.jpg?h=21ae4ffafa94501492f2b238d736af94",
+    "des": "Shooting FP pack film using RZ-67 was never a good idea.",
+    "ref": "",
+    "date": "2015-02",
+  },
+  {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/b281d239-ba8f-4cf6-894b-0836eb54aef2_rw_1200.jpg?h=59be0e943f09d50e06f7c8a0bd04a773",
     "des": "In sunny days, Portra 400 does give you nice colours.",
     "ref": "",
@@ -146,7 +266,7 @@ var imageList =
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/8a74d00b-670d-4ce5-9373-4f61b7e68a1d_rw_1200.jpg?h=639b01065f16c87af5a0a7b4b5d07cdc",
-    "des": "幼",
+    "des": "幼. They don't sell these type of double-layer tights anymore.",
     "ref": "",
     "date": "2014-09-07",
   },
@@ -193,13 +313,13 @@ var imageList =
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/ae633c08-7b17-42ad-afad-9d3891ef7ff2_rw_1200.jpg?h=66d0895205853d745bf65a98216d1f5a",
-    "des": "Part of the Knee-High Collection 1. Shot on either Tmax 400 or ILFORD HP5.",
+    "des": "Part of the Knee-High Collection I. Shot on either Tmax 400 or ILFORD HP5.",
     "ref": "https://www.icloud.com/iclouddrive/0e7jG-0N1ZijaO8gtTunm79tg#Knee-High-Collection-1_Redacted",
     "date": "2013-07",
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/c17f8e67-7a06-4dc8-993e-6343d32a7332_rw_1200.jpg?h=9ce043b4db983ac7db5661972697c25c",
-    "des": "Part of the Knee-High Collection 1. Shot on Solaris 400.",
+    "des": "Part of the Knee-High Collection I. Shot on Solaris 400.",
     "ref": "https://www.icloud.com/iclouddrive/0e7jG-0N1ZijaO8gtTunm79tg#Knee-High-Collection-1_Redacted",
     "date": "2013-07",
   },
