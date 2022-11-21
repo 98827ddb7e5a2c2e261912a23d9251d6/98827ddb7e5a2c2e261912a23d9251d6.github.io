@@ -60,7 +60,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p style="color: #fff;text-align: center;">I took most of them. All are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I don't bother to sue you.</p>
+<p style="color: #fff;text-align: center;">I took all of them. They are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I wouldn't bother to sue you.</p>
 <div id="photo-list"></div>
 
 <script>
@@ -135,7 +135,7 @@ permalink: /photos/
                 loadImageList();
             });
         } else {
-            // portfolio is not ready
+            // fuck you adobe portfolio
             // document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
         }
 
