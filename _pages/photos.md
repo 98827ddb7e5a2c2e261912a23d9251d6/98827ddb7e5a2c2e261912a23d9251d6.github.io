@@ -127,14 +127,16 @@ permalink: /photos/
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
         } while (count < loadLimit && imageList.length > 0);
 
-        // send bottom links
+        // append bottom links
         if (imageList.length > 0) {
+            // append load more
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
                 loadImageList();
             });
         } else {
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
+            // portfolio is not ready
+            // document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
         }
 
         // repos
