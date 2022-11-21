@@ -117,11 +117,11 @@ permalink: /photos/
                     `+dateHtml+`
                 </div>
             `;
-            document.getElementById("photo-list").insertAdjacentHTML('afterend', child);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             
             // stop and append new step loader if too many items
             if (index >= loadLimit - 1) {
-                document.getElementById("photo-list").insertAdjacentHTML('afterend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
                 document.getElementById("lazy-load-more").addEventListener("click", function(){
                     loadImageList();
                 });
