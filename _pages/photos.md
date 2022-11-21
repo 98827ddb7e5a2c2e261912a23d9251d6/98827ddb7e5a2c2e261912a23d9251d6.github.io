@@ -119,10 +119,10 @@ permalink: /photos/
             `;
             
             // remove item
-            console.log(imageList.shift());
 
             // only show when not over limit
             if (index < loadLimit) {
+                imageList.shift();
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             }
         });
