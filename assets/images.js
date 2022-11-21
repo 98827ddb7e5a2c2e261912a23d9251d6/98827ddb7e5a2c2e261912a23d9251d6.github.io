@@ -1,3 +1,12 @@
+/* Template
+  {
+    "url": "",
+    "des": "",
+    "ref": "",
+    "date": "",
+  },
+*/
+
 // the list of images
 var imageList = 
 [
@@ -68,8 +77,8 @@ var imageList =
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/f3f08719-20d1-4d81-befe-4fee70eaf38f_rw_1200.jpg?h=9c589d88aa1f9c3aee6d13217984d8c6",
-    "des": "",
-    "ref": "This is actually taken at a motorway service stop, using a rented 105mm vintage lens. That bokeh is creamy.",
+    "des": "This is actually taken at a motorway service stop, using a rented 105mm vintage lens. That bokeh is creamy.",
+    "ref": "",
     "date": "2017-08-04",
   },
   {
@@ -346,14 +355,4 @@ var imageList =
     "des": "The first photo I took that I felt quite happy about.",
     "date": "2010-08-02",
   },
-  
 ];
-
-/*
-  {
-    "url": "",
-    "des": "",
-    "ref": "",
-    "date": "",
-  },
-*/
