@@ -122,7 +122,7 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-        } while (count < loadLimit);
+        } while (count < loadLimit && imageList.length > 0);
 
         // send bottom links
         if (imageList.length > 0) {
