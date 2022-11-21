@@ -106,6 +106,12 @@ var imageList =
     "date": "2020-12-09",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-11.jpg",
+    "des": "After a day of mountain climbing and city walking. That white square pack is the heating pad. December in Hangzhou is fucking cold. Colder when it is raining.",
+    "ref": "",
+    "date": "2020-12-08",
+  },
+  {
     "url": "https://storage.beriru.wiki/new-7.jpg",
     "des": "云栖竹径, Hangzhou. Wet and cold.",
     "ref": "",
@@ -116,6 +122,12 @@ var imageList =
     "des": "With KEKI in Foshan.",
     "ref": "",
     "date": "2020-10-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-3.jpg",
+    "des": "Hot summer day. Another photoshoot. Over the course of 2 years we have taken more than 100 different assignments from different workshops.",
+    "ref": "",
+    "date": "2020-07-19",
   },
   {
     "url": "https://pbs.twimg.com/media/EbBdK82U4AIQd7P?format=jpg&name=4096x4096",
@@ -137,13 +149,13 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/new-5.jpg",
-    "des": "Another contracted shoot from a JK uniform workshop. Cool concept but I love the classics better.",
+    "des": "Another photoshoot assignment from a JK uniform workshop. Cool concept but I love the classics better.",
     "ref": "",
     "date": "2019-09-19",
   },
   {
     "url": "https://storage.beriru.wiki/new-8.jpg",
-    "des": "Near 中山纪念堂 in 越秀公园. We were doing contracted shoots for Lolita fashion workshops.",
+    "des": "Near 中山纪念堂 in 越秀公园. We were doing photoshoot assignments for Lolita fashion workshops.",
     "ref": "",
     "date": "2019-07-26",
   },
@@ -189,6 +201,12 @@ var imageList =
     "date": "2018-06",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-10.jpg",
+    "des": "This pair of smooth, translucent knee-socks are quite unique. The edges are extra-wide like the stockings back in the old days. Unfortunately they don't sell them anymore.",
+    "ref": "",
+    "date": "2018-04-20",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-47.jpg",
     "des": "Couple on the street of 北京路.",
     "ref": "",
@@ -201,16 +219,34 @@ var imageList =
     "date": "2017-11-28",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-8.jpg",
+    "des": "Top of Guangzhou East does create a lot of stunning city backdrops. This school bag was actually lost in the later years, but we bought a new one.",
+    "ref": "",
+    "date": "2017-11-17",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-45.jpg",
     "des": "This is actually taken at a motorway service stop, using a rented 105mm vintage lens. That bokeh is creamy.",
     "ref": "",
     "date": "2017-08-04",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-6.jpg",
+    "des": "A backdrop dedicated to be a bokeh machine. At 凯德广场.",
+    "ref": "",
+    "date": "2017-07-28",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-44.jpg",
     "des": "Waiting for movies in 正佳广场.",
     "ref": "",
     "date": "2017-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-9.jpg",
+    "des": "When you shoot NBs with flash on, they reflect and SHINE.",
+    "ref": "",
+    "date": "2017-02-12",
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-43.jpg",
@@ -327,6 +363,12 @@ var imageList =
     "date": "2015-10-02",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-7.jpg",
+    "des": "First Lolita closthings we bought. Trying out in Home Inns.",
+    "ref": "",
+    "date": "2018-08-20",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-25.jpg",
     "des": "Not from the official character settings but I guess Miku can wear whatever she wants.",
     "ref": "",
@@ -375,7 +417,7 @@ var imageList =
     "date": "2015-02",
   },
   {
-    "url": "https://storage.beriru.wiki/flickr-archive-18.jpg",
+    "url": "https://storage.beriru.wiki/1122-1.jpg",
     "des": "In sunny days, Portra 400 does give you nice colours.",
     "ref": "",
     "date": "2015-02",
@@ -399,8 +441,20 @@ var imageList =
     "date": "2014-10",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-5.jpg",
+    "des": "Bold yet smooth.",
+    "ref": "",
+    "date": "2014-09-07",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-14.jpg",
     "des": "幼. They don't sell these type of double-layer tights anymore.",
+    "ref": "",
+    "date": "2014-09-07",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-4.jpg",
+    "des": "Like art.",
     "ref": "",
     "date": "2014-09-07",
   },
@@ -409,6 +463,12 @@ var imageList =
     "des": "Strange posing/idea, but cute.",
     "ref": "",
     "date": "2014-09-07",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-14.jpg",
+    "des": "Young couple.",
+    "ref": "",
+    "date": "2014-07-26",
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-12.jpg",
@@ -423,6 +483,12 @@ var imageList =
     "date": "2014-05",
   },
   {
+    "url": "https://storage.beriru.wiki/1122-13.jpg",
+    "des": "A cheap budget hotel we used to go there a lot.",
+    "ref": "",
+    "date": "2014-04-05",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-10.jpg",
     "des": "山茶花 in 华南植物园",
     "ref": "",
@@ -433,6 +499,18 @@ var imageList =
     "des": "KEKI with F3. Shot on Mamiya RB-67.",
     "ref": "",
     "date": "2014-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-12.jpg",
+    "des": "Shy KEKI in highschool uniforms.",
+    "ref": "",
+    "date": "2013-11-22",
+  },
+  {
+    "url": "https://storage.beriru.wiki/1122-2.jpg",
+    "des": "First time experiencing that soft glow highlight from Fujifilm.",
+    "ref": "",
+    "date": "2013-11-16",
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-08.jpg",
