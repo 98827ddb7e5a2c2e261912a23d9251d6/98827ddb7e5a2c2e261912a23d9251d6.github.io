@@ -51,9 +51,9 @@ layout: default
 
 # Photos I Love
 
-<div style="text-align: center; filter: saturate(0); font-size: 120%;"><a href="/photos">Click Here</a></div>
+<div style="text-align: center; filter: saturate(0); font-size: 120%;"><a href="/photos">Go to the List</a></div>
 
-<div style="text-align: center"><i>The list is long. All images are full-res. You probably won't like all of them. You have been warned.</i></div>
+<div style="text-align: center"><i>The list is long. All images are full-res. You may find some of them disturbing or weird. You have been warned.</i></div>
 
 # Stuff I Made
 
