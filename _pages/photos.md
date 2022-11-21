@@ -136,7 +136,7 @@ permalink: /photos/
             });
         } else {
             // fuck you adobe portfolio
-            // document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%; filter: saturation(0);"><a>The End</a></div>`);
         }
 
         // repos
@@ -149,6 +149,40 @@ permalink: /photos/
         // load first 10
         loadImageList();
     }
+
+    // load all easter egg
+    // loadAll
+    function loadAll() {
+        loadLimit = 999999999999999;
+        loadImageList();
+    }
+    // type "all"
+    window.addEventListener('keypress', (function() {
+        var strToType = 'all',
+            strTyped = '';
+        return function(event) {
+            var character = String.fromCharCode(event.which);
+            strTyped += character;
+            if (strToType.indexOf(strTyped) === -1) strTyped = '';
+            else if (strTyped === strToType) {
+                strTyped = '';
+                loadAll();
+            }
+        };
+    }()) );
+    // double click/tap header
+    var mylatesttap;
+    function doubletap(){
+        var now = new Date().getTime();
+        var timesince = now - mylatesttap;
+        if((timesince < 600) && (timesince > 0)){
+        loadAll();  
+        }
+        mylatesttap = new Date().getTime();
+    }
+    document.getElementsByClassName("wrapper-masthead")[0].addEventListener("click", function(){
+        doubletap()
+    });
 
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');

@@ -215,7 +215,7 @@ var imageList =
   {
     "url": "https://storage.beriru.wiki/flickr-archive-49.jpg",
     "des": "水中ニーソニーソ（Ver.ギャラクシー）from <a href='https://twitter.com/manabukoga/' target='_blank'>古賀学（Manabu Koga）</a>",
-    "ref": "https://sprite.theshop.jp/items/2603925",
+    "ref": "",
     "date": "2016-08-22",
   },
   {
@@ -262,7 +262,7 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-34.jpg",
-    "des": "Stunning and slightly naughty, erotic posing. Many people don't like these type of \"fake\" knee-socks but I found them extra cute.",
+    "des": "Slightly naughty and erotic posing. Many people don't like these type of \"fake\" knee-socks but I found them extra cute.",
     "ref": "",
     "date": "2016-03-04",
   },
