@@ -117,17 +117,17 @@ permalink: /photos/
                     `+dateHtml+`
                 </div>
             `;
-            document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
+            document.getElementById("photo-list").innerHTML.insertAdjacentHTML('afterend', child);
             
             // stop and append new step loader if too many items
             if (index >= loadLimit - 1) {
-                document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + 
-                `<a href="#" id="lazy-load-more">Load More</a>`;
+                document.getElementById("photo-list").innerHTML.insertAdjacentHTML('afterend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
                 document.getElementById("lazy-load-more").addEventListener("click", function(){
                     loadImageList();
                 });
                 return false;
             } else {
+                imageList.shift();
                 return true;
             }
         });
