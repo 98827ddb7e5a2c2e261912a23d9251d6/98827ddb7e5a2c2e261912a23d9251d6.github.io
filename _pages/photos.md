@@ -119,7 +119,7 @@ permalink: /photos/
             `;
             
             // remove item
-            var shift = imageList.shift();
+            console.log(imageList.shift());
 
             // only show when not over limit
             if (index < loadLimit) {
