@@ -40,6 +40,12 @@ var imageList =
     "date": "2022-08-20",
   },
   {
+    "url": "https://pbs.twimg.com/media/FZfFlLPaMAE2EP_?format=jpg&name=4096x4096",
+    "des": "First time knowing iPhone is capable of taking astro shots.",
+    "ref": "",
+    "date": "2022-08-06",
+  },
+  {
     "url": "https://pbs.twimg.com/media/FiFPhk0agAQBKBH?format=jpg&name=large",
     "des": "Dressing up for the shoot. Raffles Shenzhen. The room is excellent.",
     "ref": "",
@@ -70,6 +76,12 @@ var imageList =
     "date": "2021-09-09",
   },
   {
+    "url": "https://pbs.twimg.com/media/EtyPSihVIAIyK8S?format=jpg&name=large",
+    "des": "A pug. Near Parc Central.",
+    "ref": "",
+    "date": "2021-02-09",
+  },
+  {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/87d6a69b-779e-4104-89e0-08fb5b25e79b_rw_1920.jpg&name=large?h=b939ee40347dc630311fa24f1bb788f0&url=aHR0cHM6Ly9waG90b3MuYWRvYmUuaW8vdjIvY2F0YWxvZ3MvZWRhZDFlYzJhNDA0NDFhY2IwMTMwYjNmMjdhZTI2N2YvYXNzZXRzL2UxZWQwYzYwOTNiNTQ5ZjE5YWIwMzY1ZTk5OGE1ODdkL3JldmlzaW9ucy85ZTE2YTFhNmQ3YTM0MDYyOTZiM2I0MDJlMzQyZDQ4Ny9yZW5kaXRpb25zLzk3NzEwNWU2MWFiNTBhZjgyMGY0Nzk1ZjBlNDM1MTFi",
     "des": "良渚文化村, Hangzhou.",
     "ref": "",
@@ -86,6 +98,18 @@ var imageList =
     "des": "云栖竹径, Hangzhou. Wet and cold day.",
     "ref": "",
     "date": "2020-12-08",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/EjpuAKjXgAgoiWd?format=jpg&name=medium",
+    "des": "With KEKI in Foshan.",
+    "ref": "",
+    "date": "2020-10-06",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/EbBdK82U4AIQd7P?format=jpg&name=4096x4096",
+    "des": "First time seeing (sort of) full solar eclipse. It is breathtaking.",
+    "ref": "",
+    "date": "2020-06-21",
   },
   {
     "url": "https://cdn.myportfolio.com/70f34193-df85-4feb-9918-c95f6a8c3810/c68b9807-e417-431d-918c-60db25228e3b_rw_1920.jpg&name=large?h=011414e47aa9d190ec064ce47c8e4455&url=aHR0cHM6Ly9waG90b3MuYWRvYmUuaW8vdjIvY2F0YWxvZ3MvZWRhZDFlYzJhNDA0NDFhY2IwMTMwYjNmMjdhZTI2N2YvYXNzZXRzL2I5OWYzOGFmODg2ZjQxZWRhZTM4YTczMzE0MjdjOGY4L3JldmlzaW9ucy8wYmE1ZTIyMzQ2YTU0YTU3YjI0MDU1MTE2MjE1YWVmOS9yZW5kaXRpb25zLzRiMjY5OTRlYTNmYTE0ODZiYWVhMDAzZDU1MzM0NDRi",
