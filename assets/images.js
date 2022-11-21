@@ -58,13 +58,13 @@ var imageList =
     "date": "2021-09-12",
   },
   {
-    "url": "/images/archive/flickr-archive-.jpg",
+    "url": "/images/archive/new-10.jpg",
     "des": "Rosewood Sanya. Not bad for iPhone portrait mode.",
     "ref": "",
     "date": "2021-09-12",
   },
   {
-    "url": "/images/archive/flickr-archive-.jpg",
+    "url": "/images/archive/new-11.jpg",
     "des": "Balcony private pool. The Westin Blue Bay Resort & Spa, Lingshui.",
     "ref": "",
     "date": "2021-09-10",
