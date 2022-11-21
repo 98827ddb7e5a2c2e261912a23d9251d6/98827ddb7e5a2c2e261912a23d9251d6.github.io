@@ -35,7 +35,9 @@ permalink: /photos/
         filter: contrast(2);
         mix-blend-mode: overlay !important;
     }
-
+    @media screen#filter {
+    mix-blend-mode: normal !important;
+    }
     /* styling photo list */
     .photo-children {
         max-width: 400px;
@@ -112,4 +114,7 @@ permalink: /photos/
             document.getElementById("photo-list").innerHTML = document.getElementById("photo-list").innerHTML + child;
         });
     }
+
+    // fix noir incompa
+    document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
 </script>

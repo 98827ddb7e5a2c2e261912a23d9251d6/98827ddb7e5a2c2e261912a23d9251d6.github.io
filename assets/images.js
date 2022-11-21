@@ -2,7 +2,7 @@
 var imageList = 
 [
   // new entries following this
-  {"date":"2022-11-21","url":"https://pbs.twimg.com/media/FhDKeTkakAIMpF5?format=jpg&name=large","des":"A test","ref":""}, // added by iOS shortcut
+  {"date":"2022-11-21","url":"https://pbs.twimg.com/media/FhDKeTkakAIMpF5?format=jpg&name=large","des":"iOS Shortcut test","ref":""}, // added by iOS shortcut
   {
     "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
     "des": "Kigurumi, Dollkii 黑曜。Near Hong Kong-Zhuhai-Macao Bridge in Zhuhai.",
