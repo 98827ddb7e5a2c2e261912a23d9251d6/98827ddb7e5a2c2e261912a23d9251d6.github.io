@@ -119,6 +119,9 @@ permalink: /photos/
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             
+            // remove item
+            console.log(imageList);
+            imageList.shift();
             // stop and append new step loader if too many items
             if (index >= (loadLimit - 1)) {
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
@@ -127,9 +130,9 @@ permalink: /photos/
                 });
                 return false;
             } else if (imageList.length > 0) {
-                imageList.shift();
                 return true;
             } else {
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="https://beriru.myportfolio.com/home" target="_blank">View More in Portfolio</a></div>`);
                 return false;
             }
         });
