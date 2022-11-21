@@ -19,7 +19,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/FdhAMpeVsAAfcjY?format=jpg&name=large",
-    "des": "Rosewood Guangzhou",
+    "des": "Rosewood Guangzhou. Room looks like <a href='https://pbs.twimg.com/media/Fdk7x3yaMAApzX-?format=jpg&name=4096x4096' target='_blank'>this</a>.",
     "date": "2022-09-26",
   },
   {
@@ -36,7 +36,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/Fb_Z6FhaUAc5JZu?format=jpg&name=large",
-    "des": "CM Viking Cruise, balcony of ES2 suite.",
+    "des": "CM Viking Cruise, balcony of ES2 suite. Room looks like this: <a href='https://pbs.twimg.com/media/Fb8qQOnaMAAZrtm?format=jpg&name=large' target='_blank'>(1)</a>, <a href='https://pbs.twimg.com/media/Fb8qQSFaIAAgAqm?format=jpg&name=large' target='_blank'>(2)</a>, <a href='https://pbs.twimg.com/media/Fb8qQVgagAAsc1E?format=jpg&name=large' target='_blank'>(3)</a>, <a href='https://pbs.twimg.com/media/Fb8qQZPaUAA7iB_?format=jpg&name=large' target='_blank'>(4)</a>.",
     "date": "2022-08-20",
   },
   {
