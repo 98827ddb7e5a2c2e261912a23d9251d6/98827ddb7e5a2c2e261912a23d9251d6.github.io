@@ -101,7 +101,7 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/new-7.jpg",
-    "des": "云栖竹径, Hangzhou. Wet and cold day.",
+    "des": "云栖竹径, Hangzhou. Wet and cold.",
     "ref": "",
     "date": "2020-12-08",
   },
@@ -190,7 +190,7 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-46.jpg",
-    "des": "First time shooting Kigurumi outdoors. Although 御温泉 does not provide the best catering and hot spring, it does have fantastic scenes and decors.",
+    "des": "First time shooting Kigurumi outdoors. Although 御温泉 does not provide the best catering nor the best hot spring, it does have fantastic scenes and decors.",
     "ref": "https://twitter.com/KEKI_1112/status/1102510921237159939",
     "date": "2017-11-28",
   },
@@ -208,7 +208,7 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-43.jpg",
-    "des": "Ma'an mountain seashore, Hong Kong. Nice that New Balance makes stylish kid shoes.",
+    "des": "Ma'an mountain seashore, Hong Kong. Nice that New Balance kept making stylish kid shoes.",
     "ref": "",
     "date": "2017-02-02",
   },
