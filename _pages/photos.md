@@ -120,15 +120,17 @@ permalink: /photos/
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
             
             // stop and append new step loader if too many items
-            if (index >= loadLimit - 1) {
+            if (index >= (loadLimit - 1)) {
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a href="#" id="lazy-load-more">Load More</a></div>`);
                 document.getElementById("lazy-load-more").addEventListener("click", function(){
                     loadImageList();
                 });
                 return false;
-            } else {
+            } else if (imageList.length > 0) {
                 imageList.shift();
                 return true;
+            } else {
+                return false;
             }
         });
     }
