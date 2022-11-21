@@ -113,7 +113,7 @@ permalink: /photos/
                 var dateHtml = `<p class="photo-date">date unknown</p>`;
             }
             if (item.ref) {
-                var refHtml = " <a href='"+item.ref+"' target='_blank'>></a>";
+                var refHtml = " <a href='"+item.ref+"' target='_blank'>(more)</a>";
             } else {
                 var refHtml = "";
             }
