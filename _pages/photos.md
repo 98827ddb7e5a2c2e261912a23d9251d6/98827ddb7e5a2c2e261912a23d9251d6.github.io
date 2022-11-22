@@ -217,13 +217,21 @@ permalink: /photos/
     // display single pic
     if (extImgSrc = urlParm.get('loadExt')) {
         defaultLoad = false;
+        document.getElementsByTagName("h1")[0].remove();
         document.getElementById("hero-title").remove();
         var child = `
             <div class="photo-children">
                 <img src="`+extImgSrc+`"/>
+                <p class="photo-date">(external image)</p>
+                <p class="photo-des"><a id="go-back">< Back</a></p>
             </div>
         `;
         document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
+        document.getElementById("go-back").addEventListener("click", function(){
+            history.length > 0 
+            ? history.back();
+            : window.close();
+        });
     }
 
     // global default
