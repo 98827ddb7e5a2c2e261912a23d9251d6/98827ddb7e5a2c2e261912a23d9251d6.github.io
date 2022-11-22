@@ -19,7 +19,7 @@ a::after {
     background: -webkit-linear-gradient(45deg,#3172ff,#00FF92)!important;
 }
 
-.footer>a::after, a.site-avatar::after, .hidden-text>a::after a.no-underline::after {
+.footer>a::after, a.site-avatar::after, .hidden-text>a::after, a.no-underline::after {
     content: "";
     position: absolute;
     left: 0;
