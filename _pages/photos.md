@@ -110,17 +110,19 @@ permalink: /photos/
         do {
             count++;
             if (index) {
-                imageList.forEach(function(element, key) {
-                    if(element.index == index) {
-                        var item = element;
+                for (let i = 0; i < imageList.length; i++) { 
+                    if (imageList[i].index == index) {
+                        var item = imageList[i];
                         count = loadLimit;
-                        imageList.splice(key, 1);
+                        imageList.splice(i, 1);
                         loadCount = 0;
                     }
-                });
-            } else {
+                }
+            } 
+            if (!item) {
                 var item = imageList.shift();
             }
+
             // build items and append
             if (item.date) {
                 var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
