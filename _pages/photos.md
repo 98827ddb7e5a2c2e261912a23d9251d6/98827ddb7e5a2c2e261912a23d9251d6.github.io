@@ -63,7 +63,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p style="color: #fff;text-align: center;">I took all of them.<br/>They are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I wouldn't bother to sue you.</p>
+<p id="hero-title" style="color: #fff;text-align: center;">I took all of them.<br/>They are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I wouldn't bother to sue you.</p>
 <div id="photo-list"></div>
 
 <script>
@@ -215,8 +215,15 @@ permalink: /photos/
     }
 
     // display single pic
-    if (cusLoadLimit = urlParm.get('loadExt')) {
+    if (extImgSrc = urlParm.get('loadExt')) {
         defaultLoad = false;
+        document.getElementById("hero-title").remove();
+        var child = `
+            <div class="photo-children">
+                <img src="`+extImgSrc+`"/>
+            </div>
+        `;
+        document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
     }
 
     // global default
