@@ -185,7 +185,8 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/DqFMNjZU4AAHBD1?format=jpg&name=large",
-    "des": "Kigurumi skin with white knee-socks.",
+    "des": "Kigurumi skin with white knee-socks. Full Kigurumi look ->",
+    "ref": "https://twitter.com/KEKI_1112/status/1054672531204894720",
     "date": "2018-10-17",
   },
   {
@@ -371,13 +372,13 @@ var imageList =
   {
     "url": "https://storage.beriru.wiki/flickr-archive-25.jpg",
     "des": "Not from the official character settings but I guess Miku can wear whatever she wants.",
-    "ref": "",
+    "ref": "https://twitter.com/KEKI_1112/status/804664803834953729",
     "date": "2015-07-21",
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-24.jpg",
-    "des": "First Kigurumi mask, from RAIGEKI 雷击工坊. Dealing with that super long twin tails is a mess.",
-    "ref": "",
+    "des": "First Kigurumi mask, from RAIGEKI 雷击工坊. Dealing with that super long twin tails is a mess. Another photo from a different shoot ->",
+    "ref": "https://twitter.com/KEKI_1112/status/902561886268416001",
     "date": "2015-07-20",
   },
   {
