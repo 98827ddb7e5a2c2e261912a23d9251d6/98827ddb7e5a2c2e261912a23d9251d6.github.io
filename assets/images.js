@@ -566,3 +566,8 @@ var imageList =
     "date": "2010-08-02",
   },
 ];
+
+// mark
+for (let i = 0; i < imageList.length; i++) { 
+  imageList[i].index = imageList.length - i;
+}

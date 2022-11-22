@@ -110,10 +110,14 @@ permalink: /photos/
         do {
             count++;
             if (index) {
-                var item = imageList[index];
-                count = loadLimit;
-                imageList.splice(index, 1);
-                loadCount = 0;
+                imageList.find(function(element, index) {
+                    if(element.index == index) {
+                        var item = imageList[index];
+                        count = loadLimit;
+                        imageList.splice(index, 1);
+                        loadCount = 0;
+                    }
+                });
             } else {
                 var item = imageList.shift();
             }
@@ -130,7 +134,7 @@ permalink: /photos/
             }
             var child = `
                 <div class="photo-children">
-                    <img src="`+item.url+`"/>
+                    <img src="`+item.url+`" photoId="`item.index`"/>
                     <p class="photo-des">`+item.des+refHtml+`</p>
                     `+dateHtml+`
                 </div>
