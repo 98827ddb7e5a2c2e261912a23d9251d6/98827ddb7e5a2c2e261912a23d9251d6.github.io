@@ -147,7 +147,7 @@ permalink: /photos/
         // share buttons
         var shares = document.getElementsByClassName("click-to-share");
         Array.prototype.forEach.call(shares, function(element) {
-            element.replaceWith(element.clone());
+            element.replaceWith(element.cloneNodes(true));
             element.addEventListener("click", function(){
                 navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
                 alert("link copied");
