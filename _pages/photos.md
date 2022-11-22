@@ -35,7 +35,7 @@ permalink: /photos/
         top: 0;
         left: 0;
         opacity: 1;
-        filter: contrast(1.2);
+        filter: contrast(1.5);
         mix-blend-mode: overlay !important;
     }
     @media screen#filter {

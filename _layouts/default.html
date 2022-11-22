@@ -26,10 +26,9 @@
         return rand;
       }
       var hueAdjDeg = 0;
-      var hueAdjTries = 0;
       do {
         hueAdjDeg = generateRandom();
-      } while (hueAdjDeg > 160 && hueAdjDeg < 285 && hueAdjTries <= 10);
+      } while (hueAdjDeg > 160 && hueAdjDeg < 285);
       var hueModStyles = '#bar,a{filter:hue-rotate('+hueAdjDeg+'deg);}';
       var styleSheet = document.createElement("style");
       styleSheet.innerText = hueModStyles;
