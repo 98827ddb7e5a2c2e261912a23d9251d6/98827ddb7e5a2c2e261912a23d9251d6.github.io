@@ -571,3 +571,5 @@ var imageList =
 for (let i = 0; i < imageList.length; i++) { 
   imageList[i].index = imageList.length - i;
 }
+
+var imageListLengthOri = imageList.length;

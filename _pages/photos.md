@@ -110,11 +110,11 @@ permalink: /photos/
         do {
             count++;
             if (index) {
-                imageList.find(function(element, i) {
-                    if(element.index == i) {
-                        var item = imageList[i];
+                imageList.find(function(element, key) {
+                    if(element.index == index) {
+                        var item = element;
                         count = loadLimit;
-                        imageList.splice(index, 1);
+                        imageList.splice(key, 1);
                         loadCount = 0;
                     }
                 });
@@ -201,8 +201,7 @@ permalink: /photos/
 
     // load specific
     if (loadIndex = urlParm.get('loadSingle')) {
-        if (loadIndex < imageList.length) {
-            loadIndex--;
+        if (loadIndex <= imageListLengthOri) {
             loadImageList(loadIndex);
             defaultLoad = false;
         }
