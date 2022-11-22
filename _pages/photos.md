@@ -16,6 +16,9 @@ permalink: /photos/
     h1, h2, h3 {
         color: #FFF !important;
     }
+    a {
+        white-space: nowrap !important;
+    }
     .wrapper-footer {
         background: #222 !important;
     }
@@ -60,7 +63,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p style="color: #fff;text-align: center;">I took all of them. They are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I wouldn't bother to sue you.</p>
+<p style="color: #fff;text-align: center;">I took all of them.<br/>They are <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> but you knew I wouldn't bother to sue you.</p>
 <div id="photo-list"></div>
 
 <script>
@@ -100,7 +103,7 @@ permalink: /photos/
 
         // remove step loader
         if (document.getElementsByClassName("lazy-load-toggle").length > 0) {
-            document.getElementsByClassName("lazy-load-toggle").forEach(function(element){
+            [].forEach.call(document.getElementsByClassName("lazy-load-toggle"), function(element){
                 element.remove();
             });
         }
