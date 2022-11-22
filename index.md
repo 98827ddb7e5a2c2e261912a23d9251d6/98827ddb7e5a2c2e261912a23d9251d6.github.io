@@ -85,7 +85,7 @@ layout: default
 
 <script>
 	// put guide on hero after 5s
-	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p id="hero-instruct">⬇️</p>`)}, 5000);
+	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p id="hero-instruct">⬇️</p>`)}, 2000);
 
 	// remove instruct
 	var firstScrollDone = false;
