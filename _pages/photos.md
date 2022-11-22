@@ -93,7 +93,6 @@ permalink: /photos/
     }
 
     // parse image list
-    var loadLimit = 5;
     var loadCount = 0;
     function loadImageList(index) {
         loadCount++;
@@ -112,7 +111,7 @@ permalink: /photos/
             count++;
             if (index) {
                 var item = imageList[index];
-                loadCount = loadLimit;
+                count = loadLimit;
                 imageList.splice(index, 1);
                 loadCount = 0;
             } else {
@@ -193,14 +192,31 @@ permalink: /photos/
     // handle url param
     const urlParm = new URLSearchParams(window.location.search);
 
+    // default flag
+    var defaultLoad = true
+
     // load specific
-    var isLoadSpecific = false
-    if (loadNum = urlParm.get('load')) {
-        if (loadNum < imageList.length) {
-            loadNum--;
-            loadImageList(loadNum);
-            isLoadSpecific = true;
+    if (loadIndex = urlParm.get('loadSingle')) {
+        if (loadIndex < imageList.length) {
+            loadIndex--;
+            loadImageList(loadIndex);
+            defaultLoad = false;
         }
+    }
+
+    // customise load limit
+    var loadLimit = 5; // default
+    if (cusLoadLimit = urlParm.get('loadLimit')) {
+        if (cusLoadLimit > imageList.length || cusLoadLimit == 0) {
+            loadLimit = imageList.length;
+        } else {
+            loadLimit = cusLoadLimit;
+        }
+    }
+
+    // display single pic
+    if (cusLoadLimit = urlParm.get('loadExt')) {
+        defaultLoad = false;
     }
 
     // global default
