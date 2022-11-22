@@ -142,15 +142,17 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-
-            var shares = document.getElementsByClassName("click-to-share");
-            Array.prototype.forEach.call(shares, function(element) {
-                element.addEventListener("click", function(){
-                    navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
-                    alert("link copied");
-                });
-            });
         } while (count < loadLimit && imageList.length > 0);
+
+        // share buttons
+        var shares = document.getElementsByClassName("click-to-share");
+        Array.prototype.forEach.call(shares, function(element) {
+            element.replaceWith(element.clone());
+            element.addEventListener("click", function(){
+                navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
+                alert("link copied");
+            });
+        });
 
         // append bottom links
         if (imageList.length > 0) {
