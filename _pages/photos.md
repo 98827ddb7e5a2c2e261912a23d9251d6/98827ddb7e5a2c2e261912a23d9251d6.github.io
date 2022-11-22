@@ -118,8 +118,7 @@ permalink: /photos/
                         loadCount = 0;
                     }
                 }
-            } 
-            if (!item) {
+            } else {
                 var item = imageList.shift();
             }
 
