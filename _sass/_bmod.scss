@@ -8,6 +8,10 @@ a {
     -webkit-text-fill-color: transparent !important;
 }
 
+a:hover {
+    opacity: 0.7;
+}
+
 a::after {
     content: "";
     position: absolute;
@@ -29,7 +33,6 @@ a::after {
     bottom: 0;
     background: rgba(0,0,0,0)!important;
 }
-
 
 .color-sample {
     background: linear-gradient(45deg, rgba(213,213,213,1) 0%, rgba(167,167,167,1) 100%);
