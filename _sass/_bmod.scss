@@ -17,7 +17,7 @@ a::after {
     background: -webkit-linear-gradient(45deg,#3172ff,#00FF92)!important;
 }
 
-a.svg-icon, a.site-avatar, a.no-underline {
+.footer>a::after, a.site-avatar::after, a.no-underline::after {
     content: "";
     position: absolute;
     left: 0;
