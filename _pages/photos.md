@@ -91,14 +91,18 @@ permalink: /photos/
 
     // parse image list
     var loadLimit = 5;
+    var loadCount = 0;
     function loadImageList() {
+        loadCount++;
+
         // doc scroll position
         var currentPos = document.documentElement.scrollTop;
 
         // remove step loader
-        var lazyLoadMore = document.getElementById("lazy-load-more");
-        if (lazyLoadMore) {
-            document.getElementById("lazy-load-more").remove();
+        if (document.getElementsByClassName("lazy-load-toggle").length > 0) {
+            document.getElementById("lazy-load-more").forEach(function(element){
+                element.remove();
+            });
         }
 
         // load images
@@ -130,13 +134,22 @@ permalink: /photos/
         // append bottom links
         if (imageList.length > 0) {
             // append load more
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a id="lazy-load-more">Load More</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
                 loadImageList();
             });
+
+            // append load all after the 3rd try
+            if (loadCount >= 3) {
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a id="lazy-load-all" style="filter: saturation(0);">Load All</a></div>`);
+                document.getElementById("lazy-load-all").addEventListener("click", function(){
+                    loadAll();
+                });
+            }
+            
         } else {
             // fuck you adobe portfolio
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%; filter: saturation(0);"><a>The End</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a style="filter: saturation(0);">The End</a></div>`);
         }
 
         // repos
@@ -169,20 +182,7 @@ permalink: /photos/
                 loadAll();
             }
         };
-    }()) );
-    // double click/tap header
-    var mylatesttap;
-    function doubletap(){
-        var now = new Date().getTime();
-        var timesince = now - mylatesttap;
-        if((timesince < 600) && (timesince > 0)){
-        loadAll();  
-        }
-        mylatesttap = new Date().getTime();
-    }
-    document.getElementsByClassName("wrapper-masthead")[0].addEventListener("click", function(){
-        doubletap()
-    });
+    }()));
 
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
