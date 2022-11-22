@@ -19,7 +19,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/FdhAMpeVsAAfcjY?format=jpg&name=large",
-    "des": "Rosewood Guangzhou, spa. Room looks like <a href='https://pbs.twimg.com/media/Fdk7x3yaMAApzX-?format=jpg&name=4096x4096' target='_blank'>this</a>.",
+    "des": "Rosewood Guangzhou, spa. Room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/Fdk7x3yaMAApzX-?format=jpg&name=4096x4096' target='_blank'>this</a>.",
     "date": "2022-09-26",
   },
   {
@@ -36,7 +36,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/Fb_Z6FhaUAc5JZu?format=jpg&name=large",
-    "des": "CM Viking Cruise, ES2 suite private balcony. Room looks like <a href='https://pbs.twimg.com/media/Fb8qQOnaMAAZrtm?format=jpg&name=large' target='_blank'>this</a>.",
+    "des": "CM Viking Cruise, ES2 suite private balcony. Room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/Fb8qQOnaMAAZrtm?format=jpg&name=large' target='_blank'>this</a>.",
     "date": "2022-08-20",
   },
   {
