@@ -102,10 +102,8 @@ permalink: /photos/
         var currentPos = document.documentElement.scrollTop;
 
         // remove step loader
-        if (document.getElementsByClassName("lazy-load-toggle").length > 0) {
-            [].forEach.call(document.getElementsByClassName("lazy-load-toggle"), function(element){
-                element.remove();
-            });
+        while (document.getElementsByClassName("lazy-load-toggle").length > 0) {
+            document.getElementsByClassName("lazy-load-toggle")[0].remove();
         }
 
         // load images
@@ -144,7 +142,7 @@ permalink: /photos/
 
             // append load all after the 3rd try
             if (loadCount >= 3) {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a id="lazy-load-all" style="filter: saturation(0);">Load All</a></div>`);
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a id="lazy-load-all" style="filter: saturate(0);">Load All</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
                     loadAll();
                 });
@@ -152,7 +150,7 @@ permalink: /photos/
             
         } else {
             // fuck you adobe portfolio
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a style="filter: saturation(0);">The End</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a style="filter: saturate(0);">The End</a></div>`);
         }
 
         // repos
