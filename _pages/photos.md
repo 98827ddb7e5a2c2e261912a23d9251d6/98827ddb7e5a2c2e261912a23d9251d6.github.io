@@ -128,7 +128,7 @@ permalink: /photos/
             } else {
                 var dateHtml = `date unknown`;
             }
-            dateHtml = `<p class="photo-date click-to-share" photoId="`+item.index+` style="cursor: pointer;">` + dateHtml + `</p>`
+            dateHtml = `<p class="photo-date click-to-share" photoId="`+item.index+`" style="cursor: pointer;">` + dateHtml + `</p>`
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
             } else {
