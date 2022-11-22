@@ -88,16 +88,19 @@ layout: default
 	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p id="hero-instruct">⬇️</p>`)}, 5000);
 
 	// remove instruct
-	setTimeout(function(){
-		document.addEventListener("scroll", function(){
+	var firstScrollDone = false;
+	document.addEventListener("scroll", function(){
+		if (firstScrollDone) {
 			if (showInstruct) {
 		  	clearTimeout(showInstruct);
 		  };
 		  if (document.getElementById("hero-instruct")) {
 		  	document.getElementById("hero-instruct").remove();
 		  }
-		});
-	}, 100);
+		} else {
+			firstScrollDone = true;
+		}
+	});
 
 	// on scroll blur hero
 	const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
