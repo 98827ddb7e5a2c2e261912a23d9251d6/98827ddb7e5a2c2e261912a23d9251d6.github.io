@@ -198,8 +198,8 @@ permalink: /photos/
     if (loadNum = urlParm.get('load')) {
         if (loadNum < imageList.length) {
             loadNum--;
-            loadImageList(index);
-            
+            loadImageList(loadNum);
+            isLoadSpecific = true;
         }
     }
 
