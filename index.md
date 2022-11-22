@@ -84,13 +84,19 @@ layout: default
 </script>
 
 <script>
+	// put guide on hero after 5s
+	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p id="hero-instruct">⬇️</p>`)}, 5000);
+
 	// on scroll blur hero
 	const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 	document.addEventListener("scroll", function(){
 	  var currentPos = document.documentElement.scrollTop;
 	  document.getElementById("hero").style.filter = "blur("+(currentPos/(vh/2)*50)+"px)";
-	});
 
-	// put guide on hero after 5s
-	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p>⬇️</p>`)}, 5000);
+	  // remove instruct
+	  if (showInstruct) {
+	  	clearTimeout(showInstruct);
+	  };
+	  document.getElementById("hero-instruct").remove();
+	});
 </script>
