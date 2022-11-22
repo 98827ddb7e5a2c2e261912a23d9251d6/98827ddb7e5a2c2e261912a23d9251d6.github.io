@@ -223,16 +223,12 @@ permalink: /photos/
             <div class="photo-children">
                 <img src="`+extImgSrc+`"/>
                 <p class="photo-date">(external image)</p>
-                <p class="photo-des"><a id="go-back">< Back</a></p>
+                <p class="photo-des"><a id="go-back">Close</a></p>
             </div>
         `;
         document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
         document.getElementById("go-back").addEventListener("click", function(){
-            if (history.length > 1) {
-                history.back();
-            } else {
-                window.close();
-            }
+            window.close();
         });
     }
 
