@@ -110,9 +110,9 @@ permalink: /photos/
         do {
             count++;
             if (index) {
-                imageList.find(function(element, index) {
-                    if(element.index == index) {
-                        var item = imageList[index];
+                imageList.find(function(element, i) {
+                    if(element.index == i) {
+                        var item = imageList[i];
                         count = loadLimit;
                         imageList.splice(index, 1);
                         loadCount = 0;
