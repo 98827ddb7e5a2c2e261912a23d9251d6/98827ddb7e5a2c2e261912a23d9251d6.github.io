@@ -30,7 +30,7 @@
       do {
         hueAdjDeg = generateRandom();
       } while (hueAdjDeg > 160 && hueAdjDeg < 285 && hueAdjTries <= 10);
-      var hueModStyles = '#bar,a{filter:hue-rotate('+hueAdjDeg+'deg);}';
+      var hueModStyles = '#bar,a,a::after{filter:hue-rotate('+hueAdjDeg+'deg);}';
       var styleSheet = document.createElement("style");
       styleSheet.innerText = hueModStyles;
       document.head.appendChild(styleSheet);
