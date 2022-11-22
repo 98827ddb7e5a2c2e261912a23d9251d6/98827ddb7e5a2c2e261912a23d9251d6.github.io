@@ -145,9 +145,10 @@ permalink: /photos/
         } while (count < loadLimit && imageList.length > 0);
 
         // share buttons
-        var shares = document.getElementsByClassName("click-to-share");
-        Array.prototype.forEach.call(shares, function(element) {
+        Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
             element.replaceWith(element.cloneNode(true));
+        });
+        Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
             element.addEventListener("click", function(){
                 navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
                 alert("link copied");
