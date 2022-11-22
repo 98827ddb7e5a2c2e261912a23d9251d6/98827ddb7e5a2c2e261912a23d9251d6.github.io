@@ -141,14 +141,14 @@ permalink: /photos/
         // append bottom links
         if (imageList.length > 0) {
             // append load more
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a id="lazy-load-more">Load More</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
                 loadImageList();
             });
 
             // append load all after the 3rd try
             if (loadCount >= 3) {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a id="lazy-load-all" font-size: 80%; style="filter: saturate(0);">Load All (`+imageList.length+`)</a></div>`);
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" font-size: 80%; style="filter: saturate(0);">Load All (`+imageList.length+`)</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
                     loadAll();
                 });
@@ -156,7 +156,7 @@ permalink: /photos/
             
         } else {
             // fuck you adobe portfolio
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a style="filter: saturate(0);">The End</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a class="no-underline" style="filter: saturate(0);">The End</a></div>`);
         }
 
         // repos
