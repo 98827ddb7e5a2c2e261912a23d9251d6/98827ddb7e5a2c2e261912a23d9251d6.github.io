@@ -95,7 +95,7 @@ permalink: /photos/
     // parse image list
     var loadLimit = 5;
     var loadCount = 0;
-    function loadImageList() {
+    function loadImageList(index) {
         loadCount++;
 
         // doc scroll position
@@ -110,7 +110,14 @@ permalink: /photos/
         var count = 0;
         do {
             count++;
-            var item = imageList.shift();
+            if (index) {
+                var item = imageList[index];
+                loadCount = loadLimit;
+                imageList.splice(index, 1);
+                loadCount = 0;
+            } else {
+                var item = imageList.shift();
+            }
             // build items and append
             if (item.date) {
                 var dateHtml = `<p class="photo-date">`+timeDifference(Date.parse(item.date))+`</p>`;
@@ -157,12 +164,7 @@ permalink: /photos/
         document.documentElement.scrollTop = currentPos;
     }
 
-    if (!imageList) {
-        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
-    } else {
-        // load first 10
-        loadImageList();
-    }
+    
 
     // load all easter egg
     // loadAll
@@ -187,4 +189,25 @@ permalink: /photos/
 
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
+
+    // handle url param
+    const urlParm = new URLSearchParams(window.location.search);
+
+    // load specific
+    var isLoadSpecific = false
+    if (loadNum = urlParm.get('load')) {
+        if (loadNum < imageList.length) {
+            loadNum--;
+            loadImageList(index);
+            
+        }
+    }
+
+    // global default
+    if (!imageList) {
+        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
+    } else if (!isLoadSpecific) {
+        // load first 10
+        loadImageList();
+    }
 </script>
