@@ -100,7 +100,7 @@ permalink: /photos/
 
         // remove step loader
         if (document.getElementsByClassName("lazy-load-toggle").length > 0) {
-            document.getElementById("lazy-load-more").forEach(function(element){
+            document.getElementsByClassName("lazy-load-toggle").forEach(function(element){
                 element.remove();
             });
         }
