@@ -222,7 +222,7 @@ permalink: /photos/
     // global default
     if (!imageList) {
         document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
-    } else if (!isLoadSpecific) {
+    } else if (defaultLoad) {
         // load first 10
         loadImageList();
     }
