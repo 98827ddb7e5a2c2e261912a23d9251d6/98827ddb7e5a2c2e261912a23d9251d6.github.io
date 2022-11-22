@@ -92,5 +92,5 @@ layout: default
 	});
 
 	// put guide on hero after 5s
-	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p>⬇️⬇️⬇️</p>`)}, 5000);
+	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p>⬇️</p>`)}, 5000);
 </script>
