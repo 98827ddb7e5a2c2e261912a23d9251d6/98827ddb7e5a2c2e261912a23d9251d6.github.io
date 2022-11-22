@@ -148,7 +148,7 @@ permalink: /photos/
 
             // append load all after the 3rd try
             if (loadCount >= 3) {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" font-size: 80%; style="filter: saturate(0);">Load All (`+imageList.length+`)</a></div>`);
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" style="filter: saturate(0); font-size: 80%; margin-top: 10px;">Load All (`+imageList.length+`)</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
                     loadAll();
                 });
@@ -243,4 +243,7 @@ permalink: /photos/
         // load first 10
         loadImageList();
     }
+
+    // no zoom and being naughty
+    document.getElementsByClassName("")
 </script>
