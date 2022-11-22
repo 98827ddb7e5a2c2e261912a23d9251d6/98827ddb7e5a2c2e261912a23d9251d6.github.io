@@ -128,7 +128,7 @@ permalink: /photos/
             } else {
                 var dateHtml = `date unknown`;
             }
-            dateHtml = `<p class="photo-date click-to-share" photoId="`+item.index+`" style="cursor: pointer;">` + dateHtml + `</p>`
+            dateHtml = `<p class="photo-date">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 130%;"> ➶ </span></p>`
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
             } else {
@@ -142,6 +142,13 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
+
+            var shares = document.getElementsByClassName("click-to-share");
+            Array.prototype.forEach.call(shares, function(element) {
+                element.addEventListener("click", function(){
+                    navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
+                });
+            });
         } while (count < loadLimit && imageList.length > 0);
 
         // append bottom links
