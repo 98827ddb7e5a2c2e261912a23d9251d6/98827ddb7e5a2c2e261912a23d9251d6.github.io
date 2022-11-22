@@ -134,7 +134,7 @@ permalink: /photos/
             }
             var child = `
                 <div class="photo-children">
-                    <img src="`+item.url+`" photoId="`item.index`"/>
+                    <img src="`+item.url+`" photoId="`+item.index+`"/>
                     <p class="photo-des">`+item.des+refHtml+`</p>
                     `+dateHtml+`
                 </div>
