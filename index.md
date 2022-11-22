@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="hero" style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2);"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
+<div id="hero" style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2); text-align: center;"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
@@ -90,4 +90,7 @@ layout: default
 	  var currentPos = document.documentElement.scrollTop;
 	  document.getElementById("hero").style.filter = "blur("+(currentPos/(vh/2)*50)+"px)";
 	});
+
+	// put guide on hero after 5s
+	const showInstruct = setTimeout(function(){document.getElementById("hero").insertAdjacentHTML('beforeend', `<p>⬇️⬇️⬇️</p>`)}, 5000);
 </script>
