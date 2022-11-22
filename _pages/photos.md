@@ -228,9 +228,11 @@ permalink: /photos/
         `;
         document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
         document.getElementById("go-back").addEventListener("click", function(){
-            history.length > 0 
-            ? history.back();
-            : window.close();
+            if (history.length > 0 ) {
+                history.back();
+            } else {
+                window.close();
+            }
         });
     }
 
