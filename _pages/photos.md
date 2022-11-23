@@ -55,6 +55,9 @@ permalink: /photos/
         font-size: 80%;
         margin-top: -5px;
     }
+    .photo-des{
+        opacity: 0.999;
+    }
     .photo-date{
         font-size: 50%;
         opacity: 0.5;
