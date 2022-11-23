@@ -51,7 +51,7 @@ layout: default
 
 # Photos I Adore
 
-<div class="no-underline" style="text-align: center; font-size: 120%;"><a href="/photos">Go to the List</a></div>
+<div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos">Go to the List</a></div>
 <div style="text-align: center"><i>The list is long. All images are full-res. You may find some of them disturbing or weird. But that's not my business.</i></div>
 
 # Stuff I Made
