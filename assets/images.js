@@ -436,10 +436,22 @@ var imageList =
     "date": "2015-02",
   },
   {
+    "url": "https://pbs.twimg.com/media/FiPwxEcUYAAckks?format=jpg&name=4096x4096",
+    "des": "On a bench in 华南植物园.",
+    "ref": "",
+    "date": "2015-02",
+  },
+  {
     "url": "https://storage.beriru.wiki/flickr-archive-16.jpg",
-    "des": "Fake snow, but super festive. Sigma 35mm f1.4 is stunning.",
+    "des": "Fake snow, but super festive. Sigma 35mm f1.4 is stunning. In 青年文化宫, 北京路.",
     "ref": "",
     "date": "2014-12-21",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/FiPwurnUYAA3Mk0?format=jpg&name=4096x4096",
+    "des": "Really into this stains, and the punchy, rustic, rough, HDR look. In Home Inns.",
+    "ref": "",
+    "date": "2014-12-20",
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-15.jpg",
@@ -460,12 +472,6 @@ var imageList =
     "date": "2014-09-07",
   },
   {
-    "url": "https://storage.beriru.wiki/1122-4.jpg",
-    "des": "Like art.",
-    "ref": "",
-    "date": "2014-09-07",
-  },
-  {
     "url": "https://storage.beriru.wiki/flickr-archive-13.jpg",
     "des": "Strange posing/idea.",
     "ref": "",
@@ -479,7 +485,7 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-12.jpg",
-    "des": "Bunny knee-socks tights.",
+    "des": "Bunny knee-socks tights. It is so worn that the bunny ear starts to peal off.",
     "ref": "",
     "date": "2014-05-24",
   },
