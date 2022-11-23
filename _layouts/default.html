@@ -11,9 +11,20 @@
 
     <script type="text/javascript">
       // no zoom, sorry
-      // document.addEventListener('gesturestart', function (e) {
-      //   e.preventDefault();
-      // });
+      document.addEventListener('gesturestart', function(e) {
+          e.preventDefault();
+          document.body.style.zoom = 0.99;
+      });
+      document.addEventListener('gesturechange', function(e) {
+          e.preventDefault();
+          document.body.style.zoom = 0.99;
+      });
+      document.addEventListener('gestureend', function(e) {
+          e.preventDefault();
+          document.body.style.zoom = 0.99;
+      });
+
+
     </script>
     <script src="/assets/mod.js"></script>
     <script>
