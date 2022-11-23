@@ -226,9 +226,11 @@ permalink: /photos/
     // load random one
     if (urlParm.get('loadRandom') == "yes") {
         var loadTargetIndex = Math.random() * (imageList.length - 1) + 1;
+        loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex);
         document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
         document.getElementById('lazy-load-more').innerText = "More from Latest";
+        defaultLoad = false;
     }
 
     // customise load limit
