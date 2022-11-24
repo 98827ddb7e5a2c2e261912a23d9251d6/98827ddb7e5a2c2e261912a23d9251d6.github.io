@@ -150,7 +150,7 @@ permalink: /photos/
                 } else {
                     var item = searchByIndex(listName, targetIndex, removeFound = true);
                 }
-                count = loadLimit;
+                count = window.loadLimit;
                 loadCount = 0;
             } else {
                 var item = window[listName].shift();
@@ -200,7 +200,7 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-        } while (count < loadLimit && window[listName].length > 0);
+        } while (count < window.loadLimit && window[listName].length > 0);
 
         // share buttons
         Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
