@@ -273,7 +273,7 @@ permalink: /photos/
             document.getElementById("new-random").addEventListener("click", function(){
                 getRandom(true);
             });
-            document.getElementById('lazy-load-more').innerText = "View the Full List";
+            document.getElementById('lazy-load-more').innerText = "View Latest";
             document.getElementById('lazy-load-more').style.fontSize = "80%";
             document.getElementById('lazy-load-more').style.filter = "saturate(0)";
             defaultLoad = false;
@@ -323,7 +323,7 @@ permalink: /photos/
         }
 
         // adjust lazy load
-        document.getElementById('lazy-load-more').innerText = "View the Full List";
+        document.getElementById('lazy-load-more').innerText = "View Latest";
         document.getElementById('lazy-load-more').style.fontSize = "80%";
         document.getElementById('lazy-load-more').style.filter = "saturate(0)";
         document.getElementById('lazy-load-more').addEventListener("click", function(){
