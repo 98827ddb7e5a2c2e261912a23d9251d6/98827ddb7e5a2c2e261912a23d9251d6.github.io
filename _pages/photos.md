@@ -139,12 +139,16 @@ permalink: /photos/
             } else {
                 var dateHtml = `date unknown`;
             }
+            if (item.skip) {
+                dateHtml = "⭒ ".dateHtml;
+            }
             dateHtml = `<p class="photo-date">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
             } else {
                 var refHtml = "";
             }
+
             var child = `
                 <div class="photo-children">
                     <img class="photo-image" src="`+item.url+`"/>
@@ -161,7 +165,11 @@ permalink: /photos/
         });
         Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
             element.addEventListener("click", function(){
-                navigator.clipboard.writeText("https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId"));
+                var link = "https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId");
+                if (item.skip) {
+                    link = link + "&hidden=yes";
+                }
+                navigator.clipboard.writeText();
                 alert("link copied");
             });
         });
@@ -224,7 +232,11 @@ permalink: /photos/
 
     // load specific
     if (loadIndex = urlParm.get('loadSingle')) {
-        if (loadIndex <= imageList.length) {
+        var targetList = "imageList";
+        if (urlParm.get('hidden') == "yes") {
+            targetList = "hiddenList";
+        }
+        if (loadIndex <= window[targetList].length) {
             loadImageList(loadIndex);
             defaultLoad = false;
         }
