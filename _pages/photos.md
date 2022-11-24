@@ -185,7 +185,7 @@ permalink: /photos/
             // append load more
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
-                var loadLimit = 5;
+                loadLimit = 5;
                 loadImageList();
             });
 
