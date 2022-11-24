@@ -282,7 +282,7 @@ var imageList =
   {
     "url": "https://storage.beriru.wiki/flickr-archive-40.jpg",
     "des": "スクール水着. 西郊泳场.",
-    "ref": "",
+    "ref": "https://beriru.wiki/photos/?loadExt=https://pbs.twimg.com/media/FiWH8A9UYAIRkrE?format=jpg&name=4096x4096",
     "date": "2016-05-09",
   },
   {
