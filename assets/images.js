@@ -7,7 +7,7 @@
   },
 */
 
-// the list of images
+// master list
 var imageList = 
 [
   // new entries following this
@@ -597,6 +597,7 @@ var imageList =
   },
 ];
 
+// hidden list for fun
 var hiddenList =
 [
   // related: 8
@@ -641,6 +642,49 @@ var hiddenList =
     "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
+  },
+  // related: 13
+    {
+    "url": "https://storage.beriru.wiki/13-1.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-2.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-3.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-4.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-5.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-6.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/13-7.jpg",
+    "des": "Budget hotel in 荔湾.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=13",
+    "date": "2014-04-05",
   },
 ];
 
