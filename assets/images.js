@@ -597,9 +597,39 @@ var imageList =
   },
 ];
 
+var hiddenList =
+[
+  {
+    "url": "1",
+    "des": "",
+    "ref": "",
+    "date": "",
+  },
+  {
+    "url": "2",
+    "des": "",
+    "ref": "",
+    "date": "",
+  },
+  {
+    "url": "3",
+    "des": "",
+    "ref": "",
+    "date": "",
+  },
+  {
+    "url": "4",
+    "des": "",
+    "ref": "",
+    "date": "",
+  },
+];
+
 // mark
 for (let i = 0; i < imageList.length; i++) { 
   imageList[i].index = imageList.length - i;
 }
-
-var imageListLengthOri = imageList.length;
+for (let i = 0; i < hiddenList.length; i++) { 
+  hiddenList[i].index = hiddenList.length - i;
+  hiddenList[i].skip = true;
+}

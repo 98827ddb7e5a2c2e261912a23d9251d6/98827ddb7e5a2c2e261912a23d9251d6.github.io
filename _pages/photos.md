@@ -100,7 +100,7 @@ permalink: /photos/
 
     // parse image list
     var loadCount = 0;
-    function loadImageList(index, trueIndex = false) {
+    function loadImageList(index, trueIndex = false, listName = "imageList") {
         loadCount++;
 
         // doc scroll position
@@ -117,20 +117,20 @@ permalink: /photos/
             count++;
             if (index) {
                 if (trueIndex) {
-                    var item = imageList[index];
-                    imageList.splice(index, 1);
+                    var item = window[listName][index];
+                    window[listName].splice(index, 1);
                 } else {
-                    for (let i = 0; i < imageList.length; i++) { 
-                        if (imageList[i].index == index) {
-                            var item = imageList[i];
-                            imageList.splice(i, 1);
+                    for (let i = 0; i < window[listName].length; i++) { 
+                        if (window[listName][i].index == index) {
+                            var item = window[listName][i];
+                            window[listName].splice(i, 1);
                         }
                     }
                 }
                 count = loadLimit;
                 loadCount = 0;
             } else {
-                var item = imageList.shift();
+                var item = window[listName].shift();
             }
 
             // build items and append
@@ -153,7 +153,7 @@ permalink: /photos/
                 </div>
             `;
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-        } while (count < loadLimit && imageList.length > 0);
+        } while (count < loadLimit && window[listName].length > 0);
 
         // share buttons
         Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
@@ -167,7 +167,7 @@ permalink: /photos/
         });
 
         // append bottom links
-        if (imageList.length > 0) {
+        if (window[listName].length > 0) {
             // append load more
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
@@ -176,7 +176,7 @@ permalink: /photos/
 
             // append load all after the 3rd try
             if (loadCount >= 3) {
-                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" style="filter: saturate(0); font-size: 80%; margin-top: 10px;">Load All (`+imageList.length+`)</a></div>`);
+                document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" style="filter: saturate(0); font-size: 80%; margin-top: 10px;">Load All (`+window[listName].length+`)</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
                     loadAll();
                 });
@@ -191,7 +191,6 @@ permalink: /photos/
         document.documentElement.scrollTop = currentPos;
     }
 
-    
 
     // load all easter egg
     // loadAll
@@ -225,7 +224,7 @@ permalink: /photos/
 
     // load specific
     if (loadIndex = urlParm.get('loadSingle')) {
-        if (loadIndex <= imageListLengthOri) {
+        if (loadIndex <= imageList.length) {
             loadImageList(loadIndex);
             defaultLoad = false;
         }
@@ -237,9 +236,20 @@ permalink: /photos/
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
             toRemove.remove();
         }
-        var loadTargetIndex = Math.random() * (imageList.length - 1) + 1;
+
+        // get random
+        var targetList = "imageList";
+        if (manual) {
+            var probNormal = 1;
+            var probHidden = 99;
+            var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
+            if (loadTypeRand > probNormal) {
+                targetList = "hiddenList";
+            }
+        }
+        var loadTargetIndex = Math.random() * (window[targetList].length - 1) + 1;
         loadTargetIndex = Math.floor(loadTargetIndex);
-        loadImageList(loadTargetIndex, true);
+        loadImageList(loadTargetIndex, true, targetList);
 
         // locate
         if (manual) {
@@ -292,7 +302,7 @@ permalink: /photos/
         }
     }
 
-    // display single pic
+    // display external pic
     if (extImgSrc = urlParm.get('loadExt')) {
         defaultLoad = false;
         document.getElementsByTagName("h1")[0].remove();
