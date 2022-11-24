@@ -249,7 +249,6 @@ permalink: /photos/
         };
     }()));
 
-
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
 
@@ -291,8 +290,8 @@ permalink: /photos/
         // get random
         var targetList = "imageList";
         if (manual) {
-            var probNormal = 90;
-            var probHidden = 10;
+            var probNormal = 80;
+            var probHidden = 20;
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             if (loadTypeRand > probNormal) {
                 targetList = "hiddenList";
