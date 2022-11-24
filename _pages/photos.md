@@ -320,16 +320,21 @@ permalink: /photos/
     }
 
     // load collection by parent index
+    function getCollction(collectionIndex) {
+        var collection = [];
+
+        // get parent
+        collection.push(searchByIndex("imageList", collectionIndex, removeFound = false));
+
+        // get children
+        collection = collection.concat(searchByParent("hiddenList", collectionIndex));
+
+        return collection;
+    }
     var collectionList = [];
     if (collectionIndex = urlParm.get('loadCollection')) {
         if (collectionIndex <= imageList.length && collectionIndex > 0) {
-            // get parent
-            var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
-            collectionList.push(parent);
-
-            // get children
-            var children = searchByParent("hiddenList", collectionIndex);
-            collectionList.concat(children);
+            collectionList = getCollction(collectionIndex);
 
             // draw the list
             window.loadLimit = collectionList.length;
