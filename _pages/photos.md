@@ -373,7 +373,7 @@ permalink: /photos/
 
     // alter avatar logic when it is not default or random
     if (!defaultLoad && urlParm.get('loadRandom') != "yes") {
-        document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos");
+        document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
     }
 
     // global default
