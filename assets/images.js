@@ -679,9 +679,51 @@ var hiddenList =
     "ref": "https://beriru.wiki/photos/?loadSingle=30",
     "date": "2015-04",
   },
-    {
+  {
     "url": "https://storage.beriru.wiki/30-14.jpg",
     "des": "White bunny knee-socks tights. Fujifilm C200. 白云山.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-15.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-16.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-17.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-18.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-19.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-20.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=30",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/30-21.jpg",
+    "des": "White bunny knee-socks tights. Fujifilm X-tra 800. On the rooftop platform of Guangzhou East railroad station.",
     "ref": "https://beriru.wiki/photos/?loadSingle=30",
     "date": "2015-04",
   },
