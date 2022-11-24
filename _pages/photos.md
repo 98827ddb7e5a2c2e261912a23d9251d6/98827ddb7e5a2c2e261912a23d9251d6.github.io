@@ -227,7 +227,7 @@ permalink: /photos/
     }
 
     // load random one
-    function getRandom() {
+    function getRandom(manual = false) {
         // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
             toRemove.remove();
@@ -237,11 +237,13 @@ permalink: /photos/
         loadImageList(loadTargetIndex);
 
         // locate
-        setTimeout(function(){
-            document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
-            window.scrollBy(0, -20);
-        }, 100);
-        
+        if (manual) {
+            setTimeout(function(){
+                document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
+                window.scrollBy(0, -20);
+            }, 100);
+        }
+         
         // add more random link
         if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
             toRemove.remove();
@@ -250,7 +252,7 @@ permalink: /photos/
             <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
         `);
         document.getElementById("new-random").addEventListener("click", function(){
-            getRandom();
+            getRandom(true);
         });
 
         // adjust lazy load
