@@ -140,7 +140,7 @@ permalink: /photos/
                 var dateHtml = `date unknown`;
             }
             if (item.skip) {
-                dateHtml = "⭒ ".dateHtml;
+                dateHtml = "⭒ " + dateHtml;
             }
             dateHtml = `<p class="photo-date">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
             if (item.ref) {
@@ -169,7 +169,7 @@ permalink: /photos/
                 if (item.skip) {
                     link = link + "&hidden=yes";
                 }
-                navigator.clipboard.writeText();
+                navigator.clipboard.writeText(link);
                 alert("link copied");
             });
         });
