@@ -247,7 +247,15 @@ permalink: /photos/
         }
         if (loadIndex <= window[targetList].length) {
             loadImageList(loadIndex, false, targetList);
+            document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+                    <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
+                `);
+            document.getElementById("new-random").addEventListener("click", function(){
+                getRandom(true);
+            });
             document.getElementById('lazy-load-more').innerText = "View the Full List";
+            document.getElementById('lazy-load-more').style.fontSize = "80%";
+            document.getElementById('lazy-load-more').style.filter = "saturate(0)";
             defaultLoad = false;
         }
     }
