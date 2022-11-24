@@ -306,7 +306,6 @@ permalink: /photos/
     }
 
     // customise load limit
-    var loadLimit = 5; // default
     if (cusLoadLimit = urlParm.get('loadLimit')) {
         if (cusLoadLimit > imageList.length || cusLoadLimit == 0) {
             loadLimit = imageList.length;
@@ -338,7 +337,8 @@ permalink: /photos/
         document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
     } else if (defaultLoad) {
         // load first 10
-        loadImageList();
+        var loadLimit = 5; // default
+        loadImageList(false, false, "imageList");
     }
 
     // no zoom and being naughty
