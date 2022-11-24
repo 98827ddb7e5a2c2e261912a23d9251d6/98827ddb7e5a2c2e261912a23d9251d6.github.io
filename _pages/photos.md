@@ -140,7 +140,7 @@ permalink: /photos/
                 var dateHtml = `date unknown`;
             }
             if (item.skip) {
-                dateHtml = "Hidden Item - " + dateHtml;
+                dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
             dateHtml = `<p class="photo-date">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
             if (item.ref) {

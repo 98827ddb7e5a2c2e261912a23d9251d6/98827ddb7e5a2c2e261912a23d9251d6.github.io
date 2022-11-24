@@ -13,7 +13,7 @@ var imageList =
   // new entries following this
   {
     "url": "https://pbs.twimg.com/media/FfMi5v1UAAE1b1k?format=jpg&name=large",
-    "des": "Kigurumi, Dollkii 黑曜. Near Hong Kong-Zhuhai-Macao Bridge in Zhuhai.",
+    "des": "Kigurumi, Dollkii 黑曜. Near Hong Kong-Zhuhai-Macau Bridge in Zhuhai.",
     "ref": "",
     "date": "2022-10-16 17:10:30",
   },
@@ -600,7 +600,7 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
-  // related: 8
+// related: 8
   {
     "url": "https://storage.beriru.wiki/8-1.jpg",
     "des": "Solaris 400, 烈士陵园.",
@@ -643,48 +643,85 @@ var hiddenList =
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
-  // related: 13
-    {
+// related: 13
+  {
     "url": "https://storage.beriru.wiki/13-1.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-2.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-3.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-4.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-5.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-6.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
   {
     "url": "https://storage.beriru.wiki/13-7.jpg",
-    "des": "Budget hotel in 荔湾.",
+    "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
+  },
+// related: 11
+  {
+    "url": "https://storage.beriru.wiki/11-1.jpg",
+    "des": "Shot on Mamiya RB-67. In 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
+  },
+    {
+    "url": "https://storage.beriru.wiki/11-2.jpg",
+    "des": "Classic winter sailor uniform with double-layer black tights. Shot on Mamiya RB-67. In 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
+  },
+    {
+    "url": "https://storage.beriru.wiki/11-3.jpg",
+    "des": "Shot on Mamiya RB-67. In 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
+  },
+    {
+    "url": "https://storage.beriru.wiki/11-4.jpg",
+    "des": "Shot on Mamiya RB-67. In 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
+  },
+    {
+    "url": "https://storage.beriru.wiki/11-5.jpg",
+    "des": "Shot on Mamiya RB-67. Tiptoeing On a bench at 广州市少年宫, near 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
+  },
+    {
+    "url": "https://storage.beriru.wiki/11-6.jpg",
+    "des": "Shot on Mamiya RB-67. In 流花湖公园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=11",
+    "date": "2014-01",
   },
 ];
 
