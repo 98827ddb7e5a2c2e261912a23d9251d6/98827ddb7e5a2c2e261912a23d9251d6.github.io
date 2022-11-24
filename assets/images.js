@@ -600,6 +600,43 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 15
+  {
+    "url": "https://storage.beriru.wiki/15-1.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-2.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-3.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-5.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-6.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-7.jpg",
+    "des": "Kodak Color Plus 200. At the top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
 // 22
   {
     "url": "https://storage.beriru.wiki/22-1.jpg",
