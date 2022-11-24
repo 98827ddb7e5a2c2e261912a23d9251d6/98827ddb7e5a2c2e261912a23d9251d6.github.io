@@ -600,28 +600,46 @@ var imageList =
 var hiddenList =
 [
   {
-    "url": "1",
+    "url": "https://storage.beriru.wiki/8-1.jpg",
     "des": "",
-    "ref": "",
-    "date": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
   },
   {
-    "url": "2",
+    "url": "https://storage.beriru.wiki/8-2.jpg",
     "des": "",
-    "ref": "",
-    "date": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
   },
   {
-    "url": "3",
+    "url": "https://storage.beriru.wiki/8-3.jpg",
     "des": "",
-    "ref": "",
-    "date": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
   },
   {
-    "url": "4",
+    "url": "https://storage.beriru.wiki/8-4.jpg",
     "des": "",
-    "ref": "",
-    "date": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
+  },
+  {
+    "url": "https://storage.beriru.wiki/8-5.jpg",
+    "des": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
+  },
+  {
+    "url": "https://storage.beriru.wiki/8-6.jpg",
+    "des": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
+  },
+  {
+    "url": "https://storage.beriru.wiki/8-7.jpg",
+    "des": "",
+    "ref": "https://beriru.wiki/photos/?loadSingle=8",
+    "date": "2013-10",
   },
 ];
 

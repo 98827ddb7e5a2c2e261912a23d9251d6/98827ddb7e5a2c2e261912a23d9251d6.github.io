@@ -169,6 +169,7 @@ permalink: /photos/
                 if (item.skip) {
                     link = link + "&hidden=yes";
                 }
+                console.log(link);
                 navigator.clipboard.writeText(link);
                 alert("link copied");
             });
