@@ -355,8 +355,8 @@ permalink: /photos/
         // get random
         var targetList = "imageList";
         if (manual) {
-            var probNormal = 60;
-            var probHidden = 40;
+            var probNormal = 9;
+            var probHidden = 1;
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             if (loadTypeRand > probNormal) {
                 targetList = "hiddenList";
