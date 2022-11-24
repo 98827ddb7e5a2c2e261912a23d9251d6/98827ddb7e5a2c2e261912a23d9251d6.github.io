@@ -170,8 +170,9 @@ permalink: /photos/
                     link = link + "&hidden=yes";
                 }
                 console.log(link);
-                navigator.clipboard.writeText(link);
-                alert("link copied");
+                navigator.clipboard.writeText(link).then(function(){
+                    alert("link copied");
+                });
             });
         });
 
