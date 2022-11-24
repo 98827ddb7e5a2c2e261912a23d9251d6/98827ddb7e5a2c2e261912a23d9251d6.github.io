@@ -147,7 +147,7 @@ permalink: /photos/
             }
             var child = `
                 <div class="photo-children">
-                    <img src="`+item.url+`"/>
+                    <img class="photo-image" src="`+item.url+`"/>
                     <p class="photo-des">`+item.des+refHtml+`</p>
                     `+dateHtml+`
                 </div>
@@ -243,11 +243,13 @@ permalink: /photos/
 
         // locate
         if (manual) {
-            console.log(document.getElementsByClassName("photo-children")[0]);
+            console.log(document.getElementsByClassName("photo-image")[0]);
             setTimeout(function(){
-                document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
-                window.scrollBy(0, -20);
-            }, 300);
+                document.getElementsByClassName("photo-image")[0].addEventListener("load", function(){
+                    document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
+                    window.scrollBy(0, -20);
+                });
+            }, 200); 
         }
          
         // add more random link
