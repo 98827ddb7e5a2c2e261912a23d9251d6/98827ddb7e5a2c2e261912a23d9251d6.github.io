@@ -169,7 +169,7 @@ permalink: /photos/
         });
         Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
             element.addEventListener("click", function(){
-                var link = "https://beriru.wiki/photos/?loadSingle=" + element.getAttribute("photoId");
+                var link = window.location.protocol + "//" + window.location.host + "/photos/?loadSingle=" + element.getAttribute("photoId");
                 if (item.skip) {
                     link = link + "&hidden=yes";
                 }
@@ -369,6 +369,11 @@ permalink: /photos/
         document.getElementById("go-back").addEventListener("click", function(){
             window.close();
         });
+    }
+
+    // alter avatar logic when it is not default or random
+    if (!defaultLoad && urlParm.get('loadRandom') != "yes") {
+        document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos");
     }
 
     // global default
