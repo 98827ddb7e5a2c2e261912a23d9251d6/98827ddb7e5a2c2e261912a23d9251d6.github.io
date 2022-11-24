@@ -497,9 +497,9 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/FiP7ebSUYAAmVH_?format=jpg&name=4096x4096",
-    "des": "In Home Inns. Shot on Mamiya RB-67.",
+    "des": "At a budget hotel neaer 动物园南门. Shot on Mamiya RB-67.",
     "ref": "",
-    "date": "2014-07-29",
+    "date": "2014-07",
   },
   {
     "url": "https://storage.beriru.wiki/1122-14.jpg",
@@ -600,6 +600,31 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 17
+  {
+    "url": "https://storage.beriru.wiki/17-1.jpg",
+    "des": "At a budget hotel neaer 动物园南门. Shot on Mamiya RB-67.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=17",
+    "date": "2014-07",
+  },
+  {
+    "url": "https://storage.beriru.wiki/17-2.jpg",
+    "des": "At a budget hotel neaer 动物园南门. Shot on Mamiya RB-67.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=17",
+    "date": "2014-07",
+  },
+  {
+    "url": "https://storage.beriru.wiki/17-3.jpg",
+    "des": "At a budget hotel neaer 动物园南门. Shot on Mamiya RB-67.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=17",
+    "date": "2014-07",
+  },
+  {
+    "url": "https://storage.beriru.wiki/17-4.jpg",
+    "des": "At a budget hotel neaer 动物园南门. Shot on Mamiya RB-67.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=17",
+    "date": "2014-07",
+  },
 // 15
   {
     "url": "https://storage.beriru.wiki/15-1.jpg",
@@ -615,6 +640,12 @@ var hiddenList =
   },
   {
     "url": "https://storage.beriru.wiki/15-3.jpg",
+    "des": "Bunny knee-socks tights. Kodak Color Plus 200. Top of 广州塔.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=15",
+    "date": "2014-06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/15-4.jpg",
     "des": "Bunny knee-socks tights. Kodak Color Plus 200. Top of 广州塔.",
     "ref": "https://beriru.wiki/photos/?loadSingle=15",
     "date": "2014-06",
