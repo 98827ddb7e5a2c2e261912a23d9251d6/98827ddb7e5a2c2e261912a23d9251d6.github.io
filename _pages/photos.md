@@ -265,6 +265,11 @@ permalink: /photos/
         document.getElementById('lazy-load-more').innerText = "View the Full List";
         document.getElementById('lazy-load-more').style.fontSize = "80%";
         document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+        document.getElementById('lazy-load-more').addEventListener("click", function(){
+            if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
+                toRemove.remove();
+            }
+        });
     }
     if (urlParm.get('loadRandom') == "yes") {
         // do random
