@@ -233,6 +233,10 @@ permalink: /photos/
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex);
 
+        // locate
+        document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
+        window.scrollBy(0, -20);
+
         // add more random link
         if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
             toRemove.remove();
