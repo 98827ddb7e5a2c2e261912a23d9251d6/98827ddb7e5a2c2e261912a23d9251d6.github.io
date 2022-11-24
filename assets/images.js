@@ -600,6 +600,56 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 26
+  {
+    "url": "https://storage.beriru.wiki/26-1.jpg",
+    "des": "Classic white sailor uniform with classic red scarf. Mamiya RZ-67 and Fujifilm Pro 160NS, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=26",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/26-2.jpg",
+    "des": "Classic white sailor uniform with classic red scarf. Mamiya RZ-67 and Fujifilm Pro 160NS, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=26",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/26-3.jpg",
+    "des": "Classic white sailor uniform with classic red scarf. Mamiya RZ-67 and Fujifilm Pro 160NS, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=26",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/26-4.jpg",
+    "des": "Classic white sailor uniform with classic red scarf. Mamiya RZ-67 and Fujifilm Pro 160NS, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=26",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/26-5.jpg",
+    "des": "Classic white sailor uniform with classic red scarf. Mamiya RZ-67 and Kodak Portra 400, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=26",
+    "date": "2015-01-29",
+  },
+// 25
+  {
+    "url": "https://storage.beriru.wiki/25-1.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. Mamiya RZ-67 and Fujifilm Pro 160NS, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=25",
+    "date": "2015-02",
+  },
+  {
+    "url": "https://storage.beriru.wiki/25-2.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. Mamiya RZ-67 and Kodak Portra 400, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=25",
+    "date": "2015-02",
+  },
+  {
+    "url": "https://storage.beriru.wiki/25-3.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. Mamiya RZ-67 and Kodak Portra 400, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=25",
+    "date": "2015-02",
+  },
 // 24
   {
     "url": "https://storage.beriru.wiki/24-1.jpg",
