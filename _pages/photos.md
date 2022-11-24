@@ -237,9 +237,11 @@ permalink: /photos/
         loadImageList(loadTargetIndex);
 
         // locate
-        document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
-        window.scrollBy(0, -20);
-
+        setTimeout(function(){
+            document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
+            window.scrollBy(0, -20);
+        }, 100);
+        
         // add more random link
         if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
             toRemove.remove();
