@@ -1637,4 +1637,5 @@ for (let i = 0; i < imageList.length; i++) {
 for (let i = 0; i < hiddenList.length; i++) { 
   hiddenList[i].index = hiddenList.length - i;
   hiddenList[i].skip = true;
+  hiddenList[i].parent = Number(hiddenList[i].url.match(/\/[0-9]+/g)[0].substring(1));
 }

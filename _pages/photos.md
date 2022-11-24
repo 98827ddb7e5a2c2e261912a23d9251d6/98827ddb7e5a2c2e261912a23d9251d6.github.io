@@ -73,7 +73,7 @@ permalink: /photos/
 <div id="photo-list"></div>
 
 <script>
-    // utility to convert dates
+    // utility
     function timeDifference(previous, current = Date.now()) {
         var msPerMinute = 60 * 1000;
         var msPerHour = msPerMinute * 60;
@@ -97,10 +97,21 @@ permalink: /photos/
             return Math.round(elapsed/msPerYear) + ' year'+((Math.round(elapsed/msPerYear)>1)?'s':'')+' ago';   
         }
     }
+    // search by index
+    function searchByIndex(listName = "imageList", targetIndex, removeFound = false) {
+        for (let i = 0; i < window[listName].length; i++) { 
+            if (window[listName][i].index == targetIndex) {
+                if (removeFound) {
+                    window[listName].splice(i, 1);
+                }
+                return foundItem = window[listName][i];
+            }
+        }
+    }
 
     // parse image list
     var loadCount = 0;
-    function loadImageList(index, trueIndex = false, listName = "imageList") {
+    function loadImageList(targetIndex, trueIndex = false, listName = "imageList") {
         loadCount++;
 
         // doc scroll position
@@ -115,17 +126,12 @@ permalink: /photos/
         var count = 0;
         do {
             count++;
-            if (index) {
+            if (targetIndex) {
                 if (trueIndex) {
-                    var item = window[listName][index];
-                    window[listName].splice(index, 1);
+                    var item = window[listName][targetIndex];
+                    window[listName].splice(targetIndex, 1);
                 } else {
-                    for (let i = 0; i < window[listName].length; i++) { 
-                        if (window[listName][i].index == index) {
-                            var item = window[listName][i];
-                            window[listName].splice(i, 1);
-                        }
-                    }
+                    var item = searchByIndex(listName, targetIndex, removeFound = true);
                 }
                 count = loadLimit;
                 loadCount = 0;
@@ -133,22 +139,31 @@ permalink: /photos/
                 var item = window[listName].shift();
             }
 
-            // build items and append
+            // build date field
+            // get parent date if hidden
+            if (item.skip && !item.date && item.parent > 0) {
+                var parent = searchByIndex("imageList", item.parent, removeFound = false);
+                item.date = parent.date;
+            }
+            // form base
             if (item.date) {
                 var dateHtml = timeDifference(Date.parse(item.date));
             } else {
                 var dateHtml = `date unknown`;
             }
+            // add special tag for hidden
             if (item.skip) {
                 dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
+            // finalise date
             dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
+
+            // build reference field
             if (item.ref) {
-                if (item.skip) {
-                    var refHtml = " <a href='"+item.ref+"'>related</a>";
-                } else {
-                    var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
-                }
+                var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
+            } else if (item.skip && item.parent > 0) {
+                var collectionLink = "/images?loadCollection=" + item.parent;
+                var refHtml = " <a href='"+collectionLink+"'>related</a>";
             } else {
                 var refHtml = "";
             }
