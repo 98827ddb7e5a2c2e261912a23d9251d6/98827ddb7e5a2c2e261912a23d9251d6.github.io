@@ -176,7 +176,7 @@ permalink: /photos/
                 var dateHtml = `date unknown`;
             }
             // add special tag for hidden
-            if (item.skip) {
+            if (item.skip && !urlParm.get('loadCollection')) {
                 dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
             // finalise date
@@ -193,8 +193,10 @@ permalink: /photos/
             }
 
             // build discriptions
-            if (!urlParm.get('loadCollection') || refHtml) {
+            if (!urlParm.get('loadCollection') || refHtml || (!item.skip && !item.parent)) {
                 var desHtml = `<p class="photo-des">`+item.des+refHtml+`</p>`;
+            } else {
+                var desHtml = "";
             }
 
             var child = `
