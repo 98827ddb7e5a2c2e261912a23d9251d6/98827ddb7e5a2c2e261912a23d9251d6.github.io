@@ -225,21 +225,18 @@ permalink: /photos/
 
     // load random one
     function getRandom() {
+        // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
             toRemove.remove();
         }
         var loadTargetIndex = Math.random() * (imageList.length - 1) + 1;
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex);
-    }
-    if (urlParm.get('loadRandom') == "yes") {
-        // do random
-        getRandom();
-
-        // adjust hero
-        document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
 
         // add more random link
+        if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
+            toRemove.remove();
+        }
         document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
             <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
         `);
@@ -251,6 +248,13 @@ permalink: /photos/
         document.getElementById('lazy-load-more').innerText = "View the Full List";
         document.getElementById('lazy-load-more').style.fontSize = "80%";
         document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+    }
+    if (urlParm.get('loadRandom') == "yes") {
+        // do random
+        getRandom();
+
+        // adjust hero
+        document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
 
         // disable default
         defaultLoad = false;
