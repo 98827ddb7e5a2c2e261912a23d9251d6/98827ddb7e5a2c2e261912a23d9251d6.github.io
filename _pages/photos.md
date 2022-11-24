@@ -185,7 +185,7 @@ permalink: /photos/
             // build reference field
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
-            } else if (item.skip && item.parent > 0) {
+            } else if (item.skip && item.parent > 0 && !urlParm.get('loadCollection')) {
                 var collectionLink = "/photos?loadCollection=" + item.parent;
                 var refHtml = " <a href='"+collectionLink+"'>related</a>";
             } else {
