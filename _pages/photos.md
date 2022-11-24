@@ -69,7 +69,7 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p id="hero-title" style="color: #fff;text-align: center;">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></p>
+<p id="hero-title" style="color: #fff;text-align: center;">License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></p>
 <div id="photo-list"></div>
 
 <script>
