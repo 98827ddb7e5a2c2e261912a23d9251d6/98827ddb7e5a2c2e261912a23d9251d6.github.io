@@ -42,6 +42,9 @@ permalink: /photos/
     mix-blend-mode: normal !important;
     }
     /* styling photo list */
+    #photo-list {
+        margin-top: -30px;
+    }
     .photo-children {
         max-width: 444px;
         margin: auto;
