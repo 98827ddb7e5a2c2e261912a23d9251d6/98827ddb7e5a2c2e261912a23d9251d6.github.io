@@ -236,7 +236,7 @@ permalink: /photos/
     }()));
     // the dark side
     window.addEventListener('keypress', (function() {
-        var strToType = 'i know what i am doing',
+        var strToType = 'iknowwhatiamdoing',
             strTyped = '';
         return function(event) {
             var character = String.fromCharCode(event.which);
