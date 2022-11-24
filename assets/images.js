@@ -600,6 +600,61 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 40
+  {
+    "url": "https://storage.beriru.wiki/40-1.jpg",
+    "des": "One-day trip to Hong Kong. Pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-2.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-3.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-4.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-5.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-6.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-7.jpg",
+    "des": "One-day trip to Hong Kong. On the star ferry. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-8.jpg",
+    "des": "One-day trip to Hong Kong. Cute T-shirt, pleated skirt and black knee-socks tights. Top of Langham Place. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/40-9.jpg",
+    "des": "One-day trip to Hong Kong. Pleated skirt and black knee-socks tights. Top of Langham Place. Fujifilm X-tra 800.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=40",
+    "date": "2015-11",
+  },
 // 38
   {
     "url": "https://storage.beriru.wiki/38-1.jpg",

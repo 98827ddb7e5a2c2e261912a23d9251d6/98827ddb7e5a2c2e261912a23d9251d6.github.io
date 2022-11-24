@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Photos I Adore
+title: Photos I Took
 permalink: /photos/
 ---
 <script src="/assets/images.js"></script>

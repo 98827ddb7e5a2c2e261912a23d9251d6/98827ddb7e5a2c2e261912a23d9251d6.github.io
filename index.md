@@ -49,7 +49,7 @@ layout: default
 	- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
 	- [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
 
-# Photos I Adore
+# Photos I Took
 
 <div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">View</a></div>
 <div style="text-align: center"><i>The list is long. All images are full-res. You may find some of them disturbing or weird. But that's not my business.</i></div>
