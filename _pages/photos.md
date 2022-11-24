@@ -105,13 +105,29 @@ permalink: /photos/
                 if (removeFound) {
                     window[listName].splice(i, 1);
                 }
-                return foundItem
+                return foundItem;
             }
+        }
+        return false;
+    }
+    // search by parent
+    function searchByParent(listName = "hiddenList", targetParent) {
+        var listOfFound = [];
+        for (let i = 0; i < window[listName].length; i++) { 
+            if (window[listName][i].parent == targetParent) {
+                listOfFound.push(window[listName][i]);
+            }
+        }
+        if (listOfFound.length > 0) {
+            return listOfFound;
+        } else {
+            return false;
         }
     }
 
     // parse image list
     var loadCount = 0;
+    var imageListUsed = [];
     function loadImageList(targetIndex, trueIndex = false, listName = "imageList") {
         loadCount++;
 
@@ -139,12 +155,19 @@ permalink: /photos/
             } else {
                 var item = window[listName].shift();
             }
+            // backup
+            imageListUsed.push(item);
 
             // build date field
             // get parent date if hidden
             if (item.skip && !item.date && item.parent > 0) {
                 var parent = searchByIndex("imageList", item.parent, removeFound = false);
-                item.date = parent.date;
+                if (!parent) {
+                    parent = searchByIndex("imageListUsed", item.parent, removeFound = false);
+                }
+                if (parent) {
+                    item.date = parent.date;
+                }
             }
             // form base
             if (item.date) {
@@ -201,7 +224,7 @@ permalink: /photos/
             // append load more
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
-                loadLimit = 5;
+                window.loadLimit = 5;
                 loadImageList();
             });
 
@@ -233,7 +256,7 @@ permalink: /photos/
         if (hidden) {
             loadTarget = "hiddenList";
         }
-        loadLimit = window[loadTarget].length;
+        window.loadLimit = window[loadTarget].length;
         loadImageList(false, false, loadTarget);
     }
     // type "all" -> load all
@@ -292,6 +315,27 @@ permalink: /photos/
             document.getElementById('lazy-load-more').innerText = "View Latest";
             document.getElementById('lazy-load-more').style.fontSize = "80%";
             document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+            defaultLoad = false;
+        }
+    }
+
+    // load collection by parent index
+    var collectionList = [];
+    if (collectionIndex = urlParm.get('loadCollection')) {
+        if (collectionIndex <= imageList.length && collectionIndex > 0) {
+            // get parent
+            var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
+            collectionList.push(parent);
+
+            // get children
+            var children = searchByParent("hiddenList", collectionIndex);
+            collectionList.concat(children);
+
+            // draw the list
+            window.loadLimit = collectionList.length;
+            loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
+
+            // prevent default
             defaultLoad = false;
         }
     }
@@ -362,9 +406,9 @@ permalink: /photos/
     // customise load limit
     if (cusLoadLimit = urlParm.get('loadLimit')) {
         if (cusLoadLimit > imageList.length || cusLoadLimit == 0) {
-            loadLimit = imageList.length;
+            window.loadLimit = imageList.length;
         } else {
-            loadLimit = cusLoadLimit;
+            window.loadLimit = cusLoadLimit;
         }
     }
 
@@ -396,7 +440,7 @@ permalink: /photos/
         document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
     } else if (defaultLoad) {
         // load first 10
-        var loadLimit = 5; // default
+        window.loadLimit = 5; // default
         loadImageList(false, false, "imageList");
     }
 
