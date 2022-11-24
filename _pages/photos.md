@@ -192,10 +192,15 @@ permalink: /photos/
                 var refHtml = "";
             }
 
+            // build discriptions
+            if (!urlParm.get('loadCollection') || refHtml) {
+                var desHtml = `<p class="photo-des">`+item.des+refHtml+`</p>`;
+            }
+
             var child = `
                 <div class="photo-children">
                     <img class="photo-image" src="`+item.url+`"/>
-                    <p class="photo-des">`+item.des+refHtml+`</p>
+                    `+desHtml+`
                     `+dateHtml+`
                 </div>
             `;
