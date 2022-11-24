@@ -239,14 +239,15 @@ permalink: /photos/
         }
         var loadTargetIndex = Math.random() * (imageList.length - 1) + 1;
         loadTargetIndex = Math.floor(loadTargetIndex);
-        loadImageList(loadTargetIndex);
+        loadImageList(loadTargetIndex, true);
 
         // locate
         if (manual) {
+            console.log(document.getElementsByClassName("photo-children")[0]);
             setTimeout(function(){
                 document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
                 window.scrollBy(0, -20);
-            }, 100);
+            }, 300);
         }
          
         // add more random link
