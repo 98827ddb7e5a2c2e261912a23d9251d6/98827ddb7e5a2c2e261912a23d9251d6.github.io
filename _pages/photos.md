@@ -144,7 +144,11 @@ permalink: /photos/
             }
             dateHtml = `<p class="photo-date">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
             if (item.ref) {
-                var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
+                if (item.skip) {
+                    var refHtml = " <a href='"+item.ref+"'>related</a>";
+                } else {
+                    var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
+                }
             } else {
                 var refHtml = "";
             }
