@@ -599,45 +599,46 @@ var imageList =
 
 var hiddenList =
 [
+  // related: 8
   {
     "url": "https://storage.beriru.wiki/8-1.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-2.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-3.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-4.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-5.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-6.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
   {
     "url": "https://storage.beriru.wiki/8-7.jpg",
-    "des": "",
+    "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
