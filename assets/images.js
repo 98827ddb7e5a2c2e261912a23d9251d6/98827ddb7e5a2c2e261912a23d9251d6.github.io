@@ -311,8 +311,8 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/flickr-archive-35.jpg",
-    "des": "We found out these oddly cute foggy paw-looking prints when KEKI randomly pressed her feet on the windscreen.",
-    "ref": "",
+    "des": "We found out these oddly cute foggy paw-looking prints when KEKI randomly pressed her feet on the windscreen. Another one ->",
+    "ref": "http://beriru.wiki/photos/?loadExt=https://pbs.twimg.com/media/FiVlwV9VIAA3Z6t?format=jpg&name=4096x4096",
     "date": "2016-03-04",
   },
   {
@@ -600,6 +600,116 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 47
+  {
+    "url": "https://storage.beriru.wiki/47-01.jpg",
+    "des": "Classic sailor uniform and white knee-socks tights.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-02.jpg",
+    "des": "Classic sailor uniform and white knee-socks tights.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-03.jpg",
+    "des": "Classic sailor uniform and white knee-socks tights.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-04.jpg",
+    "des": "Classic sailor uniform and white knee-socks tights.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-05.jpg",
+    "des": "White knee-socks tights and black Converse.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-06.jpg",
+    "des": "White knee-socks tights and black Converse.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-07.jpg",
+    "des": "White knee-socks tights and black Converse.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-08.jpg",
+    "des": "White knee-socks tights and black Converse.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-09.jpg",
+    "des": "White knee-socks tights. In the car on 中山路.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-10.jpg",
+    "des": "White knee-socks tights. In the car on 中山路.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/47-11.jpg",
+    "des": "White knee-socks tights. In the car on 中山路.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=47",
+    "date": "2016-03-04",
+  },
+// 45
+  {
+    "url": "https://storage.beriru.wiki/45-1.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-2.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-3.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-4.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-5.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-6.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
+  {
+    "url": "https://storage.beriru.wiki/45-7.jpg",
+    "des": "Winter cotton tights. Fujifilm X-tra 800. Parking near 白云湖.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=45",
+    "date": "2016-03",
+  },
 // 40
   {
     "url": "https://storage.beriru.wiki/40-1.jpg",
