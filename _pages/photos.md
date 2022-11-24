@@ -123,12 +123,12 @@ permalink: /photos/
                     for (let i = 0; i < imageList.length; i++) { 
                         if (imageList[i].index == index) {
                             var item = imageList[i];
-                            count = loadLimit;
                             imageList.splice(i, 1);
-                            loadCount = 0;
                         }
                     }
                 }
+                count = loadLimit;
+                loadCount = 0;
             } else {
                 var item = imageList.shift();
             }
