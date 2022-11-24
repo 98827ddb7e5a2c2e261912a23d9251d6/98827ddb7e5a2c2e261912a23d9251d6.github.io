@@ -101,10 +101,11 @@ permalink: /photos/
     function searchByIndex(listName = "imageList", targetIndex, removeFound = false) {
         for (let i = 0; i < window[listName].length; i++) { 
             if (window[listName][i].index == targetIndex) {
+                var foundItem = window[listName][i];
                 if (removeFound) {
                     window[listName].splice(i, 1);
                 }
-                return foundItem = window[listName][i];
+                return foundItem
             }
         }
     }

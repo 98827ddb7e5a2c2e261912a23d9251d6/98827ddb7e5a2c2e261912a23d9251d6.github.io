@@ -604,68 +604,46 @@ var hiddenList =
   {
     "url": "https://storage.beriru.wiki/47-01.jpg",
     "des": "Classic sailor uniform and white knee-socks tights.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-02.jpg",
     "des": "Classic sailor uniform and white knee-socks tights.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-03.jpg",
     "des": "Classic sailor uniform and white knee-socks tights.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-04.jpg",
     "des": "Classic sailor uniform and white knee-socks tights.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-05.jpg",
     "des": "White knee-socks tights and black Converse.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-06.jpg",
     "des": "White knee-socks tights and black Converse.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-07.jpg",
     "des": "White knee-socks tights and black Converse.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-08.jpg",
     "des": "White knee-socks tights and black Converse.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-09.jpg",
     "des": "White knee-socks tights. In the car on 中山路.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-10.jpg",
     "des": "White knee-socks tights. In the car on 中山路.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
   {
     "url": "https://storage.beriru.wiki/47-11.jpg",
     "des": "White knee-socks tights. In the car on 中山路.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=47",
-    "date": "2016-03-04",
   },
 // 45
   {
