@@ -467,7 +467,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/FiPwurnUYAA3Mk0?format=jpg&name=4096x4096",
-    "des": "Really into this stains, and the punchy, rustic, rough, HDR look. In Home Inns.",
+    "des": "Really into this stained, punchy, rustic, rough, HDR look. In Home Inns.",
     "ref": "",
     "date": "2014-12-20",
   },
@@ -600,7 +600,56 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
-// related: 8
+// 22
+  {
+    "url": "https://storage.beriru.wiki/22-1.jpg",
+    "des": "HDRrrrrrrr. Double-layer black tights. Home Inns near 石牌桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2015-01-09",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-2.jpg",
+    "des": "HDRrrrrrrr. Double-layer black tights. Home Inns near 石牌桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2015-01-09",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-3.jpg",
+    "des": "HDRrrrrrrr. Sailor moon skull hoodie with double-layer white tights. Home Inns near 石牌桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-12-13",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-8.jpg",
+    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-12-13",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-84.jpg",
+    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-01-26",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-5.jpg",
+    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-01-26",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-6.jpg",
+    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-01-26",
+  },
+  {
+    "url": "https://storage.beriru.wiki/22-7.jpg",
+    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=22",
+    "date": "2014-01-26",
+  },
+// 8
   {
     "url": "https://storage.beriru.wiki/8-1.jpg",
     "des": "Solaris 400, 烈士陵园.",
@@ -615,12 +664,6 @@ var hiddenList =
   },
   {
     "url": "https://storage.beriru.wiki/8-3.jpg",
-    "des": "Solaris 400, 烈士陵园.",
-    "ref": "https://beriru.wiki/photos/?loadSingle=8",
-    "date": "2013-10",
-  },
-  {
-    "url": "https://storage.beriru.wiki/8-4.jpg",
     "des": "Solaris 400, 烈士陵园.",
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
@@ -643,7 +686,7 @@ var hiddenList =
     "ref": "https://beriru.wiki/photos/?loadSingle=8",
     "date": "2013-10",
   },
-// related: 13
+// 13
   {
     "url": "https://storage.beriru.wiki/13-1.jpg",
     "des": "NEX-6 with vintage Nikkor lens. At a budget hotel near 彩虹桥.",
@@ -686,7 +729,7 @@ var hiddenList =
     "ref": "https://beriru.wiki/photos/?loadSingle=13",
     "date": "2014-04-05",
   },
-// related: 11
+// 11
   {
     "url": "https://storage.beriru.wiki/11-1.jpg",
     "des": "Shot on Mamiya RB-67. In 流花湖公园.",
