@@ -244,14 +244,12 @@ permalink: /photos/
         // locate
         if (manual) {
             console.log(document.getElementsByClassName("photo-image")[0]);
-            document.getElementsByClassName("photo-children")[0].addEventListener("load", function(){
-            document.getElementsByClassName("photo-image")[0].addEventListener("load", function(){
-                setTimeout(function(){
+            setTimeout(function(){
+                document.getElementsByClassName("photo-image")[0].addEventListener("afterprint", function(){
                     document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
                     window.scrollBy(0, -20);
-                }, 1); 
-            });
-            });
+                });
+            }, 250); 
         }
          
         // add more random link
