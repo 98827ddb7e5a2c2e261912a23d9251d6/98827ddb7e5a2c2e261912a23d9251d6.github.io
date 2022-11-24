@@ -243,7 +243,7 @@ permalink: /photos/
         document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
             <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
         `);
-        document.getElementById("random-toggle").addEventListener("click", function(){
+        document.getElementById("new-random").addEventListener("click", function(){
             getRandom();
         });
 
