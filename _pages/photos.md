@@ -163,7 +163,7 @@ permalink: /photos/
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>more</a>";
             } else if (item.skip && item.parent > 0) {
-                var collectionLink = "/images?loadCollection=" + item.parent;
+                var collectionLink = "/photos?loadCollection=" + item.parent;
                 var refHtml = " <a href='"+collectionLink+"'>related</a>";
             } else {
                 var refHtml = "";
@@ -205,8 +205,8 @@ permalink: /photos/
                 loadImageList();
             });
 
-            // append load all after the 3rd try
-            if (loadCount >= 3) {
+            // append "load all" after the 1st try
+            if (loadCount > 1) {
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" style="filter: saturate(0); font-size: 80%; margin-top: 10px;">Load All (`+window[listName].length+`)</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
                     loadAll();
