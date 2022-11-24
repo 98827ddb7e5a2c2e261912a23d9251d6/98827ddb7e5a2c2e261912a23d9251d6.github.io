@@ -100,7 +100,7 @@ permalink: /photos/
 
     // parse image list
     var loadCount = 0;
-    function loadImageList(index) {
+    function loadImageList(index, trueIndex = false) {
         loadCount++;
 
         // doc scroll position
@@ -116,12 +116,17 @@ permalink: /photos/
         do {
             count++;
             if (index) {
-                for (let i = 0; i < imageList.length; i++) { 
-                    if (imageList[i].index == index) {
-                        var item = imageList[i];
-                        count = loadLimit;
-                        imageList.splice(i, 1);
-                        loadCount = 0;
+                if (trueIndex) {
+                    var item = imageList[index];
+                    imageList.splice(index, 1);
+                } else {
+                    for (let i = 0; i < imageList.length; i++) { 
+                        if (imageList[i].index == index) {
+                            var item = imageList[i];
+                            count = loadLimit;
+                            imageList.splice(i, 1);
+                            loadCount = 0;
+                        }
                     }
                 }
             } else {
