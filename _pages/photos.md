@@ -210,7 +210,7 @@ permalink: /photos/
     // load all easter egg
     // loadAll
     function loadAll() {
-        loadLimit = 999999999999999;
+        loadLimit = imageList.length;
         loadImageList();
     }
     // type "all"
@@ -228,8 +228,10 @@ permalink: /photos/
         };
     }()));
 
+
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
+
 
     // handle url param
     const urlParm = new URLSearchParams(window.location.search);
@@ -245,6 +247,7 @@ permalink: /photos/
         }
         if (loadIndex <= window[targetList].length) {
             loadImageList(loadIndex, false, targetList);
+            document.getElementById('lazy-load-more').innerText = "View the Full List";
             defaultLoad = false;
         }
     }
