@@ -247,13 +247,12 @@ permalink: /photos/
                 targetList = "hiddenList";
             }
         }
-        var loadTargetIndex = Math.random() * (window[targetList].length - 1) + 1;
+        var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex, true, targetList);
 
         // locate
         if (manual) {
-            console.log(document.getElementsByClassName("photo-image")[0]);
             document.getElementsByClassName("photo-image")[0].addEventListener("load", function(){
                 document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
                 window.scrollBy(0, -20);
@@ -264,12 +263,14 @@ permalink: /photos/
         if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
             toRemove.remove();
         }
-        document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
-            <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
-        `);
-        document.getElementById("new-random").addEventListener("click", function(){
-            getRandom(true);
-        });
+        if (imageList.length > 10) {
+            document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+                <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
+            `);
+            document.getElementById("new-random").addEventListener("click", function(){
+                getRandom(true);
+            });
+        }
 
         // adjust lazy load
         document.getElementById('lazy-load-more').innerText = "View the Full List";
