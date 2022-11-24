@@ -209,11 +209,18 @@ permalink: /photos/
 
     // load all easter egg
     // loadAll
-    function loadAll() {
-        loadLimit = imageList.length;
-        loadImageList();
+    function loadAll(hidden = false) {
+        if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
+            toRemove.remove();
+        }
+        var loadTarget = "imageList";
+        if (hidden) {
+            loadTarget = "hiddenList";
+        }
+        loadLimit = window[loadTarget].length;
+        loadImageList(false, false, loadTarget);
     }
-    // type "all"
+    // type "all" -> load all
     window.addEventListener('keypress', (function() {
         var strToType = 'all',
             strTyped = '';
@@ -224,6 +231,20 @@ permalink: /photos/
             else if (strTyped === strToType) {
                 strTyped = '';
                 loadAll();
+            }
+        };
+    }()));
+    // the dark side
+    window.addEventListener('keypress', (function() {
+        var strToType = 'i know what i am doing',
+            strTyped = '';
+        return function(event) {
+            var character = String.fromCharCode(event.which);
+            strTyped += character;
+            if (strToType.indexOf(strTyped) === -1) strTyped = '';
+            else if (strTyped === strToType) {
+                strTyped = '';
+                loadAll(true);
             }
         };
     }()));
