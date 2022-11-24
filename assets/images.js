@@ -626,7 +626,7 @@ var hiddenList =
     "date": "2014-12-13",
   },
   {
-    "url": "https://storage.beriru.wiki/22-84.jpg",
+    "url": "https://storage.beriru.wiki/22-4.jpg",
     "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
     "ref": "https://beriru.wiki/photos/?loadSingle=22",
     "date": "2014-01-26",
