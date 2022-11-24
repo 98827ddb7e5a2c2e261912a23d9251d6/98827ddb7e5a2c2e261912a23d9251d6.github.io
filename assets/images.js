@@ -600,6 +600,49 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 24
+  {
+    "url": "https://storage.beriru.wiki/24-1.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-2.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-3.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-4.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-5.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-6.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
+  {
+    "url": "https://storage.beriru.wiki/24-7.jpg",
+    "des": "Classic white sailor uniform with classic red scarf and classic black knee-socks. X-Pro1, 华南植物园.",
+    "ref": "https://beriru.wiki/photos/?loadSingle=24",
+    "date": "2015-01-29",
+  },
 // 20
   {
     "url": "https://storage.beriru.wiki/20-1.jpg",
