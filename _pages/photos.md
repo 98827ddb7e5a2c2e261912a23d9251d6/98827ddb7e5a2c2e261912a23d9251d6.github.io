@@ -224,12 +224,35 @@ permalink: /photos/
     }
 
     // load random one
-    if (urlParm.get('loadRandom') == "yes") {
+    function getRandom() {
+        if (toRemove = document.getElementsByClassName("photo-children")[0]) {
+            toRemove.remove();
+        }
         var loadTargetIndex = Math.random() * (imageList.length - 1) + 1;
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex);
+    }
+    if (urlParm.get('loadRandom') == "yes") {
+        // do random
+        getRandom();
+
+        // adjust hero
         document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
-        document.getElementById('lazy-load-more').innerText = "More from Latest";
+
+        // add more random link
+        document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+            <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
+        `);
+        document.getElementById("random-toggle").addEventListener("click", function(){
+            getRandom();
+        });
+
+        // adjust lazy load
+        document.getElementById('lazy-load-more').innerText = "View the Full List";
+        document.getElementById('lazy-load-more').style.fontSize = "80%";
+        document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+
+        // disable default
         defaultLoad = false;
     }
 
