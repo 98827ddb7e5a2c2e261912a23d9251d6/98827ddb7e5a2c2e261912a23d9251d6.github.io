@@ -253,6 +253,7 @@ permalink: /photos/
             // append load more
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
+                document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
                 window.loadLimit = 5;
                 loadImageList();
             });
@@ -261,6 +262,7 @@ permalink: /photos/
             if (loadCount > 1) {
                 document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center;"><a class="no-underline" id="lazy-load-all" style="filter: saturate(0); font-size: 80%; margin-top: 10px;">Load All (`+window[listName].length+`)</a></div>`);
                 document.getElementById("lazy-load-all").addEventListener("click", function(){
+                    document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
                     loadAll();
                 });
             }
