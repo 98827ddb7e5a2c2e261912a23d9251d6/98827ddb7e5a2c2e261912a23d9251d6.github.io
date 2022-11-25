@@ -337,7 +337,7 @@ permalink: /photos/
         // get parent
         var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
         if (parent) {
-            collection.push();
+            collection.push(parent);
         }
 
         // get children
