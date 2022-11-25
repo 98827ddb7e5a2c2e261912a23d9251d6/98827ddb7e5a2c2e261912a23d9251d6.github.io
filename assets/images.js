@@ -606,6 +606,47 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 60
+  {
+    "url": "https://storage.beriru.wiki/60-01.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-02.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-03.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-04.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-05.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-06.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-07.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-08.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-09.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/60-10.jpg",
+    "des": "Long twin tails, white and cyan sailor uniform. Fujifilm X-tra 400. Near 广州体育馆.",
+  },
 // 49
   {
     "url": "https://storage.beriru.wiki/49-01.jpg",
