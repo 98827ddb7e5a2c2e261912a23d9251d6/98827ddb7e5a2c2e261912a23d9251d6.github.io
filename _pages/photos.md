@@ -407,6 +407,10 @@ permalink: /photos/
                 collectionList = getCollction(collectionIndex);
             }
 
+            // draw the list
+            window.loadLimit = collectionList.length;
+            loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
+
             // add collection link
             document.getElementById("the-end").insertAdjacentHTML("beforebegin", `
                 <div  style="text-align:center; font-size: 130%; filter: saturate(0);"><a class="no-underline" id="copy-collection"> 🔗 </a></div>
@@ -418,10 +422,6 @@ permalink: /photos/
                     alert("collection link copied");
                 });
             });
-
-            // draw the list
-            window.loadLimit = collectionList.length;
-            loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
 
             // prevent default
             defaultLoad = false;
