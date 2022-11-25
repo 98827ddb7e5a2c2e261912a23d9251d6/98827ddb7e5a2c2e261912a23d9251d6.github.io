@@ -40,6 +40,7 @@ a::after {
 }
 
 .site-avatar {
-    left: 50vw;
-    margin-left: -35px;
+    left: 50vw !important;
+    margin: 0px !important;
+    margin-left: -35px !important;
 }
