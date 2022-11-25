@@ -190,13 +190,13 @@ permalink: /photos/
             }
             // add special tag for hidden
             if (item.skip && !urlParm.get('loadCollection')) {
-                dateHtml = "🌟 Hidden Item - " + dateHtml;
+                dateHtml = `<a class="no-underline">🌟</a> Hidden Item - ` + dateHtml;
             }
             if (item.parent == 0 && item.subs.split("|").length <= 1) {
-                dateHtml = "🌟🌟" + dateHtml;
+                dateHtml = `<a class="no-underline">🌟🌟</a>` + dateHtml;
             }
             // finalise date
-            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; padding-left: 3px;"> 🔗 </span></p>`
+            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <a class="click-to-share no-underline" photoId="`+item.index+`" style="padding-left: 3px; filter: saturate(0);"> 🔗 </a></p>`
 
             // build reference field
             if (item.ref) {
