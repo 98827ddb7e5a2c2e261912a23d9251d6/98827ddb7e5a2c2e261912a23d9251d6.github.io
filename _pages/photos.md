@@ -6,6 +6,11 @@ permalink: /photos/
 <script src="/assets/images.js"></script>
 
 <style>
+    /* no scroll bar */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
     /* dark theme baby */
     body {
         background: rgba(0,0,0,0) !important;
