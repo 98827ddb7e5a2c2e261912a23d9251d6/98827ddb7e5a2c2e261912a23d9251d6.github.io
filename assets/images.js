@@ -600,6 +600,76 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 56
+  {
+    "url": "https://storage.beriru.wiki/56-01.jpg",
+    "des": "Fujifilm X-tra 800. At 花城大道.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-02.jpg",
+    "des": "Fujifilm X-tra 800. At 花城大道.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-03.jpg",
+    "des": "Fujifilm X-tra 800. At 花城大道.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-04.jpg",
+    "des": "After rain. Fujifilm X-tra 800. At the rooftop platform of Guangzhou East railroad station.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-05.jpg",
+    "des": "After rain. Fujifilm X-tra 800. At the rooftop platform of Guangzhou East railroad station.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-06.jpg",
+    "des": "After rain. Fujifilm X-tra 800. At the rooftop platform of Guangzhou East railroad station.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-07.jpg",
+    "des": "Fujifilm X-tra 800. At 东方宝泰 B1 stairs.",
+    "date": "2016-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-08.jpg",
+    "des": "Fujifilm X-tra 800. At 东方宝泰 B1 stairs.",
+    "date": "2016-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-09.jpg",
+    "des": "Fujifilm X-tra 800. At 东方宝泰 B1 stairs.",
+    "date": "2016-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/56-10.jpg",
+    "des": "Fujifilm X-tra 800. At 东方宝泰 B1 stairs.",
+    "date": "2016-04",
+  },
+// 52
+  {
+    "url": "https://storage.beriru.wiki/52-1.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/52-2.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/52-3.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/52-4.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/52-5.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/52-6.jpg",
+    "des": "A random shoot in Home Inns near 滘口.",
+  },
 // 51
   {
     "url": "https://storage.beriru.wiki/51-01.jpg",
