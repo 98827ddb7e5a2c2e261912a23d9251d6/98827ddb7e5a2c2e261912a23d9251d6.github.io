@@ -497,7 +497,7 @@ permalink: /photos/
     var storageBase = "https://storage.beriru.wiki";
     var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
     fetch(storageBase).then(function(response) {
-        if (respond.text() != "of course it bloody works\n") {
+        if (response.text() != "of course it bloody works\n") {
           storageBase = storageBackup;
         }
         console.log("Using: " + storageBase);
