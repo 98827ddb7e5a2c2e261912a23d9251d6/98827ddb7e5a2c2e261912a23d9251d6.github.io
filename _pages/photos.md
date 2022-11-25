@@ -192,15 +192,18 @@ permalink: /photos/
             if (item.skip && !urlParm.get('loadCollection')) {
                 dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
+            if (item.parent == 0 && item.subs.split("|").length <= 1) {
+                dateHtml = "🌟🌟" + dateHtml;
+            }
             // finalise date
             dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; padding-left: 3px;"> 🔗 </span></p>`
 
             // build reference field
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>view more</a>";
-            } else if (item.skip && item.parent >= 0 && !urlParm.get('loadCollection')) {
+            } else if (item.skip && (item.parent > 0 || (item.parent == 0 && item.subs.split("|").length > 1)) && !urlParm.get('loadCollection')) {
                 var collectionLink = "/photos?loadCollection=" + item.parent;
-                if (item.subs && item.subs.split("|").length > 1) {
+                if (item.subs) {
                     collectionLink = collectionLink + "&subEntries=" + item.subs;
                 }
                 var refHtml = " <a href='"+collectionLink+"'>view related</a>";
