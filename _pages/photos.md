@@ -187,6 +187,9 @@ permalink: /photos/
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>view more</a>";
             } else if (item.skip && item.parent > 0 && !urlParm.get('loadCollection')) {
                 var collectionLink = "/photos?loadCollection=" + item.parent;
+                if (item.subs && item.subs.split("|").length > 1) {
+                    collectionLink += "&subEntries=" + item.subs;
+                }
                 var refHtml = " <a href='"+collectionLink+"'>view related</a>";
             } else {
                 var refHtml = "";
@@ -328,24 +331,42 @@ permalink: /photos/
     }
 
     // load collection by parent index
-    function getCollction(collectionIndex) {
+    function getCollction(collectionIndex, subCollectionIndexs = []) {
         var collection = [];
 
         // get parent
-        collection.push(searchByIndex("imageList", collectionIndex, removeFound = false));
-
-        // get children
-        var children = searchByParent("hiddenList", collectionIndex);
-        if (children.length > 0) {
-            collection = collection.concat(children);
+        var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
+        if (parent) {
+            collection.push();
         }
 
+        // get children
+        if (subCollectionIndexs.length > 0 && collectionIndex == 0) {
+            subCollectionIndexs.forEach(function(index){
+                var children = searchByIndex("hiddenList", index, removeFound = true);
+                if (children) {
+                    collection.push(children);
+                }
+            });
+        } else {
+            var childrens = searchByParent("hiddenList", collectionIndex);
+            if (children.length > 0) {
+                collection = collection.concat(childrens);
+            }
+        }
+
+        // return
         return collection;
     }
     var collectionList = [];
     if (collectionIndex = urlParm.get('loadCollection')) {
-        if (collectionIndex <= imageList.length && collectionIndex > 0) {
-            collectionList = getCollction(collectionIndex);
+        if (collectionIndex <= imageList.length && collectionIndex >= 0) {
+            if (collectionIndex == 0 && urlParm.get('subEntries')) {
+                var subEntries = urlParm.get('subEntries').split("|");
+                collectionList = getCollction(collectionIndex, subEntries);
+            } else {
+                collectionList = getCollction(collectionIndex);
+            }
 
             // draw the list
             window.loadLimit = collectionList.length;
