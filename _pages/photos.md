@@ -180,7 +180,7 @@ permalink: /photos/
                 dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
             // finalise date
-            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; font-size: 110%;"> ➶ </span></p>`
+            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer;"> 📋 </span></p>`
 
             // build reference field
             if (item.ref) {
@@ -362,8 +362,8 @@ permalink: /photos/
         // get random
         var targetList = "imageList";
         if (manual) {
-            var probNormal = 9;
-            var probHidden = 1;
+            var probNormal = 85;
+            var probHidden = 15;
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             if (loadTypeRand > probNormal) {
                 targetList = "hiddenList";
