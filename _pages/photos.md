@@ -43,7 +43,10 @@ permalink: /photos/
     }
     /* styling photo list */
     #photo-list {
+        width: 100%;
+        width: calc(100% + 20px);
         margin-top: -30px;
+        margin-left: -10px;
     }
     .photo-children {
         max-width: 444px;
@@ -56,6 +59,7 @@ permalink: /photos/
         text-align: center;
         color: #aaa;
         font-size: 80%;
+        padding: 0 20px;
     }
     .photo-des{
         opacity: 0.999;
