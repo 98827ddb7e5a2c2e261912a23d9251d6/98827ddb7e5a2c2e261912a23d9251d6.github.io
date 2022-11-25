@@ -41,7 +41,7 @@ var imageList =
   },
   {
     "url": "https://pbs.twimg.com/media/FaDdKCuVsAEHYTa?format=jpg&name=large",
-    "des": "A depth-map exported using <a href='https://focos.me' target='_blank'>Focos</a>.",
+    "des": "A depth-map exported using <a href='https://focos.me' target='_blank'>Focos</a>. 🔑",
     "ref": "",
     "date": "2022-08-14",
   },
@@ -606,6 +606,207 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 94 - big chunk of 94
+  {
+    "url": "https://storage.beriru.wiki/94-01.jpg",
+    "des": "Tennis shoes, cotton knee-socks with strips at 二沙岛中心公园. Vintage 50mm f1.4 with 36MP digital crap.",
+    "date": "2016-04-27",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-02.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-03.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-04.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-05.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-06.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-07.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-08.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-09.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-10.jpg",
+    "des": "Pink bathrobe with white winter cotton knee-socks at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-11.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-12.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-13.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-14.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-15.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-16.jpg",
+    "des": "Winter white tights at 碧水湾温泉度假村. Fujifilm X-tra 800.",
+    "date": "2016-01",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-17.jpg",
+    "des": "Converse, cotton knee-socks with strips in Home Inns near 石牌桥. Fujifilm X-tra 800.",
+    "date": "2016-10",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-18.jpg",
+    "des": "Converse, cotton knee-socks with strips in Home Inns near 石牌桥. Fujifilm X-tra 800.",
+    "date": "2016-10",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-19.jpg",
+    "des": "At a bus stop near 棠溪. Fujifilm something 800.",
+    "date": "2013-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-20.jpg",
+    "des": "At a bus stop near 棠溪. Fujifilm something 800.",
+    "date": "2013-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-21.jpg",
+    "des": "At a bus stop near 棠溪. Fujifilm something 800.",
+    "date": "2013-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-22.jpg",
+    "des": "At a bus stop near 棠溪. Fujifilm something 800.",
+    "date": "2013-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-23.jpg",
+    "des": "At a bus stop near 棠溪. Fujifilm something 800.",
+    "date": "2013-11",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-24.jpg",
+    "des": "Playing play station portable.",
+    "date": "2014-01-26",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-25.jpg",
+    "des": "At 科学馆. Fujifilm Natura 1600.",
+    "date": "",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-26.jpg",
+    "des": "Different set from the first Kigurumi shoot.",
+    "date": "2017-07-20 23:57:26",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-27.jpg",
+    "des": "At Costa cafe in 万菱汇. Fujifilm X-tra 800.",
+    "date": "2015-05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-28.jpg",
+    "des": "烈士陵园. Shot with a tele-zoom. Fujifilm C200.",
+    "date": "2015-04",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-29.jpg",
+    "des": "White and white.",
+    "date": "2015-02-14 16:47:05",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-30.jpg",
+    "des": "Cyan and black.",
+    "date": "2015-01-29 23:23;06",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-31.jpg",
+    "des": "In Home Inns with something 200 film.",
+    "date": "2015-02",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-32.jpg",
+    "des": "Queuing for 羽寿司 at 东方宝泰. Agfa APX 400.",
+    "date": "2015-02",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-33.jpg",
+    "des": "Underground. Agfa APX 400.",
+    "date": "2015-02",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-34.jpg",
+    "des": "Firing SB80DX off camera with Ricoh GR. In Home Inns near 石牌桥.",
+    "date": "2015-01-09",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-35.jpg",
+    "des": "Winter look. Grey winter tights. Shot on Ricoh GR.",
+    "date": "2015-01-08",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-36.jpg",
+    "des": "Winter look. Grey winter tights. Shot on Ricoh GR.",
+    "date": "2015-01-08",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-37.jpg",
+    "des": "Vintage cotton knee-socks at a budget hotel near 动物园南门. Shot on <a href='https://microsites.lomography.com/petzval-lens/' target='_blank'>Lomography Petzval Lens.</a>",
+    "date": "2014-11-15",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-38.jpg",
+    "des": "Vintage cotton knee-socks at a budget hotel near 动物园南门. Shot on <a href='https://microsites.lomography.com/petzval-lens/' target='_blank'>Lomography Petzval Lens.</a>",
+    "date": "2014-11-15",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-39.jpg",
+    "des": "Vintage cotton knee-socks at a budget hotel near 动物园南门. Shot on <a href='https://microsites.lomography.com/petzval-lens/' target='_blank'>Lomography Petzval Lens.</a>",
+    "date": "2014-11-15",
+  },
+  {
+    "url": "https://storage.beriru.wiki/94-40.jpg",
+    "des": "Underground parking at 东方宝泰.",
+    "date": "2016-03-06",
+  },
 // 60
   {
     "url": "https://storage.beriru.wiki/60-01.jpg",
