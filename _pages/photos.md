@@ -203,6 +203,11 @@ permalink: /photos/
                 var desHtml = "";
             }
 
+            // append base
+            if (!item.url.match(/^https:\/\//g)) {
+                item.url = storageBase + item.url;
+            }
+
             var child = `
                 <div class="photo-children">
                     <img class="photo-image" src="`+item.url+`"/>
