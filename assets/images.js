@@ -1834,7 +1834,8 @@ var storageBase = "https://storage.beriru.wiki";
 var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
 
 try {
-  var respond = fetch(storageBase).text();
+  var fetching = await fetch(storageBase);
+  var respond = await(fetching.text());
   if (respond != "of course it bloody works\n") {
     storageBase = storageBackup;
   }
