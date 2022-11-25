@@ -374,7 +374,7 @@ permalink: /photos/
             // rand and min hit
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             hitNormal++;
-            if (loadTypeRand > probNormal || hitNormal >= probNormal / probHidden) {
+            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * 2) {
                 targetList = "hiddenList";
                 hitNormal = 0;
             }
