@@ -251,8 +251,8 @@ var imageList =
   },
   {
     "url": "https://storage.beriru.wiki/1122-9.jpg",
-    "des": "When you shoot NBs with flash on, they reflect and SHINE.",
-    "ref": "",
+    "des": "When you shoot NBs with flash on, they reflect and SHINE. Full look ->",
+    "ref": "https://beriru.wiki/photos/?loadExt=https://pbs.twimg.com/media/FiYJntmUcAA3c22?format=jpg&name=large",
     "date": "2017-02-12",
   },
   {
@@ -600,6 +600,80 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
+// 49
+  {
+    "url": "https://storage.beriru.wiki/49-01.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-02.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-03.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-04.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-05.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-06.jpg",
+    "des": "红黑 with knee-socks tights. Portra 400. Ersha Island.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-07.jpg",
+    "des": "At a KFC near 中华广场. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-08.jpg",
+    "des": "Stuck in traffics on 中山路. Black knee-socks tights. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-09.jpg",
+    "des": "Stuck in traffics on 中山路. Black knee-socks tights. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-10.jpg",
+    "des": "Stuck in traffics on 中山路. Black knee-socks tights. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-11.jpg",
+    "des": "Stuck in traffics on 中山路. Black knee-socks tights. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-12.jpg",
+    "des": "Stuck in traffics on 中山路. Black knee-socks tights. Portra 400.",
+  },
+  {
+    "url": "https://storage.beriru.wiki/49-13.jpg",
+    "des": "Windscreen pressing. Portra 400.",
+  },
+// 57
+  {
+    "url": "https://storage.beriru.wiki/57-1.jpg",
+    "des": "Classic red and drak cyan sailor uniform, winter cotton tights and New Balance 574 (kids).",
+  },
+  {
+    "url": "https://storage.beriru.wiki/57-2.jpg",
+    "des": "Classic red and drak cyan sailor uniform, winter cotton tights and New Balance 574 (kids).",
+  },
+  {
+    "url": "https://storage.beriru.wiki/57-3.jpg",
+    "des": "Classic red and drak cyan sailor uniform, winter cotton tights and New Balance 574 (kids).",
+  },
+  {
+    "url": "https://storage.beriru.wiki/57-4.jpg",
+    "des": "Classic red and drak cyan sailor uniform, winter cotton tights and New Balance 574 (kids).",
+  },
+  {
+    "url": "https://storage.beriru.wiki/57-5.jpg",
+    "des": "Classic red and drak cyan sailor uniform, winter cotton tights and New Balance 574 (kids).",
+  },
 // 56
   {
     "url": "https://storage.beriru.wiki/56-01.jpg",
