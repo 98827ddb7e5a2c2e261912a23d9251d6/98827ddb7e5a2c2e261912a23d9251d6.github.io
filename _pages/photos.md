@@ -407,6 +407,18 @@ permalink: /photos/
                 collectionList = getCollction(collectionIndex);
             }
 
+            // add collection link
+            document.getElementById("the-end").insertAdjacentHTML("beforebegin", `
+                <div  style="text-align:center; font-size: 130%; filter: saturate(0);"><a class="no-underline" id="copy-collection"> 🔗 </a></div>
+            `);
+            document.getElementById("copy-collection").addEventListener("click", function(){
+                var link = window.location.href;
+                console.log(link);
+                navigator.clipboard.writeText(link).then(function(){
+                    alert("collection link copied");
+                });
+            });
+
             // draw the list
             window.loadLimit = collectionList.length;
             loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
