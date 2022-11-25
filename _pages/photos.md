@@ -307,191 +307,200 @@ permalink: /photos/
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
 
+    function loadMaster() {
+        // handle url param
+        const urlParm = new URLSearchParams(window.location.search);
 
-    // handle url param
-    const urlParm = new URLSearchParams(window.location.search);
+        // default flag
+        var defaultLoad = true
 
-    // default flag
-    var defaultLoad = true
-
-    // load specific
-    if (loadIndex = urlParm.get('loadSingle')) {
-        var targetList = "imageList";
-        if (urlParm.get('hidden') == "yes") {
-            targetList = "hiddenList";
-        }
-        if (loadIndex <= window[targetList].length) {
-            loadImageList(loadIndex, false, targetList);
-            document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
-                    <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
-                `);
-            document.getElementById("new-random").addEventListener("click", function(){
-                getRandom(true);
-            });
-            document.getElementById('lazy-load-more').innerText = "View Latest";
-            document.getElementById('lazy-load-more').style.fontSize = "80%";
-            document.getElementById('lazy-load-more').style.filter = "saturate(0)";
-            defaultLoad = false;
-        }
-    }
-
-    // load collection by parent index
-    function getCollction(collectionIndex, subCollectionIndexs = []) {
-        var collection = [];
-
-        // get parent
-        var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
-        if (parent) {
-            collection.push(parent);
-        }
-
-        // get children
-        if (subCollectionIndexs.length > 0 && collectionIndex == 0) {
-            subCollectionIndexs.forEach(function(index){
-                var children = searchByIndex("hiddenList", index, removeFound = true);
-                if (children) {
-                    collection.push(children);
-                }
-            });
-        } else {
-            var childrens = searchByParent("hiddenList", collectionIndex);
-            if (childrens.length > 0) {
-                collection = collection.concat(childrens);
-            }
-        }
-
-        // return
-        return collection;
-    }
-    var collectionList = [];
-    if (collectionIndex = urlParm.get('loadCollection')) {
-        if (collectionIndex <= imageList.length && collectionIndex >= 0) {
-            if (collectionIndex == 0 && urlParm.get('subEntries')) {
-                var subEntries = urlParm.get('subEntries').split("|");
-                collectionList = getCollction(collectionIndex, subEntries);
-            } else {
-                collectionList = getCollction(collectionIndex);
-            }
-
-            // draw the list
-            window.loadLimit = collectionList.length;
-            loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
-
-            // prevent default
-            defaultLoad = false;
-        }
-    }
-
-    // load random one
-    var hitNormal = 0;
-    function getRandom(manual = false) {
-        // remove current
-        if (toRemove = document.getElementsByClassName("photo-children")[0]) {
-            toRemove.remove();
-        }
-
-        // get random
-        var targetList = "imageList";
-        if (manual) {
-            // probs
-            var probNormal = 85;
-            var probHidden = 15;
-
-            // rand and min hit
-            var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
-            hitNormal++;
-            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * 2) {
+        // load specific
+        if (loadIndex = urlParm.get('loadSingle')) {
+            var targetList = "imageList";
+            if (urlParm.get('hidden') == "yes") {
                 targetList = "hiddenList";
-                hitNormal = 0;
+            }
+            if (loadIndex <= window[targetList].length) {
+                loadImageList(loadIndex, false, targetList);
+                document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+                        <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
+                    `);
+                document.getElementById("new-random").addEventListener("click", function(){
+                    getRandom(true);
+                });
+                document.getElementById('lazy-load-more').innerText = "View Latest";
+                document.getElementById('lazy-load-more').style.fontSize = "80%";
+                document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+                defaultLoad = false;
             }
         }
-        var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
-        loadTargetIndex = Math.floor(loadTargetIndex);
-        loadImageList(loadTargetIndex, true, targetList);
 
-        // locate
-        if (manual) {
-            document.getElementsByClassName("photo-image")[0].addEventListener("load", function(){
-                document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
-                window.scrollBy(0, -20);
-            });
+        // load collection by parent index
+        function getCollction(collectionIndex, subCollectionIndexs = []) {
+            var collection = [];
+
+            // get parent
+            var parent = searchByIndex("imageList", collectionIndex, removeFound = false);
+            if (parent) {
+                collection.push(parent);
+            }
+
+            // get children
+            if (subCollectionIndexs.length > 0 && collectionIndex == 0) {
+                subCollectionIndexs.forEach(function(index){
+                    var children = searchByIndex("hiddenList", index, removeFound = true);
+                    if (children) {
+                        collection.push(children);
+                    }
+                });
+            } else {
+                var childrens = searchByParent("hiddenList", collectionIndex);
+                if (childrens.length > 0) {
+                    collection = collection.concat(childrens);
+                }
+            }
+
+            // return
+            return collection;
         }
-         
-        // add more random link
-        if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
-            toRemove.remove();
-        }
-        if (imageList.length > 10) {
-            document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
-                <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
-            `);
-            document.getElementById("new-random").addEventListener("click", function(){
-                getRandom(true);
-            });
+        var collectionList = [];
+        if (collectionIndex = urlParm.get('loadCollection')) {
+            if (collectionIndex <= imageList.length && collectionIndex >= 0) {
+                if (collectionIndex == 0 && urlParm.get('subEntries')) {
+                    var subEntries = urlParm.get('subEntries').split("|");
+                    collectionList = getCollction(collectionIndex, subEntries);
+                } else {
+                    collectionList = getCollction(collectionIndex);
+                }
+
+                // draw the list
+                window.loadLimit = collectionList.length;
+                loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
+
+                // prevent default
+                defaultLoad = false;
+            }
         }
 
-        // adjust lazy load
-        document.getElementById('lazy-load-more').innerText = "View Latest";
-        document.getElementById('lazy-load-more').style.fontSize = "80%";
-        document.getElementById('lazy-load-more').style.filter = "saturate(0)";
-        document.getElementById('lazy-load-more').addEventListener("click", function(){
+        // load random one
+        var hitNormal = 0;
+        function getRandom(manual = false) {
+            // remove current
+            if (toRemove = document.getElementsByClassName("photo-children")[0]) {
+                toRemove.remove();
+            }
+
+            // get random
+            var targetList = "imageList";
+            if (manual) {
+                // probs
+                var probNormal = 85;
+                var probHidden = 15;
+
+                // rand and min hit
+                var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
+                hitNormal++;
+                if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * 2) {
+                    targetList = "hiddenList";
+                    hitNormal = 0;
+                }
+            }
+            var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
+            loadTargetIndex = Math.floor(loadTargetIndex);
+            loadImageList(loadTargetIndex, true, targetList);
+
+            // locate
+            if (manual) {
+                document.getElementsByClassName("photo-image")[0].addEventListener("load", function(){
+                    document.getElementsByClassName("photo-children")[0].scrollIntoView(); 
+                    window.scrollBy(0, -20);
+                });
+            }
+             
+            // add more random link
             if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
                 toRemove.remove();
             }
-        });
-    }
-    if (urlParm.get('loadRandom') == "yes") {
-        // do random
-        getRandom();
+            if (imageList.length > 10) {
+                document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+                    <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
+                `);
+                document.getElementById("new-random").addEventListener("click", function(){
+                    getRandom(true);
+                });
+            }
 
-        // adjust hero
-        document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
+            // adjust lazy load
+            document.getElementById('lazy-load-more').innerText = "View Latest";
+            document.getElementById('lazy-load-more').style.fontSize = "80%";
+            document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+            document.getElementById('lazy-load-more').addEventListener("click", function(){
+                if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
+                    toRemove.remove();
+                }
+            });
+        }
+        if (urlParm.get('loadRandom') == "yes") {
+            // do random
+            getRandom();
 
-        // disable default
-        defaultLoad = false;
-    }
+            // adjust hero
+            document.getElementById("hero-title").insertAdjacentHTML("afterend", `<p style="color: #fff;text-align: center;">Here is a random one:</p>`);
 
-    // customise load limit
-    if (cusLoadLimit = urlParm.get('loadLimit')) {
-        if (cusLoadLimit > imageList.length || cusLoadLimit == 0) {
-            window.loadLimit = imageList.length;
-        } else {
-            window.loadLimit = cusLoadLimit;
+            // disable default
+            defaultLoad = false;
+        }
+
+        // customise load limit
+        if (cusLoadLimit = urlParm.get('loadLimit')) {
+            if (cusLoadLimit > imageList.length || cusLoadLimit == 0) {
+                window.loadLimit = imageList.length;
+            } else {
+                window.loadLimit = cusLoadLimit;
+            }
+        }
+
+        // display external pic
+        if (extImgSrc = urlParm.get('loadExt')) {
+            defaultLoad = false;
+            document.getElementsByTagName("h1")[0].remove();
+            document.getElementById("hero-title").remove();
+            var child = `
+                <div class="photo-children">
+                    <img src="`+extImgSrc+`"/>
+                    <p class="photo-date">(external image)</p>
+                    <p class="photo-des"><a id="go-back">Close</a></p>
+                </div>
+            `;
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
+            document.getElementById("go-back").addEventListener("click", function(){
+                window.close();
+            });
+        }
+
+        // alter avatar logic when it is not default or random
+        if (!defaultLoad && urlParm.get('loadRandom') != "yes") {
+            document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
+        }
+
+        // global default
+        if (!imageList) {
+            document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
+        } else if (defaultLoad) {
+            // load first 10
+            window.loadLimit = 5; // default
+            loadImageList(false, false, "imageList");
         }
     }
 
-    // display external pic
-    if (extImgSrc = urlParm.get('loadExt')) {
-        defaultLoad = false;
-        document.getElementsByTagName("h1")[0].remove();
-        document.getElementById("hero-title").remove();
-        var child = `
-            <div class="photo-children">
-                <img src="`+extImgSrc+`"/>
-                <p class="photo-date">(external image)</p>
-                <p class="photo-des"><a id="go-back">Close</a></p>
-            </div>
-        `;
-        document.getElementById("photo-list").insertAdjacentHTML('beforeend', child);
-        document.getElementById("go-back").addEventListener("click", function(){
-            window.close();
-        });
-    }
-
-    // alter avatar logic when it is not default or random
-    if (!defaultLoad && urlParm.get('loadRandom') != "yes") {
-        document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
-    }
-
-    // global default
-    if (!imageList) {
-        document.getElementById("photo-list").innerHTML = `<p style="color: #fff;text-align: center;">Something is not right, please refresh the page.</p>`
-    } else if (defaultLoad) {
-        // load first 10
-        window.loadLimit = 5; // default
-        loadImageList(false, false, "imageList");
-    }
-
-    // no zoom and being naughty
-    document.getElementsByClassName("")
+    // check storage base and render
+    var storageBase = "https://storage.beriru.wiki";
+    var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
+    fetch(storageBase).then(function(response) {
+        if (respond.text() != "of course it bloody works\n") {
+          storageBase = storageBackup;
+        }
+        console.log("Using: " + storageBase);
+        loadMaster();
+    });
 </script>
