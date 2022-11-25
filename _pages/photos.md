@@ -389,8 +389,8 @@ permalink: /photos/
         var targetList = "imageList";
         if (manual) {
             // probs
-            var probNormal = 80;
-            var probHidden = 20;
+            var probNormal = 90;
+            var probHidden = 10;
 
             // rand and min hit
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
