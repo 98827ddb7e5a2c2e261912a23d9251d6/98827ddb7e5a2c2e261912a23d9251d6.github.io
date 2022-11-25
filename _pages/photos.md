@@ -246,10 +246,7 @@ permalink: /photos/
             
         } else {
             // fuck you adobe portfolio
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div id="the-end" style="text-align:center; font-size: 130%;"><a class="no-underline" style="filter: saturate(0);">The End</a></div>`);
-            document.getElementById("the-end").addEventListener("click", function(){
-                document.documentElement.scrollTop = 0;
-            });
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div id="the-end" style="text-align:center; font-size: 130%;"><a class="no-underline" href="/photos?loadRandom=yes" style="filter: saturate(0);">The End</a></div>`);
         }
 
         // repos
