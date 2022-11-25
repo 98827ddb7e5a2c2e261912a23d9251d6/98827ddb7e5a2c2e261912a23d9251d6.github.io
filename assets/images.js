@@ -1283,7 +1283,7 @@ var hiddenList =
   },
   {
     "url": "https://storage.beriru.wiki/22-8.jpg",
-    "des": "HDRrrrrrrr. Classic winter sailor uniform with double-layer black tights. Budget hotel near 彩虹桥.",
+    "des": "HDRrrrrrrr. Sailor moon skull hoodie with double-layer white tights. Home Inns near 石牌桥.",
     "date": "2014-12-13",
   },
   {
