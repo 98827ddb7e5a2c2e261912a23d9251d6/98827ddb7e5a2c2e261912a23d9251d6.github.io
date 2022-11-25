@@ -141,6 +141,7 @@ permalink: /photos/
 
         // load images
         var count = 0;
+        var prevDes = "";
         do {
             count++;
             if (targetIndex) {
@@ -180,7 +181,7 @@ permalink: /photos/
                 dateHtml = "🌟 Hidden Item - " + dateHtml;
             }
             // finalise date
-            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer;"> 📋 </span></p>`
+            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <span class="click-to-share" photoId="`+item.index+`" style="cursor: pointer; padding-left: 3px;"> 🔗 </span></p>`
 
             // build reference field
             if (item.ref) {
@@ -193,8 +194,9 @@ permalink: /photos/
             }
 
             // build discriptions
-            if (!urlParm.get('loadCollection') || refHtml || (!item.skip && !item.parent)) {
+            if (!urlParm.get('loadCollection') || refHtml || (!item.skip && !item.parent) || prevDes != item.des) {
                 var desHtml = `<p class="photo-des">`+item.des+refHtml+`</p>`;
+                prevDes = item.des;
             } else {
                 var desHtml = "";
             }
@@ -245,7 +247,10 @@ permalink: /photos/
             
         } else {
             // fuck you adobe portfolio
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div style="text-align:center; font-size: 130%;"><a class="no-underline" style="filter: saturate(0);">The End</a></div>`);
+            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div id="the-end" style="text-align:center; font-size: 130%;"><a class="no-underline" style="filter: saturate(0);">The End</a></div>`);
+            document.getElementById("the-end").addEventListener("click", function(){
+                document.documentElement.scrollTop = 0;
+            });
         }
 
         // repos
@@ -353,6 +358,7 @@ permalink: /photos/
     }
 
     // load random one
+    var hitNormal = 0;
     function getRandom(manual = false) {
         // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
@@ -362,11 +368,16 @@ permalink: /photos/
         // get random
         var targetList = "imageList";
         if (manual) {
-            var probNormal = 85;
-            var probHidden = 15;
+            // probs
+            var probNormal = 80;
+            var probHidden = 20;
+
+            // rand and min hit
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
-            if (loadTypeRand > probNormal) {
+            hitNormal++;
+            if (loadTypeRand > probNormal || hitNormal >= probNormal / probHidden) {
                 targetList = "hiddenList";
+                hitNormal = 0;
             }
         }
         var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
