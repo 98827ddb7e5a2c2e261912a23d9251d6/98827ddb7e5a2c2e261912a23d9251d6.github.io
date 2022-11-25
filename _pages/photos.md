@@ -56,7 +56,6 @@ permalink: /photos/
         text-align: center;
         color: #aaa;
         font-size: 80%;
-        margin-top: -5px;
     }
     .photo-des{
         opacity: 0.999;
