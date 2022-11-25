@@ -307,6 +307,16 @@ permalink: /photos/
     // fix noir incompa
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
 
+    // check storage base and render
+    var storageBase = "https://storage.beriru.wiki";
+    var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
+    fetch(storageBase).then(function(response) {
+        if (response.text() != "of course it bloody works\n") {
+          storageBase = storageBackup;
+        }
+        console.log("Using: " + storageBase);
+    });
+
     // handle url param
     const urlParm = new URLSearchParams(window.location.search);
 
@@ -491,13 +501,5 @@ permalink: /photos/
         loadImageList(false, false, "imageList");
     }
 
-    // check storage base and render
-    var storageBase = "https://storage.beriru.wiki";
-    var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
-    fetch(storageBase).then(function(response) {
-        if (response.text() != "of course it bloody works\n") {
-          storageBase = storageBackup;
-        }
-        console.log("Using: " + storageBase);
-    });
+    
 </script>
