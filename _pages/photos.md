@@ -338,7 +338,10 @@ permalink: /photos/
         collection.push(searchByIndex("imageList", collectionIndex, removeFound = false));
 
         // get children
-        collection = collection.concat(searchByParent("hiddenList", collectionIndex));
+        var children = searchByParent("hiddenList", collectionIndex);
+        if (children.length > 0) {
+            collection = collection.concat();
+        }
 
         return collection;
     }
