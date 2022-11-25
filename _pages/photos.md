@@ -185,10 +185,10 @@ permalink: /photos/
             // build reference field
             if (item.ref) {
                 var refHtml = " <a href='"+item.ref+"' target='_blank'>view more</a>";
-            } else if (item.skip && item.parent > 0 && !urlParm.get('loadCollection')) {
+            } else if (item.skip && item.parent >= 0 && !urlParm.get('loadCollection')) {
                 var collectionLink = "/photos?loadCollection=" + item.parent;
                 if (item.subs && item.subs.split("|").length > 1) {
-                    collectionLink += "&subEntries=" + item.subs;
+                    collectionLink = collectionLink "&subEntries=" + item.subs;
                 }
                 var refHtml = " <a href='"+collectionLink+"'>view related</a>";
             } else {
@@ -350,7 +350,7 @@ permalink: /photos/
             });
         } else {
             var childrens = searchByParent("hiddenList", collectionIndex);
-            if (children.length > 0) {
+            if (childrens.length > 0) {
                 collection = collection.concat(childrens);
             }
         }
