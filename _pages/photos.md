@@ -310,16 +310,19 @@ permalink: /photos/
     // check storage base and render
     var storageBase = "https://storage.beriru.wiki";
     var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
-    var response = await fetch(storageBase);
-    if (response.ok) {
-      var content = await response.text();
-      if (content != "of course it bloody works\n") {
-        storageBase = storageBackup;
-      }
-    } else {
-      storageBase = storageBackup;
+    async function storageFallback() {
+        var response = await fetch(storageBase);
+        if (response.ok) {
+          var content = await response.text();
+          if (content != "of course it bloody works\n") {
+            storageBase = storageBackup;
+          }
+        } else {
+          storageBase = storageBackup;
+        }
+        console.log("Using: " + storageBase);
     }
-    console.log("Using: " + storageBase);
+    storageFallback();
 
     // handle url param
     const urlParm = new URLSearchParams(window.location.search);
