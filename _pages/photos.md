@@ -340,7 +340,7 @@ permalink: /photos/
         // get children
         var children = searchByParent("hiddenList", collectionIndex);
         if (children.length > 0) {
-            collection = collection.concat();
+            collection = collection.concat(children);
         }
 
         return collection;
