@@ -54,7 +54,8 @@ permalink: /photos/
         margin-left: -10px;
     }
     .photo-children {
-        max-width: 444px;
+        max-width: 666px;
+        text-align: center;
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -73,6 +74,9 @@ permalink: /photos/
         font-size: 50%;
         opacity: 0.5;
         margin-top: 2px;
+    }
+    .photo-image{
+        max-height: 666px;
     }
 </style>
 
