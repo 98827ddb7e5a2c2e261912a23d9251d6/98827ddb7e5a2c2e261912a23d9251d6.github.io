@@ -608,33 +608,141 @@ var hiddenList =
 [
 // 0 - big chunk 2
   {
+    "url": "/0-56.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-57.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-58.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-59.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-60.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-61.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Close up of the double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-62.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Close up of the double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-63.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Close up of the double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-64.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-65.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-66.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-67.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-68.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-69.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-70.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=11'>this</a>, also shot a roll of RITZ CRYSTAL 200 using F3. Classic white sailor uniform with white scarf and double layer black tights, at 流花湖公园. The strange green glow is likely caused by Xray contamination.",
+    "date": "2014-01",
+    "subs": "303|302|301|300|299|298|297|296|295|294|293|292|291|290|289"
+  },
+  {
+    "url": "/0-53.jpg",
+    "des": "Weekend at the school campus. Playing around with the 20mm.",
+    "date": "2013-12",
+    "subs": "288|287|286",
+  },
+  {
+    "url": "/0-54.jpg",
+    "des": "Weekend at the school campus. Playing around with the 20mm.",
+    "date": "2013-12",
+    "subs": "288|287|286",
+  },
+  {
+    "url": "/0-55.jpg",
+    "des": "Weekend at the school campus. Playing around with the 20mm.",
+    "date": "2013-12",
+    "subs": "288|287|286",
+  },
+  {
     "url": "/0-48.jpg",
-    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
-    "date": "2013-07",
+    "des": "At 流花湖公园. Fuji Eterna Vivid 250D, probably expired.",
+    "date": "2013-11",
     "subs": "285|284|283|282|281",
   },
   {
     "url": "/0-49.jpg",
-    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
-    "date": "2013-07",
+    "des": "At 流花湖公园. Fuji Eterna Vivid 250D, probably expired.",
+    "date": "2013-11",
     "subs": "285|284|283|282|281",
   },
   {
     "url": "/0-50.jpg",
-    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
-    "date": "2013-07",
+    "des": "At 流花湖公园. Fuji Eterna Vivid 250D, probably expired.",
+    "date": "2013-11",
     "subs": "285|284|283|282|281",
   },
   {
     "url": "/0-51.jpg",
-    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
-    "date": "2013-07",
+    "des": "At 流花湖公园. Fuji Eterna Vivid 250D, probably expired.",
+    "date": "2013-11",
     "subs": "285|284|283|282|281",
   },
   {
     "url": "/0-52.jpg",
-    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
-    "date": "2013-07",
+    "des": "At 流花湖公园. Fuji Eterna Vivid 250D, probably expired.",
+    "date": "2013-11",
     "subs": "285|284|283|282|281",
   },
   {
