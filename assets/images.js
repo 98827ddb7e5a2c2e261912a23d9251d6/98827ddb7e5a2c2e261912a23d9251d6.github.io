@@ -611,31 +611,55 @@ var hiddenList =
     "url": "/0-70.jpg",
     "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
     "date": "2015-02",
-    "subs": "307|306|305|304|303"
+    "subs": "311|310|309|308|307|306|305|304|303"
   },
   {
     "url": "/0-71.jpg",
     "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
     "date": "2015-02",
-    "subs": "307|306|305|304|303"
+    "subs": "311|310|309|308|307|306|305|304|303"
   },
   {
     "url": "/0-72.jpg",
     "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
     "date": "2015-02",
-    "subs": "307|306|305|304|303"
+    "subs": "311|310|309|308|307|306|305|304|303"
   },
   {
     "url": "/0-73.jpg",
     "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
     "date": "2015-02",
-    "subs": "307|306|305|304|303"
+    "subs": "311|310|309|308|307|306|305|304|303"
   },
   {
     "url": "/0-74.jpg",
     "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
     "date": "2015-02",
-    "subs": "307|306|305|304|303"
+    "subs": "311|310|309|308|307|306|305|304|303"
+  },
+  {
+    "url": "/0-75.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
+    "date": "2015-02",
+    "subs": "311|310|309|308|307|306|305|304|303"
+  },
+  {
+    "url": "/0-76.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
+    "date": "2015-02",
+    "subs": "311|310|309|308|307|306|305|304|303"
+  },
+  {
+    "url": "/0-77.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
+    "date": "2015-02",
+    "subs": "311|310|309|308|307|306|305|304|303"
+  },
+  {
+    "url": "/0-78.jpg",
+    "des": "Apart from <a href='https://beriru.wiki/photos/?loadCollection=26' target='_blank'>this</a>, also shot a roll of Agfa Vista Plus 200. Classic white sailor uniform with red scarf, 华南植物园.",
+    "date": "2015-02",
+    "subs": "311|310|309|308|307|306|305|304|303"
   },
   {
     "url": "/0-56.jpg",
