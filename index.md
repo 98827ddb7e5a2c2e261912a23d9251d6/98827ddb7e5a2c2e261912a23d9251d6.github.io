@@ -13,7 +13,7 @@ layout: default
 	- Ice oatmeal latte (or any other regular coffee)
 	- Any random liquors \
 `🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`\
-`🥂 === wine.white` [⋙](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
+`🥂 === wine.white` [?](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
 - Food:
 	- Any random Japanese dishes \
 `🍜 || 🍣 || 🍤 || pickRandom(food.jp)`
@@ -22,10 +22,10 @@ layout: default
 	- A good dry-aged steak
 - Cruising 🚢
 - ~~Travel~~ Stay at nice resorts
-- [Kigurumi](kig-list/) - both dollmask, animegao and fursuit [⋙](https://en.wikipedia.org/wiki/Animegao_kigurumi){:target="_blank" rel="noopener"}
-- Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. [zentai](zen-list/), tights, [knee-socks](https://twitter.com/Beriru_Chan/status/1584617324480729089/photo/1){:target="_blank" rel="noopener"}</span>
+- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. My collection [⋙](kig-list/)
+- Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=6)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
-- Hatsune Miku [⋙](https://en.wikipedia.org/wiki/Hatsune_Miku){:target="_blank" rel="noopener"}
+- Hatsune Miku
 
 # Tools I Like
 
