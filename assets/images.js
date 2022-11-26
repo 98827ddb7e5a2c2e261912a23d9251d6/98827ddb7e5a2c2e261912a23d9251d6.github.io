@@ -606,7 +606,44 @@ var imageList =
 // hidden list for fun
 var hiddenList =
 [
-// 0 - big chunk
+// 0 - big chunk 2
+  {
+    "url": "/0-41.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+  {
+    "url": "/0-42.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+  {
+    "url": "/0-43.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+  {
+    "url": "/0-44.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+  {
+    "url": "/0-45.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+  {
+    "url": "/0-46.jpg",
+    "des": "At the central park in front of Guangzhou East railroad station. F100, AF-D 50 and Kodak Pro Foto 100.",
+    "date": "2013-07",
+    "subs": "274|275|276|277|278|279",
+  },
+// 0 - big chunk 1
   {
     "url": "/0-01.jpg",
     "des": "Tennis shoes, cotton knee-socks with strips at 二沙岛中心公园. Vintage 50mm f1.4 with 36MP digital crap.",
