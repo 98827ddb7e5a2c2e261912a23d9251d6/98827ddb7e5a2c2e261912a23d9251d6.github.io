@@ -430,27 +430,31 @@ permalink: /photos/
 
     // load random one
     var hitNormal = 0;
+    var probNormal = 85;
+    var probHidden = 15;
+    var adjParm = 2;
     function getRandom(manual = false) {
         // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
             toRemove.remove();
         }
 
-        // get random
+        // get type
         var targetList = "imageList";
         if (manual) {
-            // probs
-            var probNormal = 85;
-            var probHidden = 15;
-
             // rand and min hit
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             hitNormal++;
-            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * 2) {
+            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * adjParm) {
                 targetList = "hiddenList";
                 hitNormal = 0;
+            } else {
+                // improve odds
+                probHidden = Math.floor(probHidden + (hitNormal * (1 / adjParm)));
             }
         }
+
+        // get target
         var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex, true, targetList);
