@@ -432,7 +432,8 @@ permalink: /photos/
     var hitNormal = 0;
     var probNormal = 85;
     var probHidden = 15;
-    var adjParm = 2;
+    var minHitAdj = 2;
+    var improvOddAdj = 1;
     function getRandom(manual = false) {
         // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
@@ -445,12 +446,12 @@ permalink: /photos/
             // rand and min hit
             var loadTypeRand = Math.random() * (probNormal + probHidden - 1) + 1;
             hitNormal++;
-            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * adjParm) {
+            if (loadTypeRand > probNormal || hitNormal >= (probNormal / probHidden) * minHitAdj) {
                 targetList = "hiddenList";
                 hitNormal = 0;
             } else {
                 // improve odds
-                probHidden = Math.floor(probHidden + (hitNormal * (1 / adjParm)));
+                probHidden = Math.floor(probHidden + (hitNormal * (1 / improvOddAdj)));
             }
         }
 
