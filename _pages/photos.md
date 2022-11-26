@@ -451,7 +451,9 @@ permalink: /photos/
                 hitNormal = 0;
             } else {
                 // improve odds
-                probHidden = Math.floor(probHidden + (hitNormal * (1 / improvOddAdj)));
+                if (probHidden < probNormal) {
+                    probHidden = Math.floor(probHidden + (hitNormal * (1 / improvOddAdj)));
+                }
             }
         }
 
