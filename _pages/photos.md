@@ -520,7 +520,7 @@ permalink: /photos/
         document.getElementById("hero-title").remove();
         var child = `
             <div class="photo-children">
-                <img src="`+extImgSrc+`"/>
+                <img class="photo-image" src="`+extImgSrc+`"/>
                 <p class="photo-date">(external image)</p>
                 <p class="photo-des"><a id="go-back">Close</a></p>
             </div>
