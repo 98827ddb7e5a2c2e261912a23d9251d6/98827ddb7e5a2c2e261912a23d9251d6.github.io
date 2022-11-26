@@ -137,8 +137,8 @@ var imageList =
   },
   {
     "url": "/new-1.jpg",
-    "des": "Trying out APS film.",
-    "ref": "",
+    "des": "Trying out APS film. Another one ->",
+    "ref": "https://beriru.wiki/photos/?loadExt=https://pbs.twimg.com/media/Fie8zlcUUAE8Kv4?format=jpg&name=4096x4096",
     "date": "2020-06-16",
   },
   {
