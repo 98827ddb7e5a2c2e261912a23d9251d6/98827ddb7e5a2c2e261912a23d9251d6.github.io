@@ -53,17 +53,6 @@ layout: default
 
 <div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">View</a></div>
 <div style="text-align: center">Embrace the randomness, enjoy the treasure hunting. Yet you may find some of them disturbing or weird. But that's none of my business.</div>
-<div style="text-align: center"><i id="photo-last-update"></i></div>
-<script>
-	fetch('https://api.github.com/repos/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7.github.io/commits?path=/assets/images.js&page=1&per_page=1')
-	.then(response => response.json())
-	.then(data => {
-	  var timestamp = data[0].commit.committer.date;
-	  var date = new Date(timestamp).toISOString().split('T')[0];
-	  document.getElementById("photo-last-update").textContent = "last updated on " + date;
-	});
-</script>
-
 
 # Stuff I Made
 

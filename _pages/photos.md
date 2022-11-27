@@ -81,8 +81,18 @@ permalink: /photos/
 </style>
 
 <div id="filter"></div>
-<p id="hero-title" style="color: #fff;text-align: center;">License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></p>
+<p id="hero-title" style="color: #fff;text-align: center;">Last updated on <span id="photo-last-update">unknown</span>. <br/>License: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></p>
 <div id="photo-list"></div>
+
+<script>
+    fetch('https://api.github.com/repos/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7.github.io/commits?path=/assets/images.js&page=1&per_page=1')
+    .then(response => response.json())
+    .then(data => {
+      var timestamp = data[0].commit.committer.date;
+      var date = new Date(timestamp).toISOString().split('T')[0];
+      document.getElementById("photo-last-update").textContent = date;
+    });
+</script>
 
 <script>
     // utility
