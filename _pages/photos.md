@@ -339,7 +339,7 @@ permalink: /photos/
     var storageBase = "https://storage.beriru.wiki";
     var storageBackup = "https://raw.githubusercontent.com/98827ddb7e5a2c2e261912a23d9251d6/storage/master";
     async function storageFallback() {
-        var response = await fetch(storageBase);
+        var response = await fetch(storageBase);        
         if (response.ok) {
           var content = await response.text();
           if (content != "of course it bloody works\n") {
@@ -350,7 +350,12 @@ permalink: /photos/
         }
         console.log("Using: " + storageBase);
     }
-    storageFallback();
+    try {
+        storageFallback();
+    } catch (e) {
+        console.log(e);
+        storageBase = storageBackup;
+    }
 
     // handle url param
     const urlParm = new URLSearchParams(window.location.search);
