@@ -338,20 +338,29 @@ permalink: /photos/
     // check storage base and render
     var storageBase = "https://storage.beriru.wiki";
     var storageBackup = "https://raw.githubusercontent.com/98827ddb7e5a2c2e261912a23d9251d6/storage/master";
+    function updateImageBase(url = storageBackup, oriUrl = storageBase) {
+        var imgToEdit = document.getElementsByClassName("photo-image");
+        Array.prototype.forEach.call(imgToEdit, function(img) {
+            var oriSrc = img.src;
+            var newSrc = oriSrc.replace(oriUrl, url);
+            img.src = newSrc;
+        });
+        storageBase = url;
+    }
     async function storageFallback() {
         try {
             var response = await fetch(storageBase);        
             if (response.ok) {
               var content = await response.text();
               if (content != "of course it bloody works\n") {
-                storageBase = storageBackup;
+                updateImageBase();
               }
             } else {
-              storageBase = storageBackup;
+                updateImageBase();
             }
         } catch (e) {
             console.log(e);
-            storageBase = storageBackup;
+            updateImageBase();
         }
         console.log("Using: " + storageBase);
     }
