@@ -337,7 +337,7 @@ permalink: /photos/
 
     // check storage base and render
     var storageBase = "https://storage.beriru.wiki";
-    var storageBackup = "https://raw.githubusercontent.com/5cf2a7d4bf6e4cdb64b37b7a03b9f2f7/storage/master";
+    var storageBackup = "https://raw.githubusercontent.com/98827ddb7e5a2c2e261912a23d9251d6/storage/master";
     async function storageFallback() {
         var response = await fetch(storageBase);
         if (response.ok) {
