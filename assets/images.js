@@ -608,6 +608,12 @@ var hiddenList =
 [
 // 0 - big chunk 2
   {
+    "url": "/0-118.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
     "url": "/0-119.jpg",
     "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
     "date": "2013-10-03",
@@ -639,12 +645,6 @@ var hiddenList =
   },
   {
     "url": "/0-124.jpg",
-    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
-    "date": "2013-10-03",
-    "subs": "357|356|355|354|353|352|351"
-  },
-  {
-    "url": "/0-125.jpg",
     "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
     "date": "2013-10-03",
     "subs": "357|356|355|354|353|352|351"
