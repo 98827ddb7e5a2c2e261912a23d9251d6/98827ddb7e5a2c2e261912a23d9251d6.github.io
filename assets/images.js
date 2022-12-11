@@ -608,62 +608,104 @@ var hiddenList =
 [
 // 0 - big chunk 2
   {
+    "url": "/0-119.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-120.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-121.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-122.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-123.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-124.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
+    "url": "/0-125.jpg",
+    "des": "Photos from one of the very early shoots at 流花湖公园. Shot on Nikon D80 and AF-D 50mm f1.8. Old DSLRs can't really handle high ISO, so it better just slap an ILFORD DELTA 3200 film pack on top of them.",
+    "date": "2013-10-03",
+    "subs": "357|356|355|354|353|352|351"
+  },
+  {
     "url": "/0-108.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-109.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-110.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-111.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-112.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-113.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-114.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-115.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-116.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
   {
     "url": "/0-117.jpg",
-    "des": "Photos from one of the very early shoot. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot.",
+    "des": "Photos from one of the very early shoots. Started in 流花湖公园 and ended in a budget hotel near 彩虹桥. Shot on a Nikon Coolpix point-and-shoot. With a lack of both technical and artistic experience, the set was heavily leaning towards the rough and authentic side. Here is <a href='https://beriru.wiki/photos/?loadCollection=0&subEntries=357|356|355|354|353|352|351'>another set</a> from a month later.",
     "date": "2013-09-03",
     "subs": "350|349|348|347|346|345|344|343|342|341"
   },
