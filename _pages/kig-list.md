@@ -19,8 +19,9 @@ permalink: /kig-list/
 	- 白童 #1
 	- 白童 #2
 	- 西米鹿
-	- 📦 ??? - <span class="hidden-text">???<span>
+	- 📦 <span class="hidden-text">白童 SP<span>
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
+	- ⌛️ <span class="hidden-text">GT Luna DE<span>
 	- GT Model Skin
 	- GT Model Black Translucent
 	- GT Model Black Opaque
