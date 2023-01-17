@@ -7,7 +7,7 @@ permalink: /kig-list/
 - 🗓️ ??? - <span class="hidden-text">???<span>
 - 🗓️ ??? - <span class="hidden-text">???<span>
 - ⌛️ [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - <span class="hidden-text">Haruhi Suzumiya<span>
-- ⌛️ [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - <span class="hidden-text">ゆるふわちゃん<span>
+- 📦 [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - ゆるふわちゃん
 - 📦 ??? - <span class="hidden-text">???<span>
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
 - [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
@@ -21,7 +21,7 @@ permalink: /kig-list/
 	- 西米鹿
 	- 📦 <span class="hidden-text">白童 SP<span>
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
-	- ⌛️ <span class="hidden-text">GT Luna DE<span>
+	- GT Luna DE
 	- GT Model Skin
 	- GT Model Black Translucent
 	- GT Model Black Opaque
