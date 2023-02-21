@@ -7,7 +7,7 @@ layout: default
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
 - DeFi - own your own funds ~~and mistakes~~
-- [Music](https://twitter.com/search?q=(%23AppleMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
+- [Music](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
 `EDM || lofi || instrumental || music.other.filter(hasNiceBeats)`
 - Drinks:
 	- Ice oatmeal latte (or any other regular coffee)
