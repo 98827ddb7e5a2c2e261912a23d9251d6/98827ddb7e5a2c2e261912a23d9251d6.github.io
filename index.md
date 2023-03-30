@@ -44,7 +44,7 @@ layout: default
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
 	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark theme)
 - Creative
-	- Fujifilm X Cameras
+	- Fujifilm X & GFX Cameras
 	- Adobe CC
 	- FiLMiC Pro
 - Web3 & DeFi
