@@ -25,6 +25,9 @@ layout: default
 - [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. My collection [⋙](kig-list/)
 - Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
+- Performance Drives
+	- ▶️ W205 C63 coupe (After facelift but without GPF)
+	- ⏭️ X247 GLB35
 - Hatsune Miku
 
 # Tools I Like
