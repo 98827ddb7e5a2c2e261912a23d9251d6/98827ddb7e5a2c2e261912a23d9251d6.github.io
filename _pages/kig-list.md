@@ -4,8 +4,8 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
-- 🗓️ ??? - <span class="hidden-text">???<span>
-- 🗓️ ??? - <span class="hidden-text">???<span>
+- 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- 🗓️ [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - ⌛️ [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - <span class="hidden-text">Haruhi Suzumiya<span>
 - 📦 ??? - <span class="hidden-text">???<span>
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - ゆるふわちゃん
@@ -21,6 +21,8 @@ permalink: /kig-list/
 	- 西米鹿
 	- 📦 <span class="hidden-text">白童 SP<span>
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
+	- 🗓️ <span class="hidden-text">???<span>
+	- 🗓️ <span class="hidden-text">???<span>
 	- GT Luna DE
 	- GT Model Skin
 	- GT Model Black Translucent
