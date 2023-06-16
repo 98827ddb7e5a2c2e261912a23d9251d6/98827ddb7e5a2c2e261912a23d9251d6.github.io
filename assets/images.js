@@ -11,6 +11,7 @@
 var imageList = 
 [
   // new entries following this
+  {"date":"2023-06-17","url":"https://i.imgur.com/CYqK65l.jpg","des":"软软, at Patina Maldives, Fari Islands","ref":"https://twitter.com/KEKI_1112/status/1669216635696345088?s=20"}, // added by iOS shortcut
   {"date":"2023-06-09","url":"https://i.imgur.com/UFrfunV.jpg","des":"绵绵, at The Ritz-Carlton Maldives, Fari Islands","ref":"https://twitter.com/KEKI_1112/status/1667757729342164993?s=20"}, // added by iOS shortcut
   {"date":"2023-05-01","url":"https://i.imgur.com/8xlPtM4.jpg","des":"GFX100s","ref":""}, // added by iOS shortcut
   {"date":"2023-04-10","url":"https://i.imgur.com/WF0vfsk.jpg","des":"Road crossing. iPhone SE","ref":""}, // added by iOS shortcut
