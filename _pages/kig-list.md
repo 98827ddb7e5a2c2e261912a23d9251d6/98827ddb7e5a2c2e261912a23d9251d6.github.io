@@ -13,7 +13,7 @@ permalink: /kig-list/
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
 - [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
 	- 宴晚
-	- 📦 <span class="hidden-text">???<span>
+	- ⌛️ <span class="hidden-text">米粒<span>
 	- 南烛 #1
 	- 南烛 #2
 	- 黑曜 #1
@@ -26,8 +26,8 @@ permalink: /kig-list/
 	- 白童 SP
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
 	- 🗓️ <span class="hidden-text">AHEI<span>
-	- 📦 <span class="hidden-text">GT Luna 银月<span>
-	- 📦 <span class="hidden-text">MD02 TT Red<span>
+	- ⌛️ <span class="hidden-text">GT Luna 银月<span>
+	- ⌛️ <span class="hidden-text">MD02 TT 红桃<span>
 	- GT Luna DE
 	- GT Model Skin
 	- GT Model Black Translucent
