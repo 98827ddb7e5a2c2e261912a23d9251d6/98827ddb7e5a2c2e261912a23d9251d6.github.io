@@ -11,6 +11,18 @@
 var imageList = 
 [
   // new entries following this
+  {
+    "url": "https://pbs.twimg.com/media/F6Cj9raaIAA31_F?format=jpg&name=large",
+    "des": "Kigurumi, KingMask 影. The Ritz-Carlton Guangzhou.",
+    "ref": "https://twitter.com/KEKI_1112/status/1702540976454304231?s=20",
+    "date": "2023-08-27 15:17:40",
+  },
+  {
+    "url": "https://pbs.twimg.com/media/F345twMXEAAqOl1?format=jpg&name=large",
+    "des": "Kigurumi, Dollkii 宴晚. First try on at Element Baiyun.",
+    "ref": "",
+    "date": "2023-08-18 18:07:47",
+  },
   {"date":"2023-06-17","url":"https://i.imgur.com/CYqK65l.jpg","des":"软软, at Patina Maldives, Fari Islands","ref":"https://twitter.com/KEKI_1112/status/1669216635696345088?s=20"}, // added by iOS shortcut
   {"date":"2023-06-09","url":"https://i.imgur.com/UFrfunV.jpg","des":"绵绵, at The Ritz-Carlton Maldives, Fari Islands","ref":"https://twitter.com/KEKI_1112/status/1675800845093601283?s=20"}, // added by iOS shortcut
   {"date":"2023-05-01","url":"https://i.imgur.com/8xlPtM4.jpg","des":"GFX100s","ref":""}, // added by iOS shortcut
