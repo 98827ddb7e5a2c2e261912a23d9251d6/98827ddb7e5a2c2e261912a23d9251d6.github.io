@@ -38,7 +38,6 @@ layout: default
 	- Dyson Supersonic & Digital Slim
 - Software
 	- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
-	- [frp](https://github.com/fatedier/frp){:target="_blank" rel="noopener"}
 	- [CleanShotX](https://cleanshot.com){:target="_blank" rel="noopener"}
 	- [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
@@ -46,7 +45,7 @@ layout: default
 - Creative
 	- Fujifilm X & GFX Cameras
 	- Adobe CC
-	- FiLMiC Pro
+	- [Blackmagic Camera for iOS](https://apps.apple.com/us/app/blackmagic-camera/id6449580241)
 - Web3 & DeFi
 	- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
 	- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
