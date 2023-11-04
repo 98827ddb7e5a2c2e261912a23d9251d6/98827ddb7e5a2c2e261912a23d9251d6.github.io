@@ -27,7 +27,7 @@ permalink: /kig-list/
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
 	- 🗓️ <span class="hidden-text">AHEI<span>
 	- ⌛️ <span class="hidden-text">GT Luna 银月<span>
-	- ⌛️ <span class="hidden-text">MD02 TT 红桃<span>
+	- MD02 TT 红桃
 	- GT Luna DE
 	- GT Model Skin
 	- GT Model Black Translucent
