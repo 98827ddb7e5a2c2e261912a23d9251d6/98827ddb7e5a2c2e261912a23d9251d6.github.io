@@ -6,7 +6,7 @@ layout: default
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
-- DeFi - own your own funds ~~and mistakes~~
+- DeFi - own your own assets ~~and mistakes~~
 - [Music](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
 `EDM || lofi || instrumental || music.other.filter(hasNiceBeats)`
 - Drinks:
@@ -19,11 +19,11 @@ layout: default
 `🍜 || 🍣 || 🍤 || pickRandom(food.jp)`
 	- Any random Italian dishes \
 `🍝 || 🍕 || 🥗 || pickRandom(food.it)`
-	- A good dry-aged steak
+	- Dry-aged steaks
 - Cruising 🚢
-- ~~Travel~~ Stay at nice resorts
-- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. View my collections [⋙](kig-list/)
-- Nicely textured fabrics <span class="hidden-text">on nicely shaped bodies, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
+- ~~Traveling~~ Staycation
+- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. The collections [⋙](kig-list/)
+- Nicely textured fabrics <span class="hidden-text">, worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
@@ -33,7 +33,7 @@ layout: default
 # Tools I Like
 
 - Hardware
-	- The usual Apple stuff (MacBook Pro, iPhone, iPad)
+	- The usual Apple stuff
 	- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2, K12
 	- Dyson Supersonic & Digital Slim
 - Software
@@ -54,7 +54,7 @@ layout: default
 # Photos I Took
 
 <div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">View</a></div>
-<div style="text-align: center">Embrace the randomness, enjoy the treasure hunting. Yet you may find some of them disturbing or weird. But that's none of my business.</div>
+<div style="text-align: center">Embrace the randomness, enjoy the treasure hunting. It's not for everyone. You have been warned.</div>
 
 # Stuff I Made
 
