@@ -23,7 +23,7 @@ layout: default
 - Cruising 🚢
 - ~~Traveling~~ Staycation
 - [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. The collections [⋙](kig-list/)
-- Nicely textured fabrics <span class="hidden-text">, worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
+- Nicely textured fabrics<span class="hidden-text">, worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
