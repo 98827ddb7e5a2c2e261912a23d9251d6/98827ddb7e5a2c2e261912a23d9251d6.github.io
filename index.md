@@ -28,7 +28,7 @@ layout: default
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
 	- ⏭️ X247 GLB35
-- Hatsune Miku
+- [Hatsune Miku](https://beriru.wiki/photos/?loadSingle=34)
 
 # Tools I Like
 
