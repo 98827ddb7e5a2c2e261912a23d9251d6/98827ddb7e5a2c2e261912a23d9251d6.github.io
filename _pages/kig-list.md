@@ -4,10 +4,10 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
-- 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - 🗓️ [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
-- ⌛️ [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - <span class="hidden-text">Haruhi Suzumiya<span>
 - 📦 ??? - <span class="hidden-text">???<span>
+- [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"} - 晚晚
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - ゆるふわちゃん
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
@@ -25,8 +25,8 @@ permalink: /kig-list/
 	- 西米鹿
 	- 白童 SP
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
-	- 🗓️ <span class="hidden-text">AHEI<span>
-	- ⌛️ <span class="hidden-text">GT Luna 银月<span>
+	- ⏳ <span class="hidden-text">AHEI<span>
+	- GT Luna 银月
 	- MD02 TT 红桃
 	- GT Luna DE
 	- GT Model Skin
