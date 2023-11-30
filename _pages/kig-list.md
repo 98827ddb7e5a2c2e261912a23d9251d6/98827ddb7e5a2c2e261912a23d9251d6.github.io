@@ -6,14 +6,16 @@ permalink: /kig-list/
 
 - 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - 🗓️ [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
-- 📦 ??? - <span class="hidden-text">???<span>
+- 🗓️ [CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- 📦 [人形边界 BD DOLL](https://m.weibo.cn/u/5215795871){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"} - 晚晚
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - ゆるふわちゃん
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
 - [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
+	- 🗓️ <span class="hidden-text">千绪<span>
 	- 宴晚
-	- ⌛️ <span class="hidden-text">米粒<span>
+	- 📦 <span class="hidden-text">米粒<span>
 	- 南烛 #1
 	- 南烛 #2
 	- 黑曜 #1
