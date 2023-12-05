@@ -5,8 +5,8 @@ permalink: /kig-list/
 ---
 
 - 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
-- 🗓️ [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
-- 🗓️ [CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- 😢 [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- ⏳ [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - <span class="hidden-text">白化<span>
 - 📦 [人形边界 BD DOLL](https://m.weibo.cn/u/5215795871){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"} - 晚晚
