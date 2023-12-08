@@ -6,24 +6,21 @@ layout: default
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
-- DeFi - own your own assets ~~and mistakes~~
+- DeFi - own your ~~mistakes~~ assets
 - [Music](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
-`EDM || lofi || instrumental || music.other.filter(hasNiceBeats)`
+`ambient || chillhop || minimal tech || random(music.niceHighlights || music.niceHighlights)`
 - Drinks:
-	- Ice oatmeal latte (or any other regular coffee)
+	- Ice oatmeal latte
 	- Any random liquors \
 `🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`\
 `🥂 === wine.white` [?](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
 - Food:
-	- Any random Japanese dishes \
-`🍜 || 🍣 || 🍤 || pickRandom(food.jp)`
-	- Any random Italian dishes \
-`🍝 || 🍕 || 🥗 || pickRandom(food.it)`
-	- Dry-aged steaks
+	- `🍜 || 🍣 || 🍤 || random(food.jp)`
+	- `🍝 || 🍕 || 🥗 || random(food.it)`
 - Cruising 🚢
-- ~~Traveling~~ Staycation
-- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao and fursuit. The collections [⋙](kig-list/)
-- Nicely textured fabrics<span class="hidden-text">, worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
+- ~~Traveling~~ Staycations
+- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao ~~and fursuit~~. The collections [⋙](kig-list/)
+- Textured fabrics <span class="hidden-text">worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
@@ -33,7 +30,7 @@ layout: default
 # Tools I Like
 
 - Hardware
-	- The usual Apple stuff
+	- The usual Apple suite
 	- [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2, K12
 	- Dyson Supersonic & Digital Slim
 - Software
@@ -43,12 +40,12 @@ layout: default
 	- [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
 	- [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark theme)
 - Creative
-	- Fujifilm X & GFX Cameras
-	- Adobe CC
+	- Fujifilm X100 & GFX Cameras
+	- The usual Adobe suite
 	- [Blackmagic Camera for iOS](https://apps.apple.com/us/app/blackmagic-camera/id6449580241)
 - Web3 & DeFi
-	- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
 	- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
+	- [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
 	- [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
 
 # Photos I Took
