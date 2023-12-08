@@ -31,7 +31,7 @@ var imageList =
     "date": "2023-11-11",
   },
   {
-    "url": "/2023-hkdl.jpg",
+    "url": "/2023-hongkongshatin.jpg",
     "des": "Crosswalk in Sha Tin.",
     "ref": "",
     "date": "2023-10-29",
