@@ -11,7 +11,41 @@
 var imageList = 
 [
   // new entries following this
-  // {"date":"2023-10-22","url":"https://i.imgur.com/UFI1MNU.jpg","des":"iPhone and 120mm Tele Lens","ref":""}, // added by iOS shortcut
+  // DW10
+  {
+    "url": "/2023-yuhotspring.jpg",
+    "des": "A cute decor item from 御温泉, 御瀛庄. Returning visit with family so didn't shoot any Kigurumi. An interesting thread reflecting on the previous shoots ->",
+    "ref": "https://x.com/Beriru_Chan/status/1732976551355179119?s=20",
+    "date": "2023-11-17",
+  },
+  {
+    "url": "/2023-cantontower.jpg",
+    "des": "Tip of the Canton tower.",
+    "ref": "",
+    "date": "2023-11-12",
+  },
+  {
+    "url": "/2023-rwmanorclub.jpg",
+    "des": "Manor Club, Rosewood Guangzhou. Returning visit after one year, simply superb. A thread documenting some nice details ->",
+    "ref": "https://x.com/Beriru_Chan/status/1723719938194727309?s=20",
+    "date": "2023-11-11",
+  },
+  {
+    "url": "/2023-hkdl.jpg",
+    "des": "Crosswalk in Sha Tin.",
+    "ref": "",
+    "date": "2023-10-29",
+  },
+  {
+    "url": "/2023-hkdl.jpg",
+    "des": "The castle. Hong Kong Disneyland Park. The HKDL hotel is quite cozy and classy, room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/F-DZbziXkAAMJMk?format=jpg&name=4096x4096' target='_blank' target='_blank'>this</a>.",
+    "ref": "",
+    "date": "2023-10-28 21:31:00",
+  },
+  // not worthy to show // {"date":"2023-10-22","url":"https://i.imgur.com/UFI1MNU.jpg","des":"iPhone and 120mm Tele Lens","ref":""}, // added by iOS shortcut
+  // felis noir SZ 3 - dameisha
+  // felis noir SZ 2 - sam rooftop
+  // felis noir SZ 1 - beizaijiao
   {
     "url": "https://pbs.twimg.com/media/F6Cj9raaIAA31_F?format=jpg&name=large",
     "des": "Kigurumi, KingMask 影. The Ritz-Carlton Guangzhou.",
