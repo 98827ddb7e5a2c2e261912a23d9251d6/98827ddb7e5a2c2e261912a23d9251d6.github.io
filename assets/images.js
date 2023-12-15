@@ -47,6 +47,24 @@ var imageList =
   // felis noir SZ 2 - sam rooftop
   // felis noir SZ 1 - beizaijiao
   {
+    "url": "/2023-wshanghai.jpg",
+    "des": "W Shanghai, lobby area. Didn't stay there.",
+    "ref": "",
+    "date": "2023-09-19",
+  },
+  {
+    "url": "/2023-wanwannansha.jpg",
+    "des": "晚晚, at Sheraton Nansha. Executive suite, bedroom area. Will return to shoot some outdoor scenes. More photos of the room ->",
+    "ref": "https://x.com/Beriru_Chan/status/1702900061179678932?s=20",
+    "date": "2023-09-16",
+  },
+  {
+    "url": "/2023-sheratontianhe.jpg",
+    "des": "Sheraton Guagnzhou. Executive suite, bathing area. The view is awesome, didn't get time to shoot despite it looks like after-shoot. More photos of the room ->",
+    "ref": "https://x.com/Beriru_Chan/status/1700785281505558559?s=20",
+    "date": "2023-09-10",
+  },
+  {
     "url": "https://pbs.twimg.com/media/F6Cj9raaIAA31_F?format=jpg&name=large",
     "des": "Kigurumi, KingMask 影. The Ritz-Carlton Guangzhou.",
     "ref": "https://twitter.com/KEKI_1112/status/1702540976454304231?s=20",
