@@ -11,7 +11,7 @@
 var imageList = 
 [
   // new entries following this
-  // DW10
+  // felis noir SZ 3 - DW10
   {
     "url": "/2023-yuhotspring.jpg",
     "des": "A cute decor item from 御温泉, 御瀛庄. Returning visit with family so didn't shoot any Kigurumi. An interesting thread reflecting on the previous shoots ->",

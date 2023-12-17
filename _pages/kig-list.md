@@ -4,7 +4,7 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
-- 🗓️ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
+- ⏳ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - ⏳ [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - <span class="hidden-text">白化<span>
 - 📦 [人形边界 BD DOLL](https://m.weibo.cn/u/5215795871){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
@@ -12,7 +12,7 @@ permalink: /kig-list/
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} - ゆるふわちゃん
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
 - [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
-	- ⏳ <span class="hidden-text">千绪<span>
+	- 千绪
 	- 宴晚
 	- 📦 <span class="hidden-text">米粒<span>
 	- 南烛 #1
