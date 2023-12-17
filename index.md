@@ -8,20 +8,20 @@ layout: default
 
 - DeFi - own your ~~mistakes~~ assets
 - [Music](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
-`ambient || chillhop || minimal tech || random(music.niceHighlights || music.niceHighlights)`
+`ambient || chillhop || minimal tech || random(music).filter(niceHightlights || niceBeats)`
 - Drinks:
 	- Ice oatmeal latte
 	- Any random liquors \
 `🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`\
 `🥂 === wine.white` [?](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
 - Food:
-	- `🍜 || 🍣 || 🍤 || random(food.jp)`
-	- `🍝 || 🍕 || 🥗 || random(food.it)`
+	- `🍜 || 🍣 || 🍤 || random(jp.food)`
+	- `🍝 || 🍕 || 🥗 || random(it.food)`
 - Cruising 🚢
 - ~~Traveling~~ Staycations
-- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao ~~and fursuit~~. The collections [⋙](kig-list/)
+- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao ~~and fursuit~~. The collection [⋙](kig-list/)
 - Textured fabrics <span class="hidden-text">worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
-- `🇯🇵[🍱, ⛩️, 🗻, 👘, jp.others]`
+- `🇯🇵[🍱, ⛩️, 🗻, 👘, random(jp)]`
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
 	- ⏭️ X247 GLB35
