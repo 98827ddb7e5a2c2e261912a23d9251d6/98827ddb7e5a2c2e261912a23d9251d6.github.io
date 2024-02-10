@@ -4,6 +4,7 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
+- 📦 沅沅宝 - ???
 - ⏳ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - ⏳ [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - <span class="hidden-text">白化<span>
 - 📦 [人形边界 BD DOLL](https://m.weibo.cn/u/5215795871){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
@@ -26,7 +27,7 @@ permalink: /kig-list/
 	- 西米鹿
 	- 白童 SP
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
-	- ⏳ <span class="hidden-text">AHEI<span>
+	- AHEI
 	- GT Luna 银月
 	- MD02 TT 红桃
 	- GT Luna DE
