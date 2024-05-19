@@ -5,7 +5,8 @@ permalink: /kig-list/
 ---
 
 - ⏳ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
-- 人形边界 BD DOLL
+- ⏳ 世良工坊 - <span class="hidden-text">???<span>
+- [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞
 	- 📦 <span class="hidden-text">???<span>
 - [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - 白化
