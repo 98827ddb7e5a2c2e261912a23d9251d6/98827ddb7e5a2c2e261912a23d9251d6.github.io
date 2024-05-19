@@ -7,8 +7,9 @@ layout: default
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
 - DeFi - own your ~~mistakes~~ assets
-- [Music](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}: \
-`ambient || chillhop || minimal tech || random(music).filter(niceHightlights || niceBeats)`
+- Music: \
+`ambient || chillhop || minimal tech || random(music).filter(niceHightlights || niceBeats)`\
+The collection (only if you have Twitter logged in) [⋙](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"}
 - Drinks:
 	- Ice oatmeal latte
 	- Any random liquors \
