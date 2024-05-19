@@ -12,7 +12,7 @@ layout: default
 - Drinks:
 	- Ice oatmeal latte
 	- Any random liquors \
-`🍸 > 🥂 == 🍾 > 🍷 >= 🥃 == 🍹 > 🍻`\
+`🍸 > 🍾 == 🍷 > 🥂 >= 🥃 == 🍻 > 🍹`\
 `🥂 === wine.white` [?](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
 - Food:
 	- `🍜 || 🍣 || 🍤 || random(jp.food)`
