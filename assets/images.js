@@ -44,8 +44,8 @@ var imageList =
   },
   {
     "url": "/2023-hkdl.jpg",
-    "des": "The castle. Hong Kong Disneyland Park. The HKDL hotel is quite cozy and classy, room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/F-DZbziXkAAMJMk?format=jpg&name=4096x4096' target='_blank' target='_blank'>this</a>.",
-    "ref": "",
+    "des": "The castle. Hong Kong Disneyland Park. The HKDL hotel is quite cozy and classy, room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/F-DZbziXkAAMJMk?format=jpg&name=4096x4096' target='_blank' target='_blank'>this</a>. Went back for the Kingdom Club suite, and it was nice -> ",
+    "ref": "https://x.com/Beriru_Chan/status/1783338648563560594",
     "date": "2023-10-28 21:31:00",
   },
   // not worthy to show // {"date":"2023-10-22","url":"https://i.imgur.com/UFI1MNU.jpg","des":"iPhone and 120mm Tele Lens","ref":""}, // added by iOS shortcut
@@ -59,7 +59,7 @@ var imageList =
   // felis noir SZ 1 - beizaijiao
   {
     "url": "/20231017-DSCF8848.jpg",
-    "des": "Felis Noir, near BeiZaiJiao, Shenzhen. Nice costal road for a fun drive.",
+    "des": "Felis Noir, near DaMeiSha, Shenzhen. Nice costal road for a fun drive (and walk).",
     "ref": "",
     "date": "2023-10-17 15:10:12",
   },
