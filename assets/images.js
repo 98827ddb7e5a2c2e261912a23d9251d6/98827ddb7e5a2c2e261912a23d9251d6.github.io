@@ -13,6 +13,12 @@ var imageList =
   // new entries following this
   // felis noir SZ 3 - DW10
   {
+    "url": "/20231202-IMG_8210.jpg",
+    "des": "Felis Noir, at Doll's Weekend 10th. Event was quite nice, hotel was really bad.",
+    "ref": "https://x.com/KEKI_1112/status/1732988410724553057",
+    "date": "2023-12-02",
+  },
+  {
     "url": "/2023-yuhotspring.jpg",
     "des": "A cute decor item from 御温泉, 御瀛庄. Returning visit with family so didn't shoot any Kigurumi. An interesting thread reflecting on the previous shoots ->",
     "ref": "https://x.com/Beriru_Chan/status/1732976551355179119?s=20",
@@ -43,9 +49,27 @@ var imageList =
     "date": "2023-10-28 21:31:00",
   },
   // not worthy to show // {"date":"2023-10-22","url":"https://i.imgur.com/UFI1MNU.jpg","des":"iPhone and 120mm Tele Lens","ref":""}, // added by iOS shortcut
-  // felis noir SZ 3 - dameisha
   // felis noir SZ 2 - sam rooftop
+  {
+    "url": "/20231017-DSCF8914.jpg",
+    "des": "Felis Noir, near YanTianXu, Shenzhen. Very cool little trail, with train tracks.",
+    "ref": "",
+    "date": "2023-10-17 16:41:49",
+  },
   // felis noir SZ 1 - beizaijiao
+  {
+    "url": "/20231017-DSCF8848.jpg",
+    "des": "Felis Noir, near BeiZaiJiao, Shenzhen. Nice costal road for a fun drive.",
+    "ref": "",
+    "date": "2023-10-17 15:10:12",
+  },
+  // felis noir SZ 3 - ~~dameisha~~ A random road right ahead of the entrance of DaMeiSha
+  {
+    "url": "/20231016-DSCF8762.jpg",
+    "des": "Felis Noir, at the rooftop of Sam's Club FuPeng, Shenzhen.",
+    "ref": "",
+    "date": "2023-10-16 18:08:52",
+  },
   {
     "url": "/2023-wshanghai.jpg",
     "des": "W Shanghai, lobby area. Didn't stay there.",
