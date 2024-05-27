@@ -279,7 +279,6 @@ permalink: /photos/
                     loadAll();
                 });
             }
-            
         } else {
             // fuck you adobe portfolio
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div id="the-end" style="text-align:center; font-size: 130%;"><a class="no-underline" href="/photos?loadRandom=yes" style="filter: saturate(0);">The End</a></div>`);
@@ -454,8 +453,8 @@ permalink: /photos/
 
     // load random one
     var hitNormal = 0;
-    var probNormal = 85;
-    var probHidden = 15;
+    var probNormal = 95;
+    var probHidden = 5;
     var minHitAdj = 2;
     var improvOddAdj = 1;
     function getRandom(manual = false) {

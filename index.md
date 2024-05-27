@@ -21,7 +21,7 @@ The collection (only if you have Twitter logged in) [⋙](https://twitter.com/se
 - Cruising 🚢
 - ~~Traveling~~ Staycations
 - [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao ~~and fursuit~~. The collection [⋙](kig-list/)
-- Textured fabrics <span class="hidden-text">worn by wonderful people, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
+- Interesting fabrics <span class="hidden-text">, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
 - `🇯🇵[🍱, ⛩️, 🗻, 👘, random(jp)]`
 - Performance Drives
 	- ▶️ W205 C63 coupe (After facelift but without GPF)
