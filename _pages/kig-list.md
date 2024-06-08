@@ -4,8 +4,8 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
-- ⏳ [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - ⏳ 世良工坊 - <span class="hidden-text">???<span>
+- [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - Hatsune Miku
 - [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞
 	- 📦 <span class="hidden-text">???<span>
