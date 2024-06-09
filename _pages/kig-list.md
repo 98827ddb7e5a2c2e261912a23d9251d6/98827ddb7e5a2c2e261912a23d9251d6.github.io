@@ -9,6 +9,7 @@ permalink: /kig-list/
 - [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞
 	- 📦 <span class="hidden-text">???<span>
+	- 📦 <span class="hidden-text">???<span>
 - [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - 白化
 - 沅沅宝 - <span class="hidden-text">unnamed<span>
 - [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
