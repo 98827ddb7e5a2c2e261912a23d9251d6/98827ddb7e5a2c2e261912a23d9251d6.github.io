@@ -6,6 +6,7 @@ permalink: /kig-list/
 
 - ⏳ 世良工坊 - <span class="hidden-text">???<span>
 - ⏳ [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
+- [むにむに製作所](https://www.munimuni.jp){:target="_blank" rel="noopener"} - IDOL-06
 - [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - Hatsune Miku
 - [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞

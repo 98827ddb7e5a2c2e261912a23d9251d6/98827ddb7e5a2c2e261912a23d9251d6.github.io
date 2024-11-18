@@ -335,7 +335,7 @@ permalink: /photos/
     document.getElementById("filter").style.setProperty('mix-blend-mode', 'overlay', 'important');
 
     // check storage base and render
-    var storageBase = "https://storage.beriru.wiki";
+    var storageBase = "https://storage.beriru.me";
     var storageBackup = "https://raw.githubusercontent.com/98827ddb7e5a2c2e261912a23d9251d6/storage/master";
     function updateImageBase(url = storageBackup, oriUrl = storageBase) {
         var imgToEdit = document.getElementsByClassName("photo-image");
