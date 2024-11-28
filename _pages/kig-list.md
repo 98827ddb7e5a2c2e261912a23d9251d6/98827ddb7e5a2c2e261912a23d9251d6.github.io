@@ -4,13 +4,17 @@ title: List of Kigurumi Collection
 permalink: /kig-list/
 ---
 
+- ⏳ [鸢尾造物](https://x.com/IrisKigurumi){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
+- [河妖填充社](https://x.com/heyaofetish){:target="_blank" rel="noopener"}
+	- ⏳ <span class="hidden-text">???<span>
+	- ⏳ <span class="hidden-text">???<span>
 - ⏳ 世良工坊 - <span class="hidden-text">???<span>
 - ⏳ [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - [むにむに製作所](https://www.munimuni.jp){:target="_blank" rel="noopener"} - IDOL-06
 - [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - Hatsune Miku
 - [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞
-	- ⛵️ <span class="hidden-text">???<span>
+	- ⛵️ <span class="hidden-text">梨纱<span>
 	- 🛠️ 梨纱
 - [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - 白化
 - 沅沅宝 - <span class="hidden-text">unnamed<span>
@@ -40,15 +44,14 @@ permalink: /kig-list/
 	- MD02 TT 红桃
 	- GT Luna DE
 	- GT Model Skin
-	- GT Model Black Translucent
-	- GT Model Black Opaque
+	- GT Model Black Translucent + Opaque
 	- Felis Noir
 	- Type G Mint
 	- Ayanami Rei
 - [KingMask](https://twitter.com/KingMask_studio){:target="_blank" rel="noopener"}
+	- 残影 花冢
 	- 萌
 	- 影
 - [RAIGEKI 雷击工坊](https://weibo.com/n/RAIGEKI-偽){:target="_blank" rel="noopener"} - Hatsune Miku R03
 - [HiDolls](https://twitter.com/HiDolls_mm){:target="_blank" rel="noopener"} - Lilith
 - liildesign - NANA-03
-- 😢 [VISIA](https://space.bilibili.com/601248010){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
