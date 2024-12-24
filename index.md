@@ -46,7 +46,6 @@ The collection [⋙](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTu
   - [Blackmagic Camera for iOS](https://apps.apple.com/us/app/blackmagic-camera/id6449580241)
 - Web3 & DeFi
   - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
-  - [Nansen Portfolio](https://portfolio.nansen.ai/){:target="_blank" rel="noopener"}
   - [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
 
 # Photos I Took
