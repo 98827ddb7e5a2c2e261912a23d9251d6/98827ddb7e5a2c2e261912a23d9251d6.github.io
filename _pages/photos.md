@@ -453,10 +453,10 @@ permalink: /photos/
 
     // load random one
     var hitNormal = 0;
-    var probNormal = 95;
-    var probHidden = 5;
-    var minHitAdj = 2;
-    var improvOddAdj = 1;
+    var probNormal = 100;
+    var probHidden = 0;
+    var minHitAdj = 9999999;
+    var improvOddAdj = 0;
     function getRandom(manual = false) {
         // remove current
         if (toRemove = document.getElementsByClassName("photo-children")[0]) {
