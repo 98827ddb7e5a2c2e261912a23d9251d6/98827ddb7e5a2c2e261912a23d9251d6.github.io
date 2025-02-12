@@ -21,9 +21,7 @@ layout: default
 - Kigurumi [⋙](kig-list/)
 - Zentai
 - Knee Socks
-- Performance Drives
-  - ▶️ W205 C63 coupe (After facelift but without GPF)
-  - ⏭️ X247 GLB35
+- W205 C63 coupe
 - Hatsune Miku
 
 # Stuff I Like
