@@ -206,7 +206,8 @@ permalink: /photos/
                 dateHtml = `<a class="no-underline">🌟🌟</a>` + dateHtml;
             }
             // finalise date
-            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <a class="click-to-share no-underline" photoId="`+item.index+`" style="padding-left: 3px; filter: saturate(0);"> 🔗 </a></p>`
+            // dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + ` <a class="click-to-share no-underline" photoId="`+item.index+`" style="padding-left: 3px; filter: saturate(0);"> 🔗 </a></p>`
+            dateHtml = `<p class="photo-date" photoTimestamp="`+item.date+`">` + dateHtml + `</p>`
 
             // build reference field
             if (item.ref) {
@@ -437,7 +438,7 @@ permalink: /photos/
             loadImageList(targetIndex = false, trueIndex = false, listName = "collectionList");
 
             // add collection link
-            document.getElementById("the-end").insertAdjacentHTML("beforebegin", `
+            /*document.getElementById("the-end").insertAdjacentHTML("beforebegin", `
                 <div  style="text-align:center; font-size: 130%; filter: saturate(0);"><a class="no-underline" id="copy-collection"> 🔗 </a></div>
             `);
             document.getElementById("copy-collection").addEventListener("click", function(){
@@ -446,7 +447,7 @@ permalink: /photos/
                 navigator.clipboard.writeText(link).then(function(){
                     alert("collection link copied");
                 });
-            });
+            });*/
 
             // prevent default
             defaultLoad = false;
