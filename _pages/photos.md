@@ -245,6 +245,7 @@ permalink: /photos/
         } while (count < window.loadLimit && window[listName].length > 0);
 
         // share buttons
+        /*
         Array.prototype.forEach.call(document.getElementsByClassName("click-to-share"), function(element) {
             element.replaceWith(element.cloneNode(true));
         });
@@ -259,12 +260,12 @@ permalink: /photos/
                     alert("link copied");
                 });
             });
-        });
+        });*/
 
         // append bottom links
         if (window[listName].length > 0) {
             // append load more
-            document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
+            /*document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div class="lazy-load-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="lazy-load-more">Load More</a></div>`);
             document.getElementById("lazy-load-more").addEventListener("click", function(){
                 document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
                 window.loadLimit = 5;
@@ -278,7 +279,7 @@ permalink: /photos/
                     document.getElementsByClassName("site-avatar")[0].setAttribute("href", "/photos?loadRandom=yes");
                     loadAll();
                 });
-            }
+            }*/
         } else {
             // fuck you adobe portfolio
             document.getElementById("photo-list").insertAdjacentHTML('beforeend', `<div id="the-end" style="text-align:center; font-size: 130%;"><a class="no-underline" href="/photos?loadRandom=yes" style="filter: saturate(0);">The End</a></div>`);
@@ -379,7 +380,7 @@ permalink: /photos/
         }
         if (loadIndex <= window[targetList].length) {
             loadImageList(loadIndex, false, targetList);
-            document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
+            /* document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
                     <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
                 `);
             document.getElementById("new-random").addEventListener("click", function(){
@@ -388,6 +389,7 @@ permalink: /photos/
             document.getElementById('lazy-load-more').innerText = "View Latest";
             document.getElementById('lazy-load-more').style.fontSize = "80%";
             document.getElementById('lazy-load-more').style.filter = "saturate(0)";
+            */
             defaultLoad = false;
         }
     }
@@ -499,23 +501,25 @@ permalink: /photos/
             toRemove.remove();
         }
         if (imageList.length > 10) {
+            /*
             document.getElementsByClassName("lazy-load-toggle")[0].insertAdjacentHTML("beforebegin", `
                 <div class="random-toggle" style="text-align:center; font-size: 130%;"><a class="no-underline" id="new-random">I'm Feeling Lucky</a></div>
             `);
             document.getElementById("new-random").addEventListener("click", function(){
                 getRandom(true);
             });
+            */
         }
 
         // adjust lazy load
-        document.getElementById('lazy-load-more').innerText = "View Latest";
+        /*document.getElementById('lazy-load-more').innerText = "View Latest";
         document.getElementById('lazy-load-more').style.fontSize = "80%";
         document.getElementById('lazy-load-more').style.filter = "saturate(0)";
         document.getElementById('lazy-load-more').addEventListener("click", function(){
             if (toRemove = document.getElementsByClassName("random-toggle")[0]) {
                 toRemove.remove();
             }
-        });
+        });*/
     }
     if (urlParm.get('loadRandom') == "yes") {
         // do random

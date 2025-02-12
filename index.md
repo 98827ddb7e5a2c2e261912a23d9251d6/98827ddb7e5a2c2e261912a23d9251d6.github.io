@@ -6,52 +6,42 @@ layout: default
 
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
-- DeFi - own your ~~mistakes~~ assets
-- Music: \
-`ambient || chillhop || minimal tech || random(music).filter(niceHightlights || niceBeats)`\
-The collection [⋙](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"} (only if you have Twitter logged in)
-- Drinks:
-  - Full ice quad americano
-  - Any random liquors \
-`🍸 > 🍾 == 🍷 > 🥂 >= 🥃 == 🍻 > 🍹`\
-`🥂 === wine.white` [?](https://www.foodandwine.com/news/white-wine-emoji-unicode-approval-fail){:target="_blank" rel="noopener"}
-- Food:
-  - `🍜 || 🍣 || 🍤 || random(jp.food)`
-  - `🍝 || 🍕 || 🥗 || random(it.food)`
-- Cruising 🚢
-- ~~Traveling~~ Staycations
-- [Kigurumi](https://beriru.wiki/photos/?loadSingle=96) - both dollmask, animegao ~~and fursuit~~. The collection [⋙](kig-list/)
-- Interesting fabrics<span class="hidden-text">, e.g. zentai, [tights](https://beriru.wiki/photos/?loadSingle=54&hidden=yes), [knee-socks](https://beriru.wiki/photos/?loadSingle=69)</span>
-- `🇯🇵[🍱, ⛩️, 🗻, 👘, random(jp)]`
+- DeFi
+- LoFi
+- Ambient
+- Full ice quad americano
+- Prosecco
+- Draft Asahi
+- Vesper
+- Seafood Risotto
+- 明太子つけめん麺
+- Iberico Ham
+- Cruising
+- Staycations
+- Kigurumi [⋙](kig-list/)
+- Zentai
+- Knee Socks
 - Performance Drives
   - ▶️ W205 C63 coupe (After facelift but without GPF)
   - ⏭️ X247 GLB35
-- [Hatsune Miku](https://beriru.wiki/photos/?loadSingle=34)
+- Hatsune Miku
 
-# Tools I Like
+# Stuff I Like
 
-- Hardware
-  - The usual Apple suite
-  - [Keychron](https://www.keychron.com/){:target="_blank" rel="noopener"} K2, K12
-  - Dyson Supersonic & Digital Slim
-- Software
-  - [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
-  - [CleanShotX](https://cleanshot.com){:target="_blank" rel="noopener"}
-  - [MenubarX](https://menubarx.app/){:target="_blank" rel="noopener"}
-  - [OpenIn](https://loshadki.app/openin/){:target="_blank" rel="noopener"}
-  - [Noir](https://getnoir.app){:target="_blank" rel="noopener"} (hence why this page doesn't have a dark theme)
-- Creative
-  - Fujifilm X100 & GFX Cameras
-  - The usual Adobe suite
-  - [Blackmagic Camera for iOS](https://apps.apple.com/us/app/blackmagic-camera/id6449580241)
-- Web3 & DeFi
-  - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
-  - [SafePal S1](https://store.safepal.com/safepal-s1-hardware-wallet.html){:target="_blank" rel="noopener"}
+- M series MacBook Pro
+- Keychron Q9
+- Dyson Supersonic
+- [Surge](https://nssurge.com){:target="_blank" rel="noopener"}
+- CleanShotX
+- MenubarX
+- OpenIn
+- GFX100s
+- Lr CC and Creative Cloud
+- [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
 
 # Photos I Took
 
-<div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">View</a></div>
-<div style="text-align: center">Embrace the randomness, enjoy the treasure hunting. It's not for everyone. You have been warned.</div>
+<div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">I'm Feeling Lucky</a></div>
 
 # Stuff I Made
 
