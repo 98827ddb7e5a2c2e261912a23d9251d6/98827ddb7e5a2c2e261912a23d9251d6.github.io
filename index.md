@@ -18,7 +18,7 @@ layout: front
 - Iberico Ham
 - Cruising
 - Staycations
-- Kigurumi [⋙](kig-list/)
+- [Kigurumi](kig-list/)
 - Zentai
 - Knee Socks
 - W205 C63 coupe
