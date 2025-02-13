@@ -4,6 +4,8 @@ layout: default
 
 <div id="hero" style="height: 70vh;border-bottom: 1px solid #eee;filter: saturate(1.2); text-align: center; display: none;"><h1 style="font-size: 100px;margin: 0;padding-top: 40%;padding-top: calc(35vh - 75px);">💎<span style="font-size: 90px;">🧡</span>🎂</h1></div>
 
+<span class="center-ul">
+
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
 - DeFi
@@ -36,6 +38,8 @@ layout: default
 - GFX100s
 - Lr CC and Creative Cloud
 - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
+
+</span>
 
 # Photos I Took
 
