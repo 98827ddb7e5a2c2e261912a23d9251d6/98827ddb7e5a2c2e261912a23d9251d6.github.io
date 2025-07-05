@@ -7,21 +7,21 @@ permalink: /kig-list/
 - ⏳ [鸢尾造物](https://x.com/IrisKigurumi){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - ⏳ [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"}
-	- 🆕 艾娃
+	- 艾娃
 	- 晚晚
 - [河妖填充社](https://x.com/heyaofetish){:target="_blank" rel="noopener"}
-	- 🆕 Unnamed .1
-	- 🆕 Unnamed .2
-	- 🆕 无面者（+ 茴香皮
-- 🆕 Kini - <span class="hidden-text">全头卤蛋<span>
-- 🆕 世良工坊 - <span class="hidden-text">???<span>
+	- Unnamed .1
+	- Unnamed .2
+	- 🆕 无面者（+ 茴香皮）
+- Kini - <span class="hidden-text">全头卤蛋<span>
+- 世良工坊 - <span class="hidden-text">???<span>
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} 
-	- 🆕 エナ
+	- エナ
 	- ゆるふわちゃん
 - [人形边界 BD DOLL](https://m.tb.cn/h.gdstQAerA56ncap){:target="_blank" rel="noopener"}
 	- 桃妞
 	- ⛵ <span class="hidden-text">梨纱<span>
-	- 🆕 梨纱
+	- 梨纱
 - [むにむに製作所](https://www.munimuni.jp){:target="_blank" rel="noopener"} - IDOL-06
 - [NFD](https://twitter.com/NewfacedolL){:target="_blank" rel="noopener"} - Hatsune Miku
 - [小哭包CRYBOOM](https://www.xiaohongshu.com/user/profile/6119a23a000000000100084f){:target="_blank" rel="noopener"} - 白化
