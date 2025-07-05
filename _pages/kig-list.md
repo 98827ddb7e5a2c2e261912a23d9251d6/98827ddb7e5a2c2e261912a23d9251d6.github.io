@@ -6,14 +6,14 @@ permalink: /kig-list/
 
 - ⏳ [鸢尾造物](https://x.com/IrisKigurumi){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
 - ⏳ [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
-- ⏳ Kini - <span class="hidden-text">???<span>
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"}
-	- ⏳ 艾娃
+	- 🆕 艾娃
 	- 晚晚
 - [河妖填充社](https://x.com/heyaofetish){:target="_blank" rel="noopener"}
 	- 🆕 Unnamed .1
 	- 🆕 Unnamed .2
-	- ⏳ <span class="hidden-text">无面者（+ 茴香皮）<span>
+	- 🆕 无面者（+ 茴香皮
+- 🆕 Kini - <span class="hidden-text">全头卤蛋<span>
 - 🆕 世良工坊 - <span class="hidden-text">???<span>
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} 
 	- 🆕 エナ
