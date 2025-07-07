@@ -13,7 +13,7 @@ permalink: /kig-list/
 	- Unnamed .1
 	- Unnamed .2
 	- 🆕 无面者（+ 茴香皮）
-- Kini - <span class="hidden-text">全头卤蛋<span>
+- Kini - <span class="hidden-text">全透卤蛋<span>
 - 世良工坊 - <span class="hidden-text">???<span>
 - [造型工房SIGMA](https://www.buildupstudiosigma.com){:target="_blank" rel="noopener"} 
 	- エナ
