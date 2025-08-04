@@ -8,7 +8,7 @@ layout: front
 
 - Music: \
 `ambient || chillhop || minimal tech || random(music).filter(niceHightlights || niceBeats)`\
-The collection [⋙](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriru_Chan)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"} (only if you have Twitter logged in)
+The collection [⋙](https://twitter.com/search?q=(%23AppleMusic%20OR%20%23YouTubeMusic%20OR%20%40YouTubeMusic%20OR%20%23Spotify)%20(from%3ABeriruRokugatsu)%20filter%3Alinks%20-filter%3Areplies&src=typed_query&f=live){:target="_blank" rel="noopener"} (only if you have Twitter logged in)
 - Drinks:
 	- Full ice quad americano
 	- Any random liquors \
