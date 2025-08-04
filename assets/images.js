@@ -21,7 +21,7 @@ var imageList =
   {
     "url": "/2023-yuhotspring.jpg",
     "des": "A cute decor item from 御温泉, 御瀛庄. Returning visit with family so didn't shoot any Kigurumi. An interesting thread reflecting on the previous shoots ->",
-    "ref": "https://x.com/Beriru_Chan/status/1732976551355179119?s=20",
+    "ref": "https://x.com/BeriruRokugatsu/status/1732976551355179119?s=20",
     "date": "2023-11-17",
   },
   {
@@ -33,7 +33,7 @@ var imageList =
   {
     "url": "/2023-rwmanorclub.jpg",
     "des": "Manor Club, Rosewood Guangzhou. Returning visit after one year, simply superb. A thread documenting some nice details ->",
-    "ref": "https://x.com/Beriru_Chan/status/1723719938194727309?s=20",
+    "ref": "https://x.com/BeriruRokugatsu/status/1723719938194727309?s=20",
     "date": "2023-11-11",
   },
   {
@@ -45,7 +45,7 @@ var imageList =
   {
     "url": "/2023-hkdl.jpg",
     "des": "The castle. Hong Kong Disneyland Park. The HKDL hotel is quite cozy and classy, room looks like <a href='/photos/?loadExt=https://pbs.twimg.com/media/F-DZbziXkAAMJMk?format=jpg&name=4096x4096' target='_blank' target='_blank'>this</a>. Went back for the Kingdom Club suite, and it was nice -> ",
-    "ref": "https://x.com/Beriru_Chan/status/1783338648563560594",
+    "ref": "https://x.com/BeriruRokugatsu/status/1783338648563560594",
     "date": "2023-10-28 21:31:00",
   },
   // not worthy to show // {"date":"2023-10-22","url":"https://i.imgur.com/UFI1MNU.jpg","des":"iPhone and 120mm Tele Lens","ref":""}, // added by iOS shortcut
@@ -79,13 +79,13 @@ var imageList =
   {
     "url": "/2023-wanwannansha.jpg",
     "des": "晚晚, at Sheraton Nansha. Executive suite, bedroom area. Will return to shoot some outdoor scenes. More photos of the room ->",
-    "ref": "https://x.com/Beriru_Chan/status/1702900061179678932?s=20",
+    "ref": "https://x.com/BeriruRokugatsu/status/1702900061179678932?s=20",
     "date": "2023-09-16",
   },
   {
     "url": "/2023-sheratontianhe.jpg",
     "des": "Sheraton Guagnzhou. Executive suite, bathing area. The view is awesome, didn't get time to shoot despite it looks like after-shoot. More photos of the room ->",
-    "ref": "https://x.com/Beriru_Chan/status/1700785281505558559?s=20",
+    "ref": "https://x.com/BeriruRokugatsu/status/1700785281505558559?s=20",
     "date": "2023-09-10",
   },
   {
