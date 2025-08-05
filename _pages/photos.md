@@ -147,6 +147,27 @@ permalink: /photos/
         }
     }
 
+    // get daily random
+    function getHourlyRandom(min, max) {
+        // Get current time, rounded to the hour (in seconds)
+        const now = Math.floor(Date.now() / 1000);
+        const hourTimestamp = Math.floor(now / 3600) * 3600;
+
+        // Simple hash function (e.g., xorshift) for seed
+        function xorshift(seed) {
+        seed ^= seed << 13;
+        seed ^= seed >> 17;
+        seed ^= seed << 5;
+        return Math.abs(seed);
+        }
+
+        // Generate pseudo-random number from hourTimestamp
+        const seed = xorshift(hourTimestamp);
+        const random = seed % (max - min + 1) + min;
+
+        return random;
+    }
+
     // parse image list
     var loadCount = 0;
     var imageListUsed = [];
@@ -485,7 +506,13 @@ permalink: /photos/
         }
 
         // get target
-        var loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
+        var loadTargetIndex = 0;
+        if (targetList == "hiddenList") {
+            loadTargetIndex = Math.random() * (window[targetList].length - 0) + 0;
+        } else {
+            loadTargetIndex = getHourlyRandom(0, window[targetList].length);
+        }
+        
         loadTargetIndex = Math.floor(loadTargetIndex);
         loadImageList(loadTargetIndex, true, targetList);
 
