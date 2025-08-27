@@ -24,7 +24,7 @@ layout: front
 - W205 C63 coupe
 - Hatsune Miku
 
-# Stuff I Like
+# Tools I Adore
 
 - M series MacBook Pro
 - Keychron Q9
@@ -41,7 +41,7 @@ layout: front
 
 <div style="text-align: center; font-size: 120%;"><a class="no-underline" href="/photos/?loadRandom=yes">I'm Feeling Lucky</a></div>
 
-# Stuff I Made
+# Legacy I Built
 
 <div style="text-align: center"><i>nothing worth putting here as of <span id="current"></span></i>
 <script>
