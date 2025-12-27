@@ -7,22 +7,24 @@ layout: front
 # Things I <span id="046b759f57ebf5d19440f0639ddd41b7">Love</span>
 
 - DeFi
-- LoFi
-- Ambient
-- Full ice quad americano
-- Prosecco
+- Lo-Fi-Beats
+- Chillstep
+- Lounge
+- Full Ice Quad Americano
+- Brut Champagne
 - Draft Asahi
-- Vesper
-- Seafood Risotto
+- Dry Vodka Martini
 - 明太子つけめん麺
-- Iberico Ham
+- Any Cold Cuts
 - Cruising
-- Staycations
+- Staycation
+- Lounges
 - [Kigurumi](kig-list/)
 - Zentai
-- Knee Socks
+- Knee-Socks
 - W205 C63 coupe
 - Hatsune Miku
+- X100s
 
 # Tools I Adore
 
@@ -36,6 +38,7 @@ layout: front
 - GFX100s
 - Lr CC and Creative Cloud
 - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
+- ProCCD
 
 # Photos I Took
 
