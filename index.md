@@ -14,16 +14,18 @@ layout: front
 - Brut Champagne
 - Draft Asahi
 - Dry Vodka Martini
+- GNT
 - 明太子つけめん麺
 - Any Cold Cuts
 - Cruising
 - Staycation
 - Lounges
-- [Kigurumi](kig-list/)
-- Zentai
-- Knee-Socks
-- W205 C63 coupe
+- [着ぐるみ](kig-list/)
+- 全身タイツ
+- 絶対領域
+- 涼宮ハルヒ
 - Hatsune Miku
+- W205 C63 coupe
 - X100s
 
 # Tools I Adore
@@ -35,10 +37,10 @@ layout: front
 - CleanShotX
 - MenubarX
 - OpenIn
+- ProCCD
 - GFX100s
 - Lr CC and Creative Cloud
 - [Tenderly](https://tenderly.co){:target="_blank" rel="noopener"}
-- ProCCD
 
 # Photos I Took
 

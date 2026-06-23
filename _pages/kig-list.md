@@ -5,7 +5,28 @@ permalink: /kig-list/
 ---
 
 - ⏳ [鸢尾造物](https://x.com/IrisKigurumi){:target="_blank" rel="noopener"} - <span class="hidden-text">???<span>
-- ⏳ [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - <span class="hidden-text">Hatsune Miku<span>
+- [KingMask](https://twitter.com/KingMask_studio){:target="_blank" rel="noopener"}
+	- ⏳ 萌 Special Edition
+	- 残影 花冢
+	- 萌
+	- 影
+- [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
+	- ⏳ 可可卷
+	- 月咲
+	- 千绪
+	- 宴晚
+	- 米粒
+	- 南烛 #1
+	- 南烛 #2
+	- 黑曜 #1
+	- 黑曜 #2
+	- 白童 #1
+	- 白童 #2
+	- 绵绵
+	- 软软
+	- 西米鹿
+	- 白童 SP
+- 🧰 [秀吉姬](https://twitter.com/lightning520){:target="_blank" rel="noopener"} - Hatsune Miku
 - [偶形记BEADOLL](https://weibo.com/u/7734682449){:target="_blank" rel="noopener"}
 	- 艾娃
 	- 晚晚
@@ -27,20 +48,6 @@ permalink: /kig-list/
 - 沅沅宝 - unnamed
 - [Aniplus](https://twitter.com/KFY_Aniplus){:target="_blank" rel="noopener"} - Haruhi Suzumiya
 - [熊之面](https://weibo.com/u/6450364112){:target="_blank" rel="noopener"} - 绮罗
-- [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
-	- 千绪
-	- 宴晚
-	- 米粒
-	- 南烛 #1
-	- 南烛 #2
-	- 黑曜 #1
-	- 黑曜 #2
-	- 白童 #1
-	- 白童 #2
-	- 绵绵
-	- 软软
-	- 西米鹿
-	- 白童 SP
 - [ManiaJuns](https://twitter.com/maniajuns){:target="_blank" rel="noopener"}
 	- AHEI
 	- GT Luna 银月
@@ -51,10 +58,6 @@ permalink: /kig-list/
 	- Felis Noir
 	- Type G Mint
 	- Ayanami Rei
-- [KingMask](https://twitter.com/KingMask_studio){:target="_blank" rel="noopener"}
-	- 残影 花冢
-	- 萌
-	- 影
 - [RAIGEKI 雷击工坊](https://weibo.com/n/RAIGEKI-偽){:target="_blank" rel="noopener"} - Hatsune Miku R03
 - [HiDolls](https://twitter.com/HiDolls_mm){:target="_blank" rel="noopener"} - Lilith
 - liildesign - NANA-03
