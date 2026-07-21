@@ -11,7 +11,7 @@ permalink: /kig-list/
 	- 萌
 	- 影
 - [Dollkii](https://weibo.com/u/6727163726){:target="_blank" rel="noopener"}
-	- ⏳ 可可卷
+	- 可可卷
 	- 月咲
 	- 千绪
 	- 宴晚
